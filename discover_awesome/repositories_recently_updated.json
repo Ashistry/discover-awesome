@@ -1,11 +1,62 @@
 [
     {
+        "name": "awesome-for-beginners",
+        "description": "A list of awesome beginners-friendly projects.",
+        "url": "https://github.com/MunGell/awesome-for-beginners",
+        "author": "MunGell",
+        "stars": 75325,
+        "updated_at": "2025-07-11T12:18:25Z",
+        "created_at": "2015-10-24T19:53:36Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "beginner-project",
+            "beginners-friendly",
+            "list"
+        ]
+    },
+    {
+        "name": "awesome-detection-engineer",
+        "description": " Online resources related to Detection Engineering. Detection rules, detection logic, attack samples, detection tests and emulation tools, logging configuration and best practices, event log references, resources, labs, data manipulation online tools, blogs, newsletters, good reads, books, trainings, podcasts, videos and twitter/x accounts.",
+        "url": "https://github.com/st0pp3r/awesome-detection-engineer",
+        "author": "st0pp3r",
+        "stars": 103,
+        "updated_at": "2025-07-11T12:18:07Z",
+        "created_at": "2025-01-26T16:11:35Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "cybesecurity",
+            "detection",
+            "detection-engineering",
+            "security",
+            "soc",
+            "threat-detection"
+        ]
+    },
+    {
+        "name": "awesome-cursorrules",
+        "description": "📄  Configuration files that enhance Cursor AI editor experience with custom rules and behaviors",
+        "url": "https://github.com/PatrickJS/awesome-cursorrules",
+        "author": "PatrickJS",
+        "stars": 30541,
+        "updated_at": "2025-07-11T12:17:12Z",
+        "created_at": "2024-09-16T15:38:38Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "cursor",
+            "cursor-ai-editor",
+            "cursorrules"
+        ]
+    },
+    {
         "name": "personal-security-checklist",
         "description": "🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2024",
         "url": "https://github.com/Lissy93/personal-security-checklist",
         "author": "Lissy93",
-        "stars": 19073,
-        "updated_at": "2025-07-11T12:04:32Z",
+        "stars": 19075,
+        "updated_at": "2025-07-11T12:17:06Z",
         "created_at": "2018-03-02T21:12:37Z",
         "tags": [
             "awesome",
@@ -24,12 +75,28 @@
         ]
     },
     {
+        "name": "awesome",
+        "description": "😎 Awesome lists about all kinds of interesting topics",
+        "url": "https://github.com/sindresorhus/awesome",
+        "author": "sindresorhus",
+        "stars": 381048,
+        "updated_at": "2025-07-11T12:14:38Z",
+        "created_at": "2014-07-11T13:42:37Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "lists",
+            "resources",
+            "unicorns"
+        ]
+    },
+    {
         "name": "awesome-lists",
         "description": "Awesome Security lists for SOC/CERT/CTI",
         "url": "https://github.com/mthcht/awesome-lists",
         "author": "mthcht",
         "stars": 1021,
-        "updated_at": "2025-07-11T12:04:27Z",
+        "updated_at": "2025-07-11T12:13:55Z",
         "created_at": "2022-12-11T10:45:11Z",
         "tags": [
             "awesome-list",
@@ -52,6 +119,201 @@
             "soc",
             "threat-hunting",
             "threat-intelligence"
+        ]
+    },
+    {
+        "name": "Awesome-Android-Reverse-Engineering",
+        "description": "A curated list of awesome Android Reverse Engineering training, resources, and tools.",
+        "url": "https://github.com/user1342/Awesome-Android-Reverse-Engineering",
+        "author": "user1342",
+        "stars": 1152,
+        "updated_at": "2025-07-11T12:13:42Z",
+        "created_at": "2023-04-09T09:34:47Z",
+        "tags": [
+            "android",
+            "application-security",
+            "awesome",
+            "awesome-list",
+            "crackmes",
+            "ctfs",
+            "malware-analysis",
+            "mobsec",
+            "reverse-engineering",
+            "tools",
+            "training"
+        ]
+    },
+    {
+        "name": "awesome-ai-coding-tools",
+        "description": "A curated list of AI-powered coding tools",
+        "url": "https://github.com/tokyo-dal/awesome-ai-coding-tools",
+        "author": "tokyo-dal",
+        "stars": 139,
+        "updated_at": "2025-07-11T12:13:40Z",
+        "created_at": "2025-06-27T13:08:36Z",
+        "tags": []
+    },
+    {
+        "name": "awesome-embedded-rust",
+        "description": "Curated list of resources for Embedded and Low-level development in the Rust programming language",
+        "url": "https://github.com/rust-embedded/awesome-embedded-rust",
+        "author": "rust-embedded",
+        "stars": 7149,
+        "updated_at": "2025-07-11T12:12:09Z",
+        "created_at": "2018-04-01T21:17:15Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "embedded",
+            "embedded-systems",
+            "libraries",
+            "rust"
+        ]
+    },
+    {
+        "name": "awesome-certificates",
+        "description": "Curated list of 20,000+ hours and 200+ free courses with certificates in IT, CS, Design and Business.",
+        "url": "https://github.com/PanXProject/awesome-certificates",
+        "author": "PanXProject",
+        "stars": 3094,
+        "updated_at": "2025-07-11T12:11:16Z",
+        "created_at": "2020-12-24T00:57:40Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "badges",
+            "career",
+            "certificate",
+            "courses",
+            "free",
+            "hacktoberfest"
+        ]
+    },
+    {
+        "name": "awesome-selfhosted",
+        "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+        "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+        "author": "awesome-selfhosted",
+        "stars": 235885,
+        "updated_at": "2025-07-11T12:09:54Z",
+        "created_at": "2015-06-01T02:33:17Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "cloud",
+            "free-software",
+            "hosting",
+            "privacy",
+            "self-hosted",
+            "selfhosted"
+        ]
+    },
+    {
+        "name": "build-your-own-x",
+        "description": "Master programming by recreating your favorite technologies from scratch.",
+        "url": "https://github.com/codecrafters-io/build-your-own-x",
+        "author": "codecrafters-io",
+        "stars": 398931,
+        "updated_at": "2025-07-11T12:09:26Z",
+        "created_at": "2018-05-09T12:03:18Z",
+        "tags": [
+            "awesome-list",
+            "free",
+            "programming",
+            "tutorial-code",
+            "tutorial-exercises",
+            "tutorials"
+        ]
+    },
+    {
+        "name": "awesome-rainmana",
+        "description": "This is a curated list of my GitHub stars but converted into an Awesome List! Updated automagically ever 12 hours! :D",
+        "url": "https://github.com/rainmana/awesome-rainmana",
+        "author": "rainmana",
+        "stars": 19,
+        "updated_at": "2025-07-11T12:08:31Z",
+        "created_at": "2024-02-03T05:47:42Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "stars"
+        ]
+    },
+    {
+        "name": "free-for-dev",
+        "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+        "url": "https://github.com/ripienaar/free-for-dev",
+        "author": "ripienaar",
+        "stars": 102866,
+        "updated_at": "2025-07-11T12:07:36Z",
+        "created_at": "2015-03-18T21:06:26Z",
+        "tags": [
+            "awesome-list",
+            "free-for-developers"
+        ]
+    },
+    {
+        "name": "ideas-for-projects-people-would-use",
+        "description": "Every time I have an idea, I write it down. These are a collection of my top software ideas -- problems I think enough people have that don't have solutions. I expect you can reach a decent userbase if marketed correctly, as I am surely not the only one with these problems.",
+        "url": "https://github.com/Divide-By-0/ideas-for-projects-people-would-use",
+        "author": "Divide-By-0",
+        "stars": 1771,
+        "updated_at": "2025-07-11T12:07:13Z",
+        "created_at": "2020-07-26T06:14:39Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "chrome-extension",
+            "free",
+            "ideas",
+            "independent",
+            "music",
+            "playlist",
+            "software",
+            "spotify",
+            "startup",
+            "whattodo"
+        ]
+    },
+    {
+        "name": "design-books",
+        "description": "A curated list of books related to all facets of design.",
+        "url": "https://github.com/robleto/design-books",
+        "author": "robleto",
+        "stars": 6,
+        "updated_at": "2025-07-11T12:05:42Z",
+        "created_at": "2024-12-09T20:02:58Z",
+        "tags": [
+            "awesome-list",
+            "awesome-lists",
+            "books",
+            "bookshelf",
+            "design",
+            "library",
+            "list",
+            "lists",
+            "reference",
+            "resources",
+            "web",
+            "web-d",
+            "webdesign"
+        ]
+    },
+    {
+        "name": "awesome-go",
+        "description": "A curated list of awesome Go frameworks, libraries and software",
+        "url": "https://github.com/avelino/awesome-go",
+        "author": "avelino",
+        "stars": 147110,
+        "updated_at": "2025-07-11T12:05:14Z",
+        "created_at": "2014-07-06T13:42:15Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "go",
+            "golang",
+            "golang-library",
+            "hacktoberfest"
         ]
     },
     {
@@ -83,23 +345,6 @@
             "system",
             "system-design",
             "web-development"
-        ]
-    },
-    {
-        "name": "build-your-own-x",
-        "description": "Master programming by recreating your favorite technologies from scratch.",
-        "url": "https://github.com/codecrafters-io/build-your-own-x",
-        "author": "codecrafters-io",
-        "stars": 398930,
-        "updated_at": "2025-07-11T12:02:06Z",
-        "created_at": "2018-05-09T12:03:18Z",
-        "tags": [
-            "awesome-list",
-            "free",
-            "programming",
-            "tutorial-code",
-            "tutorial-exercises",
-            "tutorials"
         ]
     },
     {
@@ -148,39 +393,6 @@
             "zsh-plugin",
             "zsh-prompt",
             "zsh-theme"
-        ]
-    },
-    {
-        "name": "awesome",
-        "description": "😎 Awesome lists about all kinds of interesting topics",
-        "url": "https://github.com/sindresorhus/awesome",
-        "author": "sindresorhus",
-        "stars": 381045,
-        "updated_at": "2025-07-11T12:01:11Z",
-        "created_at": "2014-07-11T13:42:37Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "lists",
-            "resources",
-            "unicorns"
-        ]
-    },
-    {
-        "name": "awesome-embedded-rust",
-        "description": "Curated list of resources for Embedded and Low-level development in the Rust programming language",
-        "url": "https://github.com/rust-embedded/awesome-embedded-rust",
-        "author": "rust-embedded",
-        "stars": 7148,
-        "updated_at": "2025-07-11T12:00:49Z",
-        "created_at": "2018-04-01T21:17:15Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "embedded",
-            "embedded-systems",
-            "libraries",
-            "rust"
         ]
     },
     {
@@ -238,58 +450,6 @@
             "computer-science",
             "courses",
             "curriculum"
-        ]
-    },
-    {
-        "name": "awesome-cursorrules",
-        "description": "📄  Configuration files that enhance Cursor AI editor experience with custom rules and behaviors",
-        "url": "https://github.com/PatrickJS/awesome-cursorrules",
-        "author": "PatrickJS",
-        "stars": 30539,
-        "updated_at": "2025-07-11T11:56:10Z",
-        "created_at": "2024-09-16T15:38:38Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "cursor",
-            "cursor-ai-editor",
-            "cursorrules"
-        ]
-    },
-    {
-        "name": "awesome-go",
-        "description": "A curated list of awesome Go frameworks, libraries and software",
-        "url": "https://github.com/avelino/awesome-go",
-        "author": "avelino",
-        "stars": 147109,
-        "updated_at": "2025-07-11T11:55:53Z",
-        "created_at": "2014-07-06T13:42:15Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "go",
-            "golang",
-            "golang-library",
-            "hacktoberfest"
-        ]
-    },
-    {
-        "name": "awesome-selfhosted",
-        "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
-        "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-        "author": "awesome-selfhosted",
-        "stars": 235883,
-        "updated_at": "2025-07-11T11:55:53Z",
-        "created_at": "2015-06-01T02:33:17Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "cloud",
-            "free-software",
-            "hosting",
-            "privacy",
-            "self-hosted",
-            "selfhosted"
         ]
     },
     {
@@ -419,22 +579,6 @@
         "tags": [
             "awesome",
             "awesome-list"
-        ]
-    },
-    {
-        "name": "awesome-for-beginners",
-        "description": "A list of awesome beginners-friendly projects.",
-        "url": "https://github.com/MunGell/awesome-for-beginners",
-        "author": "MunGell",
-        "stars": 75322,
-        "updated_at": "2025-07-11T11:49:56Z",
-        "created_at": "2015-10-24T19:53:36Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "beginner-project",
-            "beginners-friendly",
-            "list"
         ]
     },
     {
@@ -777,16 +921,6 @@
         ]
     },
     {
-        "name": "awesome-ai-coding-tools",
-        "description": "A curated list of AI-powered coding tools",
-        "url": "https://github.com/tokyo-dal/awesome-ai-coding-tools",
-        "author": "tokyo-dal",
-        "stars": 138,
-        "updated_at": "2025-07-11T11:13:56Z",
-        "created_at": "2025-06-27T13:08:36Z",
-        "tags": []
-    },
-    {
         "name": "java-design-patterns",
         "description": "Design patterns implemented in Java",
         "url": "https://github.com/iluwatar/java-design-patterns",
@@ -818,19 +952,6 @@
             "awesome",
             "awesome-list",
             "developer-tools"
-        ]
-    },
-    {
-        "name": "free-for-dev",
-        "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
-        "url": "https://github.com/ripienaar/free-for-dev",
-        "author": "ripienaar",
-        "stars": 102865,
-        "updated_at": "2025-07-11T11:07:38Z",
-        "created_at": "2015-03-18T21:06:26Z",
-        "tags": [
-            "awesome-list",
-            "free-for-developers"
         ]
     },
     {
@@ -915,30 +1036,6 @@
             "python",
             "quantum-computing",
             "regular-expression"
-        ]
-    },
-    {
-        "name": "design-books",
-        "description": "A curated list of books related to all facets of design.",
-        "url": "https://github.com/robleto/design-books",
-        "author": "robleto",
-        "stars": 6,
-        "updated_at": "2025-07-11T11:03:18Z",
-        "created_at": "2024-12-09T20:02:58Z",
-        "tags": [
-            "awesome-list",
-            "awesome-lists",
-            "books",
-            "bookshelf",
-            "design",
-            "library",
-            "list",
-            "lists",
-            "reference",
-            "resources",
-            "web",
-            "web-d",
-            "webdesign"
         ]
     },
     {
@@ -1029,25 +1126,6 @@
             "list",
             "node",
             "nodejs"
-        ]
-    },
-    {
-        "name": "awesome-certificates",
-        "description": "Curated list of 20,000+ hours and 200+ free courses with certificates in IT, CS, Design and Business.",
-        "url": "https://github.com/PanXProject/awesome-certificates",
-        "author": "PanXProject",
-        "stars": 3093,
-        "updated_at": "2025-07-11T10:40:18Z",
-        "created_at": "2020-12-24T00:57:40Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "badges",
-            "career",
-            "certificate",
-            "courses",
-            "free",
-            "hacktoberfest"
         ]
     },
     {
@@ -2631,32 +2709,8 @@
             "autonomous",
             "awesome",
             "awesome-list",
-            "llm",
             "multi-agent",
             "python"
-        ]
-    },
-    {
-        "name": "ideas-for-projects-people-would-use",
-        "description": "Every time I have an idea, I write it down. These are a collection of my top software ideas -- problems I think enough people have that don't have solutions. I expect you can reach a decent userbase if marketed correctly, as I am surely not the only one with these problems.",
-        "url": "https://github.com/Divide-By-0/ideas-for-projects-people-would-use",
-        "author": "Divide-By-0",
-        "stars": 1770,
-        "updated_at": "2025-07-11T07:49:28Z",
-        "created_at": "2020-07-26T06:14:39Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "chrome-extension",
-            "free",
-            "ideas",
-            "independent",
-            "music",
-            "playlist",
-            "software",
-            "spotify",
-            "startup",
-            "whattodo"
         ]
     },
     {
@@ -3115,28 +3169,6 @@
             "cybersecurity",
             "opensource",
             "tools"
-        ]
-    },
-    {
-        "name": "Awesome-Android-Reverse-Engineering",
-        "description": "A curated list of awesome Android Reverse Engineering training, resources, and tools.",
-        "url": "https://github.com/user1342/Awesome-Android-Reverse-Engineering",
-        "author": "user1342",
-        "stars": 1151,
-        "updated_at": "2025-07-11T07:20:51Z",
-        "created_at": "2023-04-09T09:34:47Z",
-        "tags": [
-            "android",
-            "application-security",
-            "awesome",
-            "awesome-list",
-            "crackmes",
-            "ctfs",
-            "malware-analysis",
-            "mobsec",
-            "reverse-engineering",
-            "tools",
-            "training"
         ]
     },
     {
@@ -5678,26 +5710,7 @@
         "stars": 1,
         "updated_at": "2025-07-10T20:14:16Z",
         "created_at": "2025-07-03T21:29:25Z",
-        "tags": [
-            "awesome-list",
-            "choropleth-map",
-            "data-analysis",
-            "data-science",
-            "data-visualization",
-            "housing",
-            "housing-data",
-            "investing",
-            "investments",
-            "map",
-            "marketing-analysis",
-            "popular",
-            "real-estate",
-            "realtor",
-            "redfin",
-            "typescript",
-            "zillow",
-            "zip-code"
-        ]
+        "tags": []
     },
     {
         "name": "awesome-cl-software",
@@ -6723,20 +6736,6 @@
             "sustainability",
             "sustainable-development-goals",
             "wind-turbine"
-        ]
-    },
-    {
-        "name": "awesome-rainmana",
-        "description": "This is a curated list of my GitHub stars but converted into an Awesome List! Updated automagically ever 12 hours! :D",
-        "url": "https://github.com/rainmana/awesome-rainmana",
-        "author": "rainmana",
-        "stars": 19,
-        "updated_at": "2025-07-10T12:10:00Z",
-        "created_at": "2024-02-03T05:47:42Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "stars"
         ]
     },
     {
@@ -8302,25 +8301,6 @@
         "tags": []
     },
     {
-        "name": "awesome-detection-engineer",
-        "description": " Online resources related to Detection Engineering. Detection rules, detection logic, attack samples, detection tests and emulation tools, logging configuration and best practices, event log references, resources, labs, data manipulation online tools, blogs, newsletters, good reads, books, trainings, podcasts, videos and twitter/x accounts.",
-        "url": "https://github.com/st0pp3r/awesome-detection-engineer",
-        "author": "st0pp3r",
-        "stars": 103,
-        "updated_at": "2025-07-10T05:34:04Z",
-        "created_at": "2025-01-26T16:11:35Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "cybesecurity",
-            "detection",
-            "detection-engineering",
-            "security",
-            "soc",
-            "threat-detection"
-        ]
-    },
-    {
         "name": "fucking-awesome-github-profile-readme",
         "description": "😎 A curated list of awesome GitHub Profile READMEs 📝 With repository stars⭐ and forks🍴",
         "url": "https://github.com/Correia-jpv/fucking-awesome-github-profile-readme",
@@ -8509,7 +8489,11 @@
         "stars": 119,
         "updated_at": "2025-07-10T04:40:28Z",
         "created_at": "2024-12-28T05:53:11Z",
-        "tags": []
+        "tags": [
+            "awesome-list",
+            "mobile-system-design",
+            "system-design"
+        ]
     },
     {
         "name": "fucking-quick-look-plugins",

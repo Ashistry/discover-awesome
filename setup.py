@@ -16,7 +16,7 @@ setup(
     install_requires= requirements,
     entry_points={
         'console_scripts': [
-            'discover-awesome=discover-awesome.cli:main',  # Command to run your CLI
+            'discover-awesome=discover-awesome.cli:main',  
         ],
     },
     author='ashistry',
@@ -24,7 +24,7 @@ setup(
     description='A CLI tool to explore all lists in the awesome-list Github topic.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/ashistry/discover_awesome',  # Your project URL
+    url='https://github.com/ashistry/discover_awesome',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',

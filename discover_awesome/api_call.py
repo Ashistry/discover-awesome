@@ -12,8 +12,8 @@ def build_database_from_tag(token):
     sort_options = {
         "most_stars": {'sort': 'stars', 'order': 'desc'},
         "least_stars": {'sort': 'stars', 'order': 'asc'},
-        "newest": {'sort': 'created', 'order': 'desc'},
-        "oldest": {'sort': 'created', 'order': 'asc'},
+        "newest_created": {'sort': 'created', 'order': 'desc'},
+        "oldest_created": {'sort': 'created', 'order': 'asc'},
         "recently_updated": {'sort': 'updated', 'order': 'desc'},
         "least_recently_updated": {'sort': 'updated', 'order': 'asc'}
     }

@@ -1343,205 +1343,6 @@
         ]
     },
     {
-        "name": "awesome-mac",
-        "description": "Amazing softwares and settings for developers working on mac.",
-        "url": "https://github.com/thundertrick/awesome-mac",
-        "author": "thundertrick",
-        "stars": 0,
-        "updated_at": "2017-12-13T03:14:39Z",
-        "created_at": "2017-12-13T02:58:45Z",
-        "tags": [
-            "awesome-list",
-            "macosx",
-            "software"
-        ]
-    },
-    {
-        "name": "awesomestuff",
-        "description": "A directory of things I find cool.",
-        "url": "https://github.com/jehb/awesomestuff",
-        "author": "jehb",
-        "stars": 0,
-        "updated_at": "2019-01-11T14:45:40Z",
-        "created_at": "2018-03-03T14:46:34Z",
-        "tags": [
-            "awesome-list"
-        ]
-    },
-    {
-        "name": "sketch-goodies",
-        "description": "💎 Must-have Sketch resources",
-        "url": "https://github.com/dimitrisraptis96/sketch-goodies",
-        "author": "dimitrisraptis96",
-        "stars": 0,
-        "updated_at": "2020-10-22T07:59:05Z",
-        "created_at": "2019-02-28T21:35:55Z",
-        "tags": [
-            "awesome-list",
-            "list",
-            "sketch",
-            "sketch-app",
-            "sketch-plugin"
-        ]
-    },
-    {
-        "name": "dart-design-patterns",
-        "description": "Design patterns implemented in Dart",
-        "url": "https://github.com/ikramhasan/dart-design-patterns",
-        "author": "ikramhasan",
-        "stars": 0,
-        "updated_at": "2021-08-22T09:36:43Z",
-        "created_at": "2021-08-18T05:57:03Z",
-        "tags": [
-            "architecture",
-            "awesome-list",
-            "computer-science",
-            "dart",
-            "dartlang",
-            "design-pattern",
-            "design-patterns",
-            "engineering",
-            "gang-of-four",
-            "gang-of-four-design-patterns",
-            "gof-patterns"
-        ]
-    },
-    {
-        "name": "DRMFree",
-        "description": "Places to get DRM Free versions of Media",
-        "url": "https://github.com/PineappleLists/DRMFree",
-        "author": "PineappleLists",
-        "stars": 0,
-        "updated_at": "2022-08-15T17:06:51Z",
-        "created_at": "2022-08-15T16:41:12Z",
-        "tags": [
-            "awesome-list",
-            "drm-bypass",
-            "drm-free",
-            "list"
-        ]
-    },
-    {
-        "name": "awesome-awesomes",
-        "description": "A list of amazingly awesome awesomeness.",
-        "url": "https://github.com/ibigquant/awesome-awesomes",
-        "author": "ibigquant",
-        "stars": 0,
-        "updated_at": "2018-10-11T07:55:02Z",
-        "created_at": "2018-10-11T07:45:43Z",
-        "tags": [
-            "ai",
-            "awesome-awesomes",
-            "awesome-list",
-            "datasets",
-            "deep-learning",
-            "machine-learning"
-        ]
-    },
-    {
-        "name": "Awesome-Unofficial-Implementation-with-Explanations",
-        "description": "A collaborative platform for implementing complex research papers and algorithms. ",
-        "url": "https://github.com/forbes110/Awesome-Unofficial-Implementation-with-Explanations",
-        "author": "forbes110",
-        "stars": 0,
-        "updated_at": "2024-09-10T14:15:33Z",
-        "created_at": "2024-09-09T15:42:59Z",
-        "tags": [
-            "algorithms",
-            "awesome-list",
-            "implementation",
-            "paper"
-        ]
-    },
-    {
-        "name": "awesome-list",
-        "description": "Collection of useful lists, blogs, tools and ressources from and for the web.",
-        "url": "https://github.com/simon-baumgaertel/awesome-list",
-        "author": "simon-baumgaertel",
-        "stars": 0,
-        "updated_at": "2025-02-03T21:32:21Z",
-        "created_at": "2025-01-26T13:36:13Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "knowledge-sharing"
-        ]
-    },
-    {
-        "name": "ga4_tracker",
-        "description": "GA4 Tracker for YOURLS",
-        "url": "https://github.com/geanramos/ga4_tracker",
-        "author": "geanramos",
-        "stars": 0,
-        "updated_at": "2025-06-09T08:25:59Z",
-        "created_at": "2025-06-09T07:52:37Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "bitly",
-            "php",
-            "plugin",
-            "shortener",
-            "url-shortener",
-            "yourls",
-            "yourls-api",
-            "yourls-extension",
-            "yourls-plugin"
-        ]
-    },
-    {
-        "name": "Micro-SaaS-Examples",
-        "description": "A curated list of real Micro SaaS tools categorized by niche. Perfect for inspiration, research, and startup ideas.",
-        "url": "https://github.com/Micro-SaaS-Examples/Micro-SaaS-Examples",
-        "author": "Micro-SaaS-Examples",
-        "stars": 0,
-        "updated_at": "2025-07-11T10:55:12Z",
-        "created_at": "2025-07-11T09:40:08Z",
-        "tags": [
-            "ai-tools",
-            "api",
-            "awesome-list",
-            "browser-extensions",
-            "developer-tools",
-            "generative-ai",
-            "indie-hacker",
-            "marketing-tools",
-            "micro-saas",
-            "no-code",
-            "productivity-apps",
-            "saas-boilerplate",
-            "saas-examples",
-            "seo-tools",
-            "startup-tools"
-        ]
-    },
-    {
-        "name": "Open-Source-Alternatives",
-        "description": "A curated list of open-source alternatives to popular software and services. Each tool is listed in its single most relevant category.",
-        "url": "https://github.com/manishsharmahere/Open-Source-Alternatives",
-        "author": "manishsharmahere",
-        "stars": 0,
-        "updated_at": "2025-07-11T11:32:31Z",
-        "created_at": "2025-07-11T11:15:58Z",
-        "tags": [
-            "ai-tools",
-            "api",
-            "awesome-list",
-            "collaboration-tools",
-            "database",
-            "developer-tools",
-            "devops",
-            "llm",
-            "open-source",
-            "open-source-alternatives",
-            "password-manager",
-            "privacy",
-            "productivity",
-            "security",
-            "self-hosted"
-        ]
-    },
-    {
         "name": "campaign-git",
         "description": "A curated list of amazingly awesome reasons to use Git.",
         "url": "https://github.com/johnslemmer/campaign-git",
@@ -1744,6 +1545,205 @@
             "powerautomate",
             "powerplatform",
             "resources"
+        ]
+    },
+    {
+        "name": "awesome-mac",
+        "description": "Amazing softwares and settings for developers working on mac.",
+        "url": "https://github.com/thundertrick/awesome-mac",
+        "author": "thundertrick",
+        "stars": 0,
+        "updated_at": "2017-12-13T03:14:39Z",
+        "created_at": "2017-12-13T02:58:45Z",
+        "tags": [
+            "awesome-list",
+            "macosx",
+            "software"
+        ]
+    },
+    {
+        "name": "awesomestuff",
+        "description": "A directory of things I find cool.",
+        "url": "https://github.com/jehb/awesomestuff",
+        "author": "jehb",
+        "stars": 0,
+        "updated_at": "2019-01-11T14:45:40Z",
+        "created_at": "2018-03-03T14:46:34Z",
+        "tags": [
+            "awesome-list"
+        ]
+    },
+    {
+        "name": "sketch-goodies",
+        "description": "💎 Must-have Sketch resources",
+        "url": "https://github.com/dimitrisraptis96/sketch-goodies",
+        "author": "dimitrisraptis96",
+        "stars": 0,
+        "updated_at": "2020-10-22T07:59:05Z",
+        "created_at": "2019-02-28T21:35:55Z",
+        "tags": [
+            "awesome-list",
+            "list",
+            "sketch",
+            "sketch-app",
+            "sketch-plugin"
+        ]
+    },
+    {
+        "name": "dart-design-patterns",
+        "description": "Design patterns implemented in Dart",
+        "url": "https://github.com/ikramhasan/dart-design-patterns",
+        "author": "ikramhasan",
+        "stars": 0,
+        "updated_at": "2021-08-22T09:36:43Z",
+        "created_at": "2021-08-18T05:57:03Z",
+        "tags": [
+            "architecture",
+            "awesome-list",
+            "computer-science",
+            "dart",
+            "dartlang",
+            "design-pattern",
+            "design-patterns",
+            "engineering",
+            "gang-of-four",
+            "gang-of-four-design-patterns",
+            "gof-patterns"
+        ]
+    },
+    {
+        "name": "DRMFree",
+        "description": "Places to get DRM Free versions of Media",
+        "url": "https://github.com/PineappleLists/DRMFree",
+        "author": "PineappleLists",
+        "stars": 0,
+        "updated_at": "2022-08-15T17:06:51Z",
+        "created_at": "2022-08-15T16:41:12Z",
+        "tags": [
+            "awesome-list",
+            "drm-bypass",
+            "drm-free",
+            "list"
+        ]
+    },
+    {
+        "name": "awesome-awesomes",
+        "description": "A list of amazingly awesome awesomeness.",
+        "url": "https://github.com/ibigquant/awesome-awesomes",
+        "author": "ibigquant",
+        "stars": 0,
+        "updated_at": "2018-10-11T07:55:02Z",
+        "created_at": "2018-10-11T07:45:43Z",
+        "tags": [
+            "ai",
+            "awesome-awesomes",
+            "awesome-list",
+            "datasets",
+            "deep-learning",
+            "machine-learning"
+        ]
+    },
+    {
+        "name": "Awesome-Unofficial-Implementation-with-Explanations",
+        "description": "A collaborative platform for implementing complex research papers and algorithms. ",
+        "url": "https://github.com/forbes110/Awesome-Unofficial-Implementation-with-Explanations",
+        "author": "forbes110",
+        "stars": 0,
+        "updated_at": "2024-09-10T14:15:33Z",
+        "created_at": "2024-09-09T15:42:59Z",
+        "tags": [
+            "algorithms",
+            "awesome-list",
+            "implementation",
+            "paper"
+        ]
+    },
+    {
+        "name": "awesome-list",
+        "description": "Collection of useful lists, blogs, tools and ressources from and for the web.",
+        "url": "https://github.com/simon-baumgaertel/awesome-list",
+        "author": "simon-baumgaertel",
+        "stars": 0,
+        "updated_at": "2025-02-03T21:32:21Z",
+        "created_at": "2025-01-26T13:36:13Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "knowledge-sharing"
+        ]
+    },
+    {
+        "name": "ga4_tracker",
+        "description": "GA4 Tracker for YOURLS",
+        "url": "https://github.com/geanramos/ga4_tracker",
+        "author": "geanramos",
+        "stars": 0,
+        "updated_at": "2025-06-09T08:25:59Z",
+        "created_at": "2025-06-09T07:52:37Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "bitly",
+            "php",
+            "plugin",
+            "shortener",
+            "url-shortener",
+            "yourls",
+            "yourls-api",
+            "yourls-extension",
+            "yourls-plugin"
+        ]
+    },
+    {
+        "name": "Micro-SaaS-Examples",
+        "description": "A curated list of real Micro SaaS tools categorized by niche. Perfect for inspiration, research, and startup ideas.",
+        "url": "https://github.com/Micro-SaaS-Examples/Micro-SaaS-Examples",
+        "author": "Micro-SaaS-Examples",
+        "stars": 0,
+        "updated_at": "2025-07-11T10:55:12Z",
+        "created_at": "2025-07-11T09:40:08Z",
+        "tags": [
+            "ai-tools",
+            "api",
+            "awesome-list",
+            "browser-extensions",
+            "developer-tools",
+            "generative-ai",
+            "indie-hacker",
+            "marketing-tools",
+            "micro-saas",
+            "no-code",
+            "productivity-apps",
+            "saas-boilerplate",
+            "saas-examples",
+            "seo-tools",
+            "startup-tools"
+        ]
+    },
+    {
+        "name": "Open-Source-Alternatives",
+        "description": "A curated list of open-source alternatives to popular software and services. Each tool is listed in its single most relevant category.",
+        "url": "https://github.com/manishsharmahere/Open-Source-Alternatives",
+        "author": "manishsharmahere",
+        "stars": 0,
+        "updated_at": "2025-07-11T11:32:31Z",
+        "created_at": "2025-07-11T11:15:58Z",
+        "tags": [
+            "ai-tools",
+            "api",
+            "awesome-list",
+            "collaboration-tools",
+            "database",
+            "developer-tools",
+            "devops",
+            "llm",
+            "open-source",
+            "open-source-alternatives",
+            "password-manager",
+            "privacy",
+            "productivity",
+            "security",
+            "self-hosted"
         ]
     },
     {
@@ -2126,101 +2126,6 @@
         ]
     },
     {
-        "name": "backend-case-studies",
-        "description": null,
-        "url": "https://github.com/frolovdev/backend-case-studies",
-        "author": "frolovdev",
-        "stars": 0,
-        "updated_at": "2020-12-07T19:35:29Z",
-        "created_at": "2020-10-21T07:43:25Z",
-        "tags": [
-            "awesome-list",
-            "backend",
-            "case-study",
-            "real-world"
-        ]
-    },
-    {
-        "name": "i-want-to-share-something",
-        "description": "Yet another awesome list about approaches of sharing files, music, etc.",
-        "url": "https://github.com/w568w/i-want-to-share-something",
-        "author": "w568w",
-        "stars": 0,
-        "updated_at": "2021-08-10T11:55:15Z",
-        "created_at": "2021-08-10T10:41:43Z",
-        "tags": [
-            "awesome-list"
-        ]
-    },
-    {
-        "name": "Hands-On-Python",
-        "description": "Made for Open-Source Python contributions!",
-        "url": "https://github.com/RajeshTechForge/Hands-On-Python",
-        "author": "RajeshTechForge",
-        "stars": 0,
-        "updated_at": "2024-07-10T17:23:46Z",
-        "created_at": "2024-04-10T14:27:55Z",
-        "tags": [
-            "awesome-list",
-            "beginner-friendly",
-            "beginner-project",
-            "python",
-            "python-project",
-            "python-project-beginner",
-            "python-projects"
-        ]
-    },
-    {
-        "name": "free-data-structures-resources",
-        "description": "Data Structures Free Resources | This repo collects 61 of free resources for Data Structures. 🏗️ Build the foundations of efficient programming with our Data Structures Depot repository! Offering a wealth of free resources and hands-on learning opportunities, this is your construction site for ma...",
-        "url": "https://github.com/getvmio/free-data-structures-resources",
-        "author": "getvmio",
-        "stars": 0,
-        "updated_at": "2025-05-01T01:38:38Z",
-        "created_at": "2024-07-01T07:10:58Z",
-        "tags": [
-            "awesome-list",
-            "data-structures",
-            "free-resources",
-            "getvm",
-            "playground",
-            "programming"
-        ]
-    },
-    {
-        "name": "awesome-autocannon",
-        "description": null,
-        "url": "https://github.com/ludovicobesana/awesome-autocannon",
-        "author": "ludovicobesana",
-        "stars": 0,
-        "updated_at": "2025-01-05T21:30:35Z",
-        "created_at": "2025-01-04T22:17:54Z",
-        "tags": [
-            "autocannon",
-            "awesome",
-            "awesome-list",
-            "performance",
-            "tests"
-        ]
-    },
-    {
-        "name": "ro-open-source",
-        "description": "A curated list of open-source projects from Romania 🇷🇴",
-        "url": "https://github.com/gadgetisimo/ro-open-source",
-        "author": "gadgetisimo",
-        "stars": 0,
-        "updated_at": "2025-07-06T17:38:03Z",
-        "created_at": "2025-06-09T10:26:05Z",
-        "tags": [
-            "awesome-list",
-            "curated",
-            "developers",
-            "open-source",
-            "projects",
-            "romania"
-        ]
-    },
-    {
         "name": "awesome-calliope",
         "description": "German-speaking resources for Calliope Mini",
         "url": "https://github.com/philipphenkel/awesome-calliope",
@@ -2357,6 +2262,101 @@
             "awesome",
             "awesome-list",
             "awesome-lists"
+        ]
+    },
+    {
+        "name": "backend-case-studies",
+        "description": null,
+        "url": "https://github.com/frolovdev/backend-case-studies",
+        "author": "frolovdev",
+        "stars": 0,
+        "updated_at": "2020-12-07T19:35:29Z",
+        "created_at": "2020-10-21T07:43:25Z",
+        "tags": [
+            "awesome-list",
+            "backend",
+            "case-study",
+            "real-world"
+        ]
+    },
+    {
+        "name": "i-want-to-share-something",
+        "description": "Yet another awesome list about approaches of sharing files, music, etc.",
+        "url": "https://github.com/w568w/i-want-to-share-something",
+        "author": "w568w",
+        "stars": 0,
+        "updated_at": "2021-08-10T11:55:15Z",
+        "created_at": "2021-08-10T10:41:43Z",
+        "tags": [
+            "awesome-list"
+        ]
+    },
+    {
+        "name": "Hands-On-Python",
+        "description": "Made for Open-Source Python contributions!",
+        "url": "https://github.com/RajeshTechForge/Hands-On-Python",
+        "author": "RajeshTechForge",
+        "stars": 0,
+        "updated_at": "2024-07-10T17:23:46Z",
+        "created_at": "2024-04-10T14:27:55Z",
+        "tags": [
+            "awesome-list",
+            "beginner-friendly",
+            "beginner-project",
+            "python",
+            "python-project",
+            "python-project-beginner",
+            "python-projects"
+        ]
+    },
+    {
+        "name": "free-data-structures-resources",
+        "description": "Data Structures Free Resources | This repo collects 61 of free resources for Data Structures. 🏗️ Build the foundations of efficient programming with our Data Structures Depot repository! Offering a wealth of free resources and hands-on learning opportunities, this is your construction site for ma...",
+        "url": "https://github.com/getvmio/free-data-structures-resources",
+        "author": "getvmio",
+        "stars": 0,
+        "updated_at": "2025-05-01T01:38:38Z",
+        "created_at": "2024-07-01T07:10:58Z",
+        "tags": [
+            "awesome-list",
+            "data-structures",
+            "free-resources",
+            "getvm",
+            "playground",
+            "programming"
+        ]
+    },
+    {
+        "name": "awesome-autocannon",
+        "description": null,
+        "url": "https://github.com/ludovicobesana/awesome-autocannon",
+        "author": "ludovicobesana",
+        "stars": 0,
+        "updated_at": "2025-01-05T21:30:35Z",
+        "created_at": "2025-01-04T22:17:54Z",
+        "tags": [
+            "autocannon",
+            "awesome",
+            "awesome-list",
+            "performance",
+            "tests"
+        ]
+    },
+    {
+        "name": "ro-open-source",
+        "description": "A curated list of open-source projects from Romania 🇷🇴",
+        "url": "https://github.com/gadgetisimo/ro-open-source",
+        "author": "gadgetisimo",
+        "stars": 0,
+        "updated_at": "2025-07-06T17:38:03Z",
+        "created_at": "2025-06-09T10:26:05Z",
+        "tags": [
+            "awesome-list",
+            "curated",
+            "developers",
+            "open-source",
+            "projects",
+            "romania"
         ]
     },
     {
@@ -3703,6 +3703,200 @@
         ]
     },
     {
+        "name": "arvis-vimawesome",
+        "description": "Search vim plugins from vimawesome",
+        "url": "https://github.com/arvis-workflows/arvis-vimawesome",
+        "author": "arvis-workflows",
+        "stars": 0,
+        "updated_at": "2021-07-15T09:19:17Z",
+        "created_at": "2021-07-15T09:13:30Z",
+        "tags": [
+            "arvis",
+            "arvis-workflow",
+            "arvish",
+            "awesome-list",
+            "vim"
+        ]
+    },
+    {
+        "name": "awesome-zero-knowledge",
+        "description": "Awesome Zero Knowledge - A curated list of services and softwares that uses or are based on zero knowledge technology.",
+        "url": "https://github.com/Hackcidental/awesome-zero-knowledge",
+        "author": "Hackcidental",
+        "stars": 0,
+        "updated_at": "2023-01-24T21:27:32Z",
+        "created_at": "2023-01-12T09:36:23Z",
+        "tags": [
+            "awesome-list",
+            "zero-knowledge"
+        ]
+    },
+    {
+        "name": "awesome-cc-media",
+        "description": "Awesome list for Creative Commons-licensed media.",
+        "url": "https://github.com/veeara282/awesome-cc-media",
+        "author": "veeara282",
+        "stars": 0,
+        "updated_at": "2024-12-22T19:57:24Z",
+        "created_at": "2024-12-22T18:50:25Z",
+        "tags": [
+            "awesome-list",
+            "copyright",
+            "creative-commons",
+            "media"
+        ]
+    },
+    {
+        "name": "link_list",
+        "description": "Gathering links about projects, books, articles, etc.",
+        "url": "https://github.com/alpertunga-bile/link_list",
+        "author": "alpertunga-bile",
+        "stars": 0,
+        "updated_at": "2024-08-14T11:23:05Z",
+        "created_at": "2024-06-09T12:13:38Z",
+        "tags": [
+            "articles",
+            "awesome-list",
+            "list",
+            "resource",
+            "resources"
+        ]
+    },
+    {
+        "name": "awesome-indie-artist-shops",
+        "description": "A curated list of Merchandise shops run by independent artists.",
+        "url": "https://github.com/tempurastick/awesome-indie-artist-shops",
+        "author": "tempurastick",
+        "stars": 0,
+        "updated_at": "2025-01-07T11:32:30Z",
+        "created_at": "2024-09-27T11:33:56Z",
+        "tags": [
+            "awesome-list"
+        ]
+    },
+    {
+        "name": "awesome-business-tools",
+        "description": "Business tools I use and recommend",
+        "url": "https://github.com/dporkka/awesome-business-tools",
+        "author": "dporkka",
+        "stars": 0,
+        "updated_at": "2024-06-07T16:21:03Z",
+        "created_at": "2024-06-07T16:12:29Z",
+        "tags": [
+            "awesome-list",
+            "awesome-lists",
+            "business",
+            "business-address",
+            "business-tools",
+            "e-commerce",
+            "tools",
+            "tools-and-automation",
+            "vpn",
+            "web-design",
+            "web-development",
+            "webhosting"
+        ]
+    },
+    {
+        "name": "awesome-ethereum",
+        "description": "A curated list of awesome Ethereum resources, libraries, tools and more",
+        "url": "https://github.com/w3hc/awesome-ethereum",
+        "author": "w3hc",
+        "stars": 0,
+        "updated_at": "2025-03-11T11:28:50Z",
+        "created_at": "2025-03-11T10:45:39Z",
+        "tags": [
+            "awesome",
+            "awesome-list"
+        ]
+    },
+    {
+        "name": "Awesome-LitePolis",
+        "description": "A page like npm but for LitePolis packages",
+        "url": "https://github.com/NewJerseyStyle/Awesome-LitePolis",
+        "author": "NewJerseyStyle",
+        "stars": 0,
+        "updated_at": "2025-04-12T06:27:53Z",
+        "created_at": "2025-04-02T22:03:22Z",
+        "tags": [
+            "awesome-list",
+            "litepolis",
+            "packagelist"
+        ]
+    },
+    {
+        "name": "redis-free-tutorials",
+        "description": "Free Redis tutorials for beginners with 13 interactive lessons. Easy-to-follow programming guides with hands-on practice exercises.",
+        "url": "https://github.com/labex-labs/redis-free-tutorials",
+        "author": "labex-labs",
+        "stars": 0,
+        "updated_at": "2025-05-23T03:31:11Z",
+        "created_at": "2025-05-23T01:28:50Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "exercises",
+            "free",
+            "free-tutorials",
+            "hands-on",
+            "labex",
+            "programming",
+            "redis",
+            "tutorials"
+        ]
+    },
+    {
+        "name": "free-artificial-intelligence-resources",
+        "description": "Artificial Intelligence Free Resources | This repo collects 48 of free resources for Artificial Intelligence. 🧠 Embark on your Artificial Intelligence journey with GetVM's AI Explorer! This repository is your gateway to cutting-edge AI technologies, featuring a rich collection of free resources, ...",
+        "url": "https://github.com/getvmio/free-artificial-intelligence-resources",
+        "author": "getvmio",
+        "stars": 0,
+        "updated_at": "2025-05-01T01:38:49Z",
+        "created_at": "2024-07-01T07:11:15Z",
+        "tags": [
+            "artificial-intelligence",
+            "awesome-list",
+            "free-resources",
+            "getvm",
+            "playground",
+            "programming"
+        ]
+    },
+    {
+        "name": "free-natural-language-processing-resources",
+        "description": "Natural Language Processing Free Resources | This repo collects 24 of free resources for Natural Language Processing. 🗣️ Unlock the power of language with our NLP Workshop repository! Featuring a comprehensive collection of free courses and resources on Natural Language Processing, along with an ...",
+        "url": "https://github.com/getvmio/free-natural-language-processing-resources",
+        "author": "getvmio",
+        "stars": 0,
+        "updated_at": "2025-05-01T01:34:48Z",
+        "created_at": "2024-07-01T07:05:25Z",
+        "tags": [
+            "awesome-list",
+            "free-resources",
+            "getvm",
+            "natural-language-processing",
+            "playground",
+            "programming"
+        ]
+    },
+    {
+        "name": "awesome-LoRa-APRS",
+        "description": "A curated list of awesome resources, projects, tools, and references for LoRa APRS — combining LoRa technology with the Automatic Packet Reporting System used in amateur radio.",
+        "url": "https://github.com/9M2PJU/awesome-LoRa-APRS",
+        "author": "9M2PJU",
+        "stars": 0,
+        "updated_at": "2025-07-01T15:43:03Z",
+        "created_at": "2025-06-29T21:22:53Z",
+        "tags": [
+            "amateur-radio",
+            "awesome",
+            "awesome-list",
+            "ham-radio",
+            "lora-aprs",
+            "radio-amatur"
+        ]
+    },
+    {
         "name": "Stanford-Awesome",
         "description": "One list that tries to capture all the websites, tools, and opportunities available to Stanford students.",
         "url": "https://github.com/TheFirstQuestion/Stanford-Awesome",
@@ -4002,200 +4196,6 @@
             "getvm",
             "playground",
             "programming"
-        ]
-    },
-    {
-        "name": "arvis-vimawesome",
-        "description": "Search vim plugins from vimawesome",
-        "url": "https://github.com/arvis-workflows/arvis-vimawesome",
-        "author": "arvis-workflows",
-        "stars": 0,
-        "updated_at": "2021-07-15T09:19:17Z",
-        "created_at": "2021-07-15T09:13:30Z",
-        "tags": [
-            "arvis",
-            "arvis-workflow",
-            "arvish",
-            "awesome-list",
-            "vim"
-        ]
-    },
-    {
-        "name": "awesome-zero-knowledge",
-        "description": "Awesome Zero Knowledge - A curated list of services and softwares that uses or are based on zero knowledge technology.",
-        "url": "https://github.com/Hackcidental/awesome-zero-knowledge",
-        "author": "Hackcidental",
-        "stars": 0,
-        "updated_at": "2023-01-24T21:27:32Z",
-        "created_at": "2023-01-12T09:36:23Z",
-        "tags": [
-            "awesome-list",
-            "zero-knowledge"
-        ]
-    },
-    {
-        "name": "awesome-cc-media",
-        "description": "Awesome list for Creative Commons-licensed media.",
-        "url": "https://github.com/veeara282/awesome-cc-media",
-        "author": "veeara282",
-        "stars": 0,
-        "updated_at": "2024-12-22T19:57:24Z",
-        "created_at": "2024-12-22T18:50:25Z",
-        "tags": [
-            "awesome-list",
-            "copyright",
-            "creative-commons",
-            "media"
-        ]
-    },
-    {
-        "name": "link_list",
-        "description": "Gathering links about projects, books, articles, etc.",
-        "url": "https://github.com/alpertunga-bile/link_list",
-        "author": "alpertunga-bile",
-        "stars": 0,
-        "updated_at": "2024-08-14T11:23:05Z",
-        "created_at": "2024-06-09T12:13:38Z",
-        "tags": [
-            "articles",
-            "awesome-list",
-            "list",
-            "resource",
-            "resources"
-        ]
-    },
-    {
-        "name": "awesome-indie-artist-shops",
-        "description": "A curated list of Merchandise shops run by independent artists.",
-        "url": "https://github.com/tempurastick/awesome-indie-artist-shops",
-        "author": "tempurastick",
-        "stars": 0,
-        "updated_at": "2025-01-07T11:32:30Z",
-        "created_at": "2024-09-27T11:33:56Z",
-        "tags": [
-            "awesome-list"
-        ]
-    },
-    {
-        "name": "awesome-business-tools",
-        "description": "Business tools I use and recommend",
-        "url": "https://github.com/dporkka/awesome-business-tools",
-        "author": "dporkka",
-        "stars": 0,
-        "updated_at": "2024-06-07T16:21:03Z",
-        "created_at": "2024-06-07T16:12:29Z",
-        "tags": [
-            "awesome-list",
-            "awesome-lists",
-            "business",
-            "business-address",
-            "business-tools",
-            "e-commerce",
-            "tools",
-            "tools-and-automation",
-            "vpn",
-            "web-design",
-            "web-development",
-            "webhosting"
-        ]
-    },
-    {
-        "name": "awesome-ethereum",
-        "description": "A curated list of awesome Ethereum resources, libraries, tools and more",
-        "url": "https://github.com/w3hc/awesome-ethereum",
-        "author": "w3hc",
-        "stars": 0,
-        "updated_at": "2025-03-11T11:28:50Z",
-        "created_at": "2025-03-11T10:45:39Z",
-        "tags": [
-            "awesome",
-            "awesome-list"
-        ]
-    },
-    {
-        "name": "Awesome-LitePolis",
-        "description": "A page like npm but for LitePolis packages",
-        "url": "https://github.com/NewJerseyStyle/Awesome-LitePolis",
-        "author": "NewJerseyStyle",
-        "stars": 0,
-        "updated_at": "2025-04-12T06:27:53Z",
-        "created_at": "2025-04-02T22:03:22Z",
-        "tags": [
-            "awesome-list",
-            "litepolis",
-            "packagelist"
-        ]
-    },
-    {
-        "name": "redis-free-tutorials",
-        "description": "Free Redis tutorials for beginners with 13 interactive lessons. Easy-to-follow programming guides with hands-on practice exercises.",
-        "url": "https://github.com/labex-labs/redis-free-tutorials",
-        "author": "labex-labs",
-        "stars": 0,
-        "updated_at": "2025-05-23T03:31:11Z",
-        "created_at": "2025-05-23T01:28:50Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "exercises",
-            "free",
-            "free-tutorials",
-            "hands-on",
-            "labex",
-            "programming",
-            "redis",
-            "tutorials"
-        ]
-    },
-    {
-        "name": "free-artificial-intelligence-resources",
-        "description": "Artificial Intelligence Free Resources | This repo collects 48 of free resources for Artificial Intelligence. 🧠 Embark on your Artificial Intelligence journey with GetVM's AI Explorer! This repository is your gateway to cutting-edge AI technologies, featuring a rich collection of free resources, ...",
-        "url": "https://github.com/getvmio/free-artificial-intelligence-resources",
-        "author": "getvmio",
-        "stars": 0,
-        "updated_at": "2025-05-01T01:38:49Z",
-        "created_at": "2024-07-01T07:11:15Z",
-        "tags": [
-            "artificial-intelligence",
-            "awesome-list",
-            "free-resources",
-            "getvm",
-            "playground",
-            "programming"
-        ]
-    },
-    {
-        "name": "free-natural-language-processing-resources",
-        "description": "Natural Language Processing Free Resources | This repo collects 24 of free resources for Natural Language Processing. 🗣️ Unlock the power of language with our NLP Workshop repository! Featuring a comprehensive collection of free courses and resources on Natural Language Processing, along with an ...",
-        "url": "https://github.com/getvmio/free-natural-language-processing-resources",
-        "author": "getvmio",
-        "stars": 0,
-        "updated_at": "2025-05-01T01:34:48Z",
-        "created_at": "2024-07-01T07:05:25Z",
-        "tags": [
-            "awesome-list",
-            "free-resources",
-            "getvm",
-            "natural-language-processing",
-            "playground",
-            "programming"
-        ]
-    },
-    {
-        "name": "awesome-LoRa-APRS",
-        "description": "A curated list of awesome resources, projects, tools, and references for LoRa APRS — combining LoRa technology with the Automatic Packet Reporting System used in amateur radio.",
-        "url": "https://github.com/9M2PJU/awesome-LoRa-APRS",
-        "author": "9M2PJU",
-        "stars": 0,
-        "updated_at": "2025-07-01T15:43:03Z",
-        "created_at": "2025-06-29T21:22:53Z",
-        "tags": [
-            "amateur-radio",
-            "awesome",
-            "awesome-list",
-            "ham-radio",
-            "lora-aprs",
-            "radio-amatur"
         ]
     },
     {
@@ -4857,6 +4857,167 @@
         ]
     },
     {
+        "name": "Awesome",
+        "description": "A collection of awesome IonicFramework resources and shiny things.",
+        "url": "https://github.com/vagnersabadi/Awesome",
+        "author": "vagnersabadi",
+        "stars": 0,
+        "updated_at": "2019-03-16T12:51:33Z",
+        "created_at": "2018-09-10T20:16:31Z",
+        "tags": [
+            "awesome-list",
+            "ionic",
+            "ionic-framework"
+        ]
+    },
+    {
+        "name": "Awesome-Serializer-Deserializer",
+        "description": "List of serializer and deserializer programming resources",
+        "url": "https://github.com/zhenhaiwang/Awesome-Serializer-Deserializer",
+        "author": "zhenhaiwang",
+        "stars": 0,
+        "updated_at": "2019-09-26T09:34:31Z",
+        "created_at": "2019-08-05T09:05:24Z",
+        "tags": [
+            "awesome-list",
+            "deserialization",
+            "serialization"
+        ]
+    },
+    {
+        "name": "awesome-tech",
+        "description": "List of curated resources for various tech related stuff 🧑‍💻",
+        "url": "https://github.com/DeadpoolX7/awesome-tech",
+        "author": "DeadpoolX7",
+        "stars": 0,
+        "updated_at": "2025-02-23T07:13:14Z",
+        "created_at": "2024-12-31T06:55:25Z",
+        "tags": [
+            "awesome-list",
+            "education",
+            "programming",
+            "resources",
+            "software-engineering",
+            "technology"
+        ]
+    },
+    {
+        "name": "free-data-analysis-resources",
+        "description": "Data Analysis Free Resources | This repo collects 15 of free resources for Data Analysis. 📊 Unlock the power of data with our Data Analysis Toolkit! This repository offers a comprehensive suite of free resources, courses, and an online playground to help you master data analysis techniques. From ...",
+        "url": "https://github.com/getvmio/free-data-analysis-resources",
+        "author": "getvmio",
+        "stars": 0,
+        "updated_at": "2025-05-01T01:38:55Z",
+        "created_at": "2024-07-01T07:11:23Z",
+        "tags": [
+            "awesome-list",
+            "data-analysis",
+            "free-resources",
+            "getvm",
+            "playground",
+            "programming"
+        ]
+    },
+    {
+        "name": "practice-wireshark-programming-courses",
+        "description": "Master Wireshark programming with 2 beginner-to-advanced courses. Interactive labs and guided projects perfect for new programmers.",
+        "url": "https://github.com/labex-labs/practice-wireshark-programming-courses",
+        "author": "labex-labs",
+        "stars": 0,
+        "updated_at": "2025-05-23T03:18:35Z",
+        "created_at": "2025-05-23T02:50:08Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "courses",
+            "exercises",
+            "hands-on",
+            "labex",
+            "programming",
+            "wireshark"
+        ]
+    },
+    {
+        "name": "Awesome-SEO-Book-Course-Search-Engine-Optimization",
+        "description": null,
+        "url": "https://github.com/Ditectrev/Awesome-SEO-Book-Course-Search-Engine-Optimization",
+        "author": "Ditectrev",
+        "stars": 0,
+        "updated_at": "2025-06-09T08:09:12Z",
+        "created_at": "2024-11-07T17:14:01Z",
+        "tags": [
+            "awesome-list",
+            "awesome-seo",
+            "search-engine-optimization"
+        ]
+    },
+    {
+        "name": "creative-space",
+        "description": "Engineering resources for makers and independent learners.",
+        "url": "https://github.com/EvokeMadness/creative-space",
+        "author": "EvokeMadness",
+        "stars": 0,
+        "updated_at": "2025-06-12T21:20:18Z",
+        "created_at": "2022-03-10T04:31:12Z",
+        "tags": [
+            "3d-modeling",
+            "accessibility",
+            "awesome-list",
+            "awesome-lists",
+            "cad",
+            "engineering",
+            "list",
+            "lists"
+        ]
+    },
+    {
+        "name": "awesome-free-ai-tools-2025",
+        "description": "Curated collection of free AI APIs, LLM frameworks, coding assistants, and open-source tools tailored for developers, tech startups, and engineering students.",
+        "url": "https://github.com/adityasudake108/awesome-free-ai-tools-2025",
+        "author": "adityasudake108",
+        "stars": 0,
+        "updated_at": "2025-06-16T11:35:15Z",
+        "created_at": "2025-06-16T11:21:44Z",
+        "tags": [
+            "ai-tools",
+            "awesome-list",
+            "free-ai",
+            "llm",
+            "open-source"
+        ]
+    },
+    {
+        "name": "godlike",
+        "description": "Cool software, manual pages, gists, configs, and examples",
+        "url": "https://github.com/pr0gramista/godlike",
+        "author": "pr0gramista",
+        "stars": 0,
+        "updated_at": "2025-07-07T10:13:55Z",
+        "created_at": "2017-03-05T22:11:10Z",
+        "tags": [
+            "awesome-list",
+            "config",
+            "keybindings",
+            "scripts"
+        ]
+    },
+    {
+        "name": "awesome_worktools",
+        "description": "IT-Tools, Project managing...",
+        "url": "https://github.com/schwabochino/awesome_worktools",
+        "author": "schwabochino",
+        "stars": 0,
+        "updated_at": "2025-07-10T05:36:49Z",
+        "created_at": "2025-05-09T17:29:24Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "business",
+            "it-tools",
+            "open-source"
+        ]
+    },
+    {
         "name": "conference-speakers",
         "description": "A place for speakers to be more visible ",
         "url": "https://github.com/adtm/conference-speakers",
@@ -5038,167 +5199,6 @@
             "tailwind",
             "tailwindcss",
             "typescript"
-        ]
-    },
-    {
-        "name": "Awesome",
-        "description": "A collection of awesome IonicFramework resources and shiny things.",
-        "url": "https://github.com/vagnersabadi/Awesome",
-        "author": "vagnersabadi",
-        "stars": 0,
-        "updated_at": "2019-03-16T12:51:33Z",
-        "created_at": "2018-09-10T20:16:31Z",
-        "tags": [
-            "awesome-list",
-            "ionic",
-            "ionic-framework"
-        ]
-    },
-    {
-        "name": "Awesome-Serializer-Deserializer",
-        "description": "List of serializer and deserializer programming resources",
-        "url": "https://github.com/zhenhaiwang/Awesome-Serializer-Deserializer",
-        "author": "zhenhaiwang",
-        "stars": 0,
-        "updated_at": "2019-09-26T09:34:31Z",
-        "created_at": "2019-08-05T09:05:24Z",
-        "tags": [
-            "awesome-list",
-            "deserialization",
-            "serialization"
-        ]
-    },
-    {
-        "name": "awesome-tech",
-        "description": "List of curated resources for various tech related stuff 🧑‍💻",
-        "url": "https://github.com/DeadpoolX7/awesome-tech",
-        "author": "DeadpoolX7",
-        "stars": 0,
-        "updated_at": "2025-02-23T07:13:14Z",
-        "created_at": "2024-12-31T06:55:25Z",
-        "tags": [
-            "awesome-list",
-            "education",
-            "programming",
-            "resources",
-            "software-engineering",
-            "technology"
-        ]
-    },
-    {
-        "name": "free-data-analysis-resources",
-        "description": "Data Analysis Free Resources | This repo collects 15 of free resources for Data Analysis. 📊 Unlock the power of data with our Data Analysis Toolkit! This repository offers a comprehensive suite of free resources, courses, and an online playground to help you master data analysis techniques. From ...",
-        "url": "https://github.com/getvmio/free-data-analysis-resources",
-        "author": "getvmio",
-        "stars": 0,
-        "updated_at": "2025-05-01T01:38:55Z",
-        "created_at": "2024-07-01T07:11:23Z",
-        "tags": [
-            "awesome-list",
-            "data-analysis",
-            "free-resources",
-            "getvm",
-            "playground",
-            "programming"
-        ]
-    },
-    {
-        "name": "practice-wireshark-programming-courses",
-        "description": "Master Wireshark programming with 2 beginner-to-advanced courses. Interactive labs and guided projects perfect for new programmers.",
-        "url": "https://github.com/labex-labs/practice-wireshark-programming-courses",
-        "author": "labex-labs",
-        "stars": 0,
-        "updated_at": "2025-05-23T03:18:35Z",
-        "created_at": "2025-05-23T02:50:08Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "courses",
-            "exercises",
-            "hands-on",
-            "labex",
-            "programming",
-            "wireshark"
-        ]
-    },
-    {
-        "name": "Awesome-SEO-Book-Course-Search-Engine-Optimization",
-        "description": null,
-        "url": "https://github.com/Ditectrev/Awesome-SEO-Book-Course-Search-Engine-Optimization",
-        "author": "Ditectrev",
-        "stars": 0,
-        "updated_at": "2025-06-09T08:09:12Z",
-        "created_at": "2024-11-07T17:14:01Z",
-        "tags": [
-            "awesome-list",
-            "awesome-seo",
-            "search-engine-optimization"
-        ]
-    },
-    {
-        "name": "creative-space",
-        "description": "Engineering resources for makers and independent learners.",
-        "url": "https://github.com/EvokeMadness/creative-space",
-        "author": "EvokeMadness",
-        "stars": 0,
-        "updated_at": "2025-06-12T21:20:18Z",
-        "created_at": "2022-03-10T04:31:12Z",
-        "tags": [
-            "3d-modeling",
-            "accessibility",
-            "awesome-list",
-            "awesome-lists",
-            "cad",
-            "engineering",
-            "list",
-            "lists"
-        ]
-    },
-    {
-        "name": "awesome-free-ai-tools-2025",
-        "description": "Curated collection of free AI APIs, LLM frameworks, coding assistants, and open-source tools tailored for developers, tech startups, and engineering students.",
-        "url": "https://github.com/adityasudake108/awesome-free-ai-tools-2025",
-        "author": "adityasudake108",
-        "stars": 0,
-        "updated_at": "2025-06-16T11:35:15Z",
-        "created_at": "2025-06-16T11:21:44Z",
-        "tags": [
-            "ai-tools",
-            "awesome-list",
-            "free-ai",
-            "llm",
-            "open-source"
-        ]
-    },
-    {
-        "name": "godlike",
-        "description": "Cool software, manual pages, gists, configs, and examples",
-        "url": "https://github.com/pr0gramista/godlike",
-        "author": "pr0gramista",
-        "stars": 0,
-        "updated_at": "2025-07-07T10:13:55Z",
-        "created_at": "2017-03-05T22:11:10Z",
-        "tags": [
-            "awesome-list",
-            "config",
-            "keybindings",
-            "scripts"
-        ]
-    },
-    {
-        "name": "awesome_worktools",
-        "description": "IT-Tools, Project managing...",
-        "url": "https://github.com/schwabochino/awesome_worktools",
-        "author": "schwabochino",
-        "stars": 0,
-        "updated_at": "2025-07-10T05:36:49Z",
-        "created_at": "2025-05-09T17:29:24Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "business",
-            "it-tools",
-            "open-source"
         ]
     },
     {
@@ -7904,6 +7904,334 @@
         ]
     },
     {
+        "name": "awesome-purple-repos",
+        "description": "An awesome list of repositories that primarily use purple",
+        "url": "https://github.com/PurpleDevs/awesome-purple-repos",
+        "author": "PurpleDevs",
+        "stars": 1,
+        "updated_at": "2022-12-20T20:20:14Z",
+        "created_at": "2017-09-14T05:12:58Z",
+        "tags": [
+            "awesome-list",
+            "purple"
+        ]
+    },
+    {
+        "name": "Awesome-Shell-Scripts",
+        "description": "Some practical shell scripts.",
+        "url": "https://github.com/HanielF/Awesome-Shell-Scripts",
+        "author": "HanielF",
+        "stars": 1,
+        "updated_at": "2020-05-20T01:58:23Z",
+        "created_at": "2020-05-20T01:42:07Z",
+        "tags": [
+            "awesome-list",
+            "bash-script",
+            "commandline",
+            "linux",
+            "practical",
+            "shell-script"
+        ]
+    },
+    {
+        "name": "Awesome-Game-Tutorials",
+        "description": "List of game tutorials programming resources",
+        "url": "https://github.com/zhenhaiwang/Awesome-Game-Tutorials",
+        "author": "zhenhaiwang",
+        "stars": 1,
+        "updated_at": "2019-12-02T09:59:55Z",
+        "created_at": "2019-08-02T10:26:41Z",
+        "tags": [
+            "awesome-list",
+            "csharp",
+            "game-development",
+            "tutorials"
+        ]
+    },
+    {
+        "name": "The-Cake-Stand-Server",
+        "description": "The Cake Stand (Resturant Website)  Features: ▪ Developed UI with React.js, Tailwind CSS, daisy UI and implemented responsiveness. ▪ Stored add data in MongoDB and implemented the Rest API and CRUD operations. ▪ Backend developed with Express.js and implemented .env to hide credentials.",
+        "url": "https://github.com/emon-webdev/The-Cake-Stand-Server",
+        "author": "emon-webdev",
+        "stars": 1,
+        "updated_at": "2024-02-08T08:19:05Z",
+        "created_at": "2023-09-10T06:33:44Z",
+        "tags": [
+            "animation",
+            "awesome-list",
+            "datepicker",
+            "express-js",
+            "mongodb",
+            "mongoosejs",
+            "node-js",
+            "react",
+            "reactjs",
+            "redux",
+            "redux-toolkit",
+            "slick-slider",
+            "slider-component",
+            "sw"
+        ]
+    },
+    {
+        "name": "awesome-backend",
+        "description": "A curated list of awesome backend tools, libraries and resources.",
+        "url": "https://github.com/khalidbelk/awesome-backend",
+        "author": "khalidbelk",
+        "stars": 1,
+        "updated_at": "2025-03-04T17:32:53Z",
+        "created_at": "2025-02-23T19:22:07Z",
+        "tags": [
+            "api",
+            "awesome",
+            "awesome-list",
+            "awesome-lists",
+            "backend",
+            "resources",
+            "web"
+        ]
+    },
+    {
+        "name": "matplotlib-practice-plus",
+        "description": "[Archived] [Matplotlib Practice Plus]-In this course, You will practice more labs of Matplotlib. This will help you to master the skills more deeply.",
+        "url": "https://github.com/labex-labs/matplotlib-practice-plus",
+        "author": "labex-labs",
+        "stars": 1,
+        "updated_at": "2025-05-22T06:27:38Z",
+        "created_at": "2024-05-22T07:26:03Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "challenges",
+            "course",
+            "education",
+            "hands-on",
+            "labex",
+            "labs",
+            "linux",
+            "matplotlib",
+            "programming",
+            "python"
+        ]
+    },
+    {
+        "name": "kubernetes-practice-challenges",
+        "description": "[Archived] Kubernetes Practice Challenges | This repo collects 41 of programming scenarios (labs and challenges) for Kubernetes Practice Challenges. This course contains lots of challenges for Kubernetes, each challenge is a small Kubernetes project with detailed instructions and solutions. You c...",
+        "url": "https://github.com/labex-labs/kubernetes-practice-challenges",
+        "author": "labex-labs",
+        "stars": 1,
+        "updated_at": "2025-05-22T06:26:40Z",
+        "created_at": "2024-05-24T09:06:21Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "challenges",
+            "course",
+            "education",
+            "hands-on",
+            "kubernetes",
+            "labex",
+            "labs",
+            "programming"
+        ]
+    },
+    {
+        "name": "go-free-tutorials",
+        "description": "Free Golang tutorials for beginners with 90 interactive lessons. Easy-to-follow programming guides with hands-on practice exercises.",
+        "url": "https://github.com/labex-labs/go-free-tutorials",
+        "author": "labex-labs",
+        "stars": 1,
+        "updated_at": "2025-05-23T03:32:32Z",
+        "created_at": "2024-05-23T01:32:14Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "exercises",
+            "free",
+            "free-tutorials",
+            "go",
+            "hands-on",
+            "labex",
+            "programming",
+            "tutorials"
+        ]
+    },
+    {
+        "name": "awesomelistsio.github.io",
+        "description": null,
+        "url": "https://github.com/awesomelistsio/awesomelistsio.github.io",
+        "author": "awesomelistsio",
+        "stars": 1,
+        "updated_at": "2025-06-21T21:33:41Z",
+        "created_at": "2023-12-20T04:16:38Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "awesome-lists"
+        ]
+    },
+    {
+        "name": "awesome-wordpress",
+        "description": "A curated list of resources for WordPress.",
+        "url": "https://github.com/awesomelistsio/awesome-wordpress",
+        "author": "awesomelistsio",
+        "stars": 1,
+        "updated_at": "2025-06-26T21:52:27Z",
+        "created_at": "2023-06-18T00:30:12Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "awesome-lists",
+            "blog",
+            "blogging",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "awesome",
+        "description": "Things that I find awesome inspired by https://github.com/sindresorhus/awesome",
+        "url": "https://github.com/dotmh/awesome",
+        "author": "dotmh",
+        "stars": 1,
+        "updated_at": "2025-02-26T17:12:09Z",
+        "created_at": "2025-02-13T11:34:05Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "awesome-lists",
+            "lists"
+        ]
+    },
+    {
+        "name": "curated-list",
+        "description": "Awesome list as an API. Crawl awesome lists daily and save to JSON files.",
+        "url": "https://github.com/curateds/curated-list",
+        "author": "curateds",
+        "stars": 1,
+        "updated_at": "2024-12-20T16:43:26Z",
+        "created_at": "2023-06-25T16:33:59Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "curated-list"
+        ]
+    },
+    {
+        "name": "awesome-languages",
+        "description": "A list of awesome programming languages.",
+        "url": "https://github.com/TheBestUser01234567890/awesome-languages",
+        "author": "TheBestUser01234567890",
+        "stars": 1,
+        "updated_at": "2024-12-20T16:44:49Z",
+        "created_at": "2022-12-01T14:06:07Z",
+        "tags": [
+            "awesome",
+            "awesome-languages",
+            "awesome-list",
+            "awesome-lists",
+            "awesome-programming",
+            "awesome-programming-languages",
+            "list",
+            "programming",
+            "programming-language"
+        ]
+    },
+    {
+        "name": "awesome-frugal",
+        "description": "Awesome list of cheap stuff. Waste less, gain more!",
+        "url": "https://github.com/wheelofcheese/awesome-frugal",
+        "author": "wheelofcheese",
+        "stars": 1,
+        "updated_at": "2024-12-20T16:45:44Z",
+        "created_at": "2022-09-03T16:02:07Z",
+        "tags": [
+            "affordable",
+            "awesome",
+            "awesome-list",
+            "cheap",
+            "comparison",
+            "food",
+            "frugal",
+            "online-shopping",
+            "price",
+            "price-tracker"
+        ]
+    },
+    {
+        "name": "awesome-free-data-analytics-solutions",
+        "description": "Awesome Free Data Analytics Solutions",
+        "url": "https://github.com/quanttide/awesome-free-data-analytics-solutions",
+        "author": "quanttide",
+        "stars": 1,
+        "updated_at": "2024-12-20T16:42:48Z",
+        "created_at": "2023-09-11T13:18:58Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "data-analytics"
+        ]
+    },
+    {
+        "name": "awesome-shopping-list-apps",
+        "description": null,
+        "url": "https://github.com/GroceriStar/awesome-shopping-list-apps",
+        "author": "GroceriStar",
+        "stars": 1,
+        "updated_at": "2024-12-20T16:52:15Z",
+        "created_at": "2018-12-31T09:13:07Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "list"
+        ]
+    },
+    {
+        "name": "awesome-flexbox-tutorials",
+        "description": "Top tutorials to learn Flexboxes for Frontend Development",
+        "url": "https://github.com/Tkachenko-School/awesome-flexbox-tutorials",
+        "author": "Tkachenko-School",
+        "stars": 1,
+        "updated_at": "2024-12-20T16:52:13Z",
+        "created_at": "2018-12-31T00:26:45Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "flexbox",
+            "flexbox-tutorials",
+            "list"
+        ]
+    },
+    {
+        "name": "4D-pocket",
+        "description": "This is my 4-dimensional pocket for collecting something from Network.",
+        "url": "https://github.com/LiuGaoyong/4D-pocket",
+        "author": "LiuGaoyong",
+        "stars": 1,
+        "updated_at": "2024-12-20T16:48:53Z",
+        "created_at": "2021-09-10T09:01:10Z",
+        "tags": [
+            "awesome",
+            "awesome-list"
+        ]
+    },
+    {
+        "name": "awesome-proof-of-location",
+        "description": "Proof-of-Location theory, functioning systems and future developments.",
+        "url": "https://github.com/gptty/awesome-proof-of-location",
+        "author": "gptty",
+        "stars": 1,
+        "updated_at": "2024-12-20T16:56:52Z",
+        "created_at": "2021-06-28T12:08:46Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "awesome-lists",
+            "blockchain",
+            "blockchain-technology",
+            "gnss"
+        ]
+    },
+    {
         "name": "awesome-data-and-ml-for-good",
         "description": "Collection of resources for data and ML for good and how to get involved.",
         "url": "https://github.com/alexvmt/awesome-data-and-ml-for-good",
@@ -8248,334 +8576,6 @@
             "awesome-list",
             "mental-health",
             "mental-health-services"
-        ]
-    },
-    {
-        "name": "awesome-purple-repos",
-        "description": "An awesome list of repositories that primarily use purple",
-        "url": "https://github.com/PurpleDevs/awesome-purple-repos",
-        "author": "PurpleDevs",
-        "stars": 1,
-        "updated_at": "2022-12-20T20:20:14Z",
-        "created_at": "2017-09-14T05:12:58Z",
-        "tags": [
-            "awesome-list",
-            "purple"
-        ]
-    },
-    {
-        "name": "Awesome-Shell-Scripts",
-        "description": "Some practical shell scripts.",
-        "url": "https://github.com/HanielF/Awesome-Shell-Scripts",
-        "author": "HanielF",
-        "stars": 1,
-        "updated_at": "2020-05-20T01:58:23Z",
-        "created_at": "2020-05-20T01:42:07Z",
-        "tags": [
-            "awesome-list",
-            "bash-script",
-            "commandline",
-            "linux",
-            "practical",
-            "shell-script"
-        ]
-    },
-    {
-        "name": "Awesome-Game-Tutorials",
-        "description": "List of game tutorials programming resources",
-        "url": "https://github.com/zhenhaiwang/Awesome-Game-Tutorials",
-        "author": "zhenhaiwang",
-        "stars": 1,
-        "updated_at": "2019-12-02T09:59:55Z",
-        "created_at": "2019-08-02T10:26:41Z",
-        "tags": [
-            "awesome-list",
-            "csharp",
-            "game-development",
-            "tutorials"
-        ]
-    },
-    {
-        "name": "The-Cake-Stand-Server",
-        "description": "The Cake Stand (Resturant Website)  Features: ▪ Developed UI with React.js, Tailwind CSS, daisy UI and implemented responsiveness. ▪ Stored add data in MongoDB and implemented the Rest API and CRUD operations. ▪ Backend developed with Express.js and implemented .env to hide credentials.",
-        "url": "https://github.com/emon-webdev/The-Cake-Stand-Server",
-        "author": "emon-webdev",
-        "stars": 1,
-        "updated_at": "2024-02-08T08:19:05Z",
-        "created_at": "2023-09-10T06:33:44Z",
-        "tags": [
-            "animation",
-            "awesome-list",
-            "datepicker",
-            "express-js",
-            "mongodb",
-            "mongoosejs",
-            "node-js",
-            "react",
-            "reactjs",
-            "redux",
-            "redux-toolkit",
-            "slick-slider",
-            "slider-component",
-            "sw"
-        ]
-    },
-    {
-        "name": "awesome-backend",
-        "description": "A curated list of awesome backend tools, libraries and resources.",
-        "url": "https://github.com/khalidbelk/awesome-backend",
-        "author": "khalidbelk",
-        "stars": 1,
-        "updated_at": "2025-03-04T17:32:53Z",
-        "created_at": "2025-02-23T19:22:07Z",
-        "tags": [
-            "api",
-            "awesome",
-            "awesome-list",
-            "awesome-lists",
-            "backend",
-            "resources",
-            "web"
-        ]
-    },
-    {
-        "name": "matplotlib-practice-plus",
-        "description": "[Archived] [Matplotlib Practice Plus]-In this course, You will practice more labs of Matplotlib. This will help you to master the skills more deeply.",
-        "url": "https://github.com/labex-labs/matplotlib-practice-plus",
-        "author": "labex-labs",
-        "stars": 1,
-        "updated_at": "2025-05-22T06:27:38Z",
-        "created_at": "2024-05-22T07:26:03Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "challenges",
-            "course",
-            "education",
-            "hands-on",
-            "labex",
-            "labs",
-            "linux",
-            "matplotlib",
-            "programming",
-            "python"
-        ]
-    },
-    {
-        "name": "kubernetes-practice-challenges",
-        "description": "[Archived] Kubernetes Practice Challenges | This repo collects 41 of programming scenarios (labs and challenges) for Kubernetes Practice Challenges. This course contains lots of challenges for Kubernetes, each challenge is a small Kubernetes project with detailed instructions and solutions. You c...",
-        "url": "https://github.com/labex-labs/kubernetes-practice-challenges",
-        "author": "labex-labs",
-        "stars": 1,
-        "updated_at": "2025-05-22T06:26:40Z",
-        "created_at": "2024-05-24T09:06:21Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "challenges",
-            "course",
-            "education",
-            "hands-on",
-            "kubernetes",
-            "labex",
-            "labs",
-            "programming"
-        ]
-    },
-    {
-        "name": "go-free-tutorials",
-        "description": "Free Golang tutorials for beginners with 90 interactive lessons. Easy-to-follow programming guides with hands-on practice exercises.",
-        "url": "https://github.com/labex-labs/go-free-tutorials",
-        "author": "labex-labs",
-        "stars": 1,
-        "updated_at": "2025-05-23T03:32:32Z",
-        "created_at": "2024-05-23T01:32:14Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "exercises",
-            "free",
-            "free-tutorials",
-            "go",
-            "hands-on",
-            "labex",
-            "programming",
-            "tutorials"
-        ]
-    },
-    {
-        "name": "awesomelistsio.github.io",
-        "description": null,
-        "url": "https://github.com/awesomelistsio/awesomelistsio.github.io",
-        "author": "awesomelistsio",
-        "stars": 1,
-        "updated_at": "2025-06-21T21:33:41Z",
-        "created_at": "2023-12-20T04:16:38Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "awesome-lists"
-        ]
-    },
-    {
-        "name": "awesome-wordpress",
-        "description": "A curated list of resources for WordPress.",
-        "url": "https://github.com/awesomelistsio/awesome-wordpress",
-        "author": "awesomelistsio",
-        "stars": 1,
-        "updated_at": "2025-06-26T21:52:27Z",
-        "created_at": "2023-06-18T00:30:12Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "awesome-lists",
-            "blog",
-            "blogging",
-            "wordpress"
-        ]
-    },
-    {
-        "name": "awesome",
-        "description": "Things that I find awesome inspired by https://github.com/sindresorhus/awesome",
-        "url": "https://github.com/dotmh/awesome",
-        "author": "dotmh",
-        "stars": 1,
-        "updated_at": "2025-02-26T17:12:09Z",
-        "created_at": "2025-02-13T11:34:05Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "awesome-lists",
-            "lists"
-        ]
-    },
-    {
-        "name": "curated-list",
-        "description": "Awesome list as an API. Crawl awesome lists daily and save to JSON files.",
-        "url": "https://github.com/curateds/curated-list",
-        "author": "curateds",
-        "stars": 1,
-        "updated_at": "2024-12-20T16:43:26Z",
-        "created_at": "2023-06-25T16:33:59Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "curated-list"
-        ]
-    },
-    {
-        "name": "awesome-languages",
-        "description": "A list of awesome programming languages.",
-        "url": "https://github.com/TheBestUser01234567890/awesome-languages",
-        "author": "TheBestUser01234567890",
-        "stars": 1,
-        "updated_at": "2024-12-20T16:44:49Z",
-        "created_at": "2022-12-01T14:06:07Z",
-        "tags": [
-            "awesome",
-            "awesome-languages",
-            "awesome-list",
-            "awesome-lists",
-            "awesome-programming",
-            "awesome-programming-languages",
-            "list",
-            "programming",
-            "programming-language"
-        ]
-    },
-    {
-        "name": "awesome-frugal",
-        "description": "Awesome list of cheap stuff. Waste less, gain more!",
-        "url": "https://github.com/wheelofcheese/awesome-frugal",
-        "author": "wheelofcheese",
-        "stars": 1,
-        "updated_at": "2024-12-20T16:45:44Z",
-        "created_at": "2022-09-03T16:02:07Z",
-        "tags": [
-            "affordable",
-            "awesome",
-            "awesome-list",
-            "cheap",
-            "comparison",
-            "food",
-            "frugal",
-            "online-shopping",
-            "price",
-            "price-tracker"
-        ]
-    },
-    {
-        "name": "awesome-free-data-analytics-solutions",
-        "description": "Awesome Free Data Analytics Solutions",
-        "url": "https://github.com/quanttide/awesome-free-data-analytics-solutions",
-        "author": "quanttide",
-        "stars": 1,
-        "updated_at": "2024-12-20T16:42:48Z",
-        "created_at": "2023-09-11T13:18:58Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "data-analytics"
-        ]
-    },
-    {
-        "name": "awesome-shopping-list-apps",
-        "description": null,
-        "url": "https://github.com/GroceriStar/awesome-shopping-list-apps",
-        "author": "GroceriStar",
-        "stars": 1,
-        "updated_at": "2024-12-20T16:52:15Z",
-        "created_at": "2018-12-31T09:13:07Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "list"
-        ]
-    },
-    {
-        "name": "awesome-flexbox-tutorials",
-        "description": "Top tutorials to learn Flexboxes for Frontend Development",
-        "url": "https://github.com/Tkachenko-School/awesome-flexbox-tutorials",
-        "author": "Tkachenko-School",
-        "stars": 1,
-        "updated_at": "2024-12-20T16:52:13Z",
-        "created_at": "2018-12-31T00:26:45Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "flexbox",
-            "flexbox-tutorials",
-            "list"
-        ]
-    },
-    {
-        "name": "4D-pocket",
-        "description": "This is my 4-dimensional pocket for collecting something from Network.",
-        "url": "https://github.com/LiuGaoyong/4D-pocket",
-        "author": "LiuGaoyong",
-        "stars": 1,
-        "updated_at": "2024-12-20T16:48:53Z",
-        "created_at": "2021-09-10T09:01:10Z",
-        "tags": [
-            "awesome",
-            "awesome-list"
-        ]
-    },
-    {
-        "name": "awesome-proof-of-location",
-        "description": "Proof-of-Location theory, functioning systems and future developments.",
-        "url": "https://github.com/gptty/awesome-proof-of-location",
-        "author": "gptty",
-        "stars": 1,
-        "updated_at": "2024-12-20T16:56:52Z",
-        "created_at": "2021-06-28T12:08:46Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "awesome-lists",
-            "blockchain",
-            "blockchain-technology",
-            "gnss"
         ]
     },
     {
@@ -9392,6 +9392,205 @@
         ]
     },
     {
+        "name": "github-topic-list",
+        "description": "List of most used github topics",
+        "url": "https://github.com/tamimibrahim17/github-topic-list",
+        "author": "tamimibrahim17",
+        "stars": 1,
+        "updated_at": "2018-07-25T06:47:10Z",
+        "created_at": "2018-07-17T13:26:17Z",
+        "tags": [
+            "awesome-list",
+            "github",
+            "topic"
+        ]
+    },
+    {
+        "name": "nocode",
+        "description": "A list of Nocode/Lowcode apps for you to build your next great website",
+        "url": "https://github.com/Utwo/nocode",
+        "author": "Utwo",
+        "stars": 1,
+        "updated_at": "2024-02-10T21:13:13Z",
+        "created_at": "2020-09-09T14:33:33Z",
+        "tags": [
+            "awesome-list",
+            "lowcode",
+            "nocode",
+            "stenciljs"
+        ]
+    },
+    {
+        "name": "OSCP",
+        "description": "OffSec Certified Professional Certification (OSCP).",
+        "url": "https://github.com/txuswashere/OSCP",
+        "author": "txuswashere",
+        "stars": 1,
+        "updated_at": "2024-03-05T09:42:53Z",
+        "created_at": "2024-03-05T09:21:38Z",
+        "tags": [
+            "awesome-list",
+            "awesome-lists",
+            "cheatsheet",
+            "offensive-ops",
+            "offensive-security",
+            "offensivesecurity",
+            "offsec-certified-professional-certification",
+            "oscp",
+            "oscp-cheatsheet",
+            "oscp-guide",
+            "oscp-journey",
+            "oscp-prep",
+            "oscp-tools"
+        ]
+    },
+    {
+        "name": "easy-self-hosted",
+        "description": "An awesome-list of web software that the average person can easily self-host.",
+        "url": "https://github.com/zerosonesfun/easy-self-hosted",
+        "author": "zerosonesfun",
+        "stars": 1,
+        "updated_at": "2025-01-03T01:49:32Z",
+        "created_at": "2022-08-08T13:02:29Z",
+        "tags": [
+            "awesome-list",
+            "self-hosted"
+        ]
+    },
+    {
+        "name": "awesome-rabbitmq",
+        "description": "An Awesome List of RabbitMQ Resources",
+        "url": "https://github.com/niamtokik/awesome-rabbitmq",
+        "author": "niamtokik",
+        "stars": 1,
+        "updated_at": "2024-12-20T16:41:23Z",
+        "created_at": "2024-01-28T09:50:53Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "books",
+            "publications",
+            "rabbitmq",
+            "references",
+            "resources",
+            "toolbox"
+        ]
+    },
+    {
+        "name": "awesome",
+        "description": "A list of tried awesome resources over the internet",
+        "url": "https://github.com/anirban-oss/awesome",
+        "author": "anirban-oss",
+        "stars": 1,
+        "updated_at": "2024-12-20T16:44:53Z",
+        "created_at": "2022-11-28T14:36:10Z",
+        "tags": [
+            "awesome",
+            "awesome-list"
+        ]
+    },
+    {
+        "name": "StarsIndex",
+        "description": "Indexing my GitHub's stared projects",
+        "url": "https://github.com/Lecrapouille/StarsIndex",
+        "author": "Lecrapouille",
+        "stars": 1,
+        "updated_at": "2021-06-22T18:29:49Z",
+        "created_at": "2019-11-22T18:01:23Z",
+        "tags": [
+            "awesome-list"
+        ]
+    },
+    {
+        "name": "css-practice-labs",
+        "description": "[Archived] CSS Practice Labs | This repo collects 92 of programming scenarios (labs and challenges) for CSS Practice Labs. This course contains lots of labs for CSS, each lab is a small CSS project with detailed guidance and solutions. You can practice your CSS skills by completing these labs, im...",
+        "url": "https://github.com/labex-labs/css-practice-labs",
+        "author": "labex-labs",
+        "stars": 1,
+        "updated_at": "2025-05-22T06:26:50Z",
+        "created_at": "2024-05-24T09:04:30Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "challenges",
+            "course",
+            "css",
+            "education",
+            "hands-on",
+            "labex",
+            "labs",
+            "programming"
+        ]
+    },
+    {
+        "name": "awesome-continuous-testing-actions",
+        "description": "A curated list of awesome Continuous testing actions",
+        "url": "https://github.com/designer2k2/awesome-continuous-testing-actions",
+        "author": "designer2k2",
+        "stars": 1,
+        "updated_at": "2025-05-20T07:12:27Z",
+        "created_at": "2023-02-01T19:39:35Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "list",
+            "testing-practices",
+            "testing-tools"
+        ]
+    },
+    {
+        "name": "practice-docker-programming-courses",
+        "description": "Master Docker programming with 3 beginner-to-advanced courses. Interactive labs and guided projects perfect for new programmers.",
+        "url": "https://github.com/labex-labs/practice-docker-programming-courses",
+        "author": "labex-labs",
+        "stars": 1,
+        "updated_at": "2025-05-23T03:16:26Z",
+        "created_at": "2024-06-06T07:21:25Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "courses",
+            "docker",
+            "exercises",
+            "hands-on",
+            "labex",
+            "programming"
+        ]
+    },
+    {
+        "name": "awesome-lists-badges",
+        "description": null,
+        "url": "https://github.com/awesomelistsio/awesome-lists-badges",
+        "author": "awesomelistsio",
+        "stars": 1,
+        "updated_at": "2025-06-21T21:40:39Z",
+        "created_at": "2023-06-24T19:31:08Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "awesome-list-badges",
+            "awesome-lists",
+            "awesome-lists-badges",
+            "badges"
+        ]
+    },
+    {
+        "name": "animal-puns",
+        "description": "jokes with animals",
+        "url": "https://github.com/Ipuch/animal-puns",
+        "author": "Ipuch",
+        "stars": 1,
+        "updated_at": "2025-07-08T11:49:54Z",
+        "created_at": "2023-06-21T21:38:36Z",
+        "tags": [
+            "awesome-list",
+            "awesome-readme",
+            "first-contributions",
+            "jokes",
+            "pull-requests"
+        ]
+    },
+    {
         "name": "Word-Sense-Disambiguation-a-non-exhaustive-list",
         "description": null,
         "url": "https://github.com/hardyqr/Word-Sense-Disambiguation-a-non-exhaustive-list",
@@ -9593,205 +9792,6 @@
             "awesome-lists",
             "internet",
             "internet-freedom"
-        ]
-    },
-    {
-        "name": "github-topic-list",
-        "description": "List of most used github topics",
-        "url": "https://github.com/tamimibrahim17/github-topic-list",
-        "author": "tamimibrahim17",
-        "stars": 1,
-        "updated_at": "2018-07-25T06:47:10Z",
-        "created_at": "2018-07-17T13:26:17Z",
-        "tags": [
-            "awesome-list",
-            "github",
-            "topic"
-        ]
-    },
-    {
-        "name": "nocode",
-        "description": "A list of Nocode/Lowcode apps for you to build your next great website",
-        "url": "https://github.com/Utwo/nocode",
-        "author": "Utwo",
-        "stars": 1,
-        "updated_at": "2024-02-10T21:13:13Z",
-        "created_at": "2020-09-09T14:33:33Z",
-        "tags": [
-            "awesome-list",
-            "lowcode",
-            "nocode",
-            "stenciljs"
-        ]
-    },
-    {
-        "name": "OSCP",
-        "description": "OffSec Certified Professional Certification (OSCP).",
-        "url": "https://github.com/txuswashere/OSCP",
-        "author": "txuswashere",
-        "stars": 1,
-        "updated_at": "2024-03-05T09:42:53Z",
-        "created_at": "2024-03-05T09:21:38Z",
-        "tags": [
-            "awesome-list",
-            "awesome-lists",
-            "cheatsheet",
-            "offensive-ops",
-            "offensive-security",
-            "offensivesecurity",
-            "offsec-certified-professional-certification",
-            "oscp",
-            "oscp-cheatsheet",
-            "oscp-guide",
-            "oscp-journey",
-            "oscp-prep",
-            "oscp-tools"
-        ]
-    },
-    {
-        "name": "easy-self-hosted",
-        "description": "An awesome-list of web software that the average person can easily self-host.",
-        "url": "https://github.com/zerosonesfun/easy-self-hosted",
-        "author": "zerosonesfun",
-        "stars": 1,
-        "updated_at": "2025-01-03T01:49:32Z",
-        "created_at": "2022-08-08T13:02:29Z",
-        "tags": [
-            "awesome-list",
-            "self-hosted"
-        ]
-    },
-    {
-        "name": "awesome-rabbitmq",
-        "description": "An Awesome List of RabbitMQ Resources",
-        "url": "https://github.com/niamtokik/awesome-rabbitmq",
-        "author": "niamtokik",
-        "stars": 1,
-        "updated_at": "2024-12-20T16:41:23Z",
-        "created_at": "2024-01-28T09:50:53Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "books",
-            "publications",
-            "rabbitmq",
-            "references",
-            "resources",
-            "toolbox"
-        ]
-    },
-    {
-        "name": "awesome",
-        "description": "A list of tried awesome resources over the internet",
-        "url": "https://github.com/anirban-oss/awesome",
-        "author": "anirban-oss",
-        "stars": 1,
-        "updated_at": "2024-12-20T16:44:53Z",
-        "created_at": "2022-11-28T14:36:10Z",
-        "tags": [
-            "awesome",
-            "awesome-list"
-        ]
-    },
-    {
-        "name": "StarsIndex",
-        "description": "Indexing my GitHub's stared projects",
-        "url": "https://github.com/Lecrapouille/StarsIndex",
-        "author": "Lecrapouille",
-        "stars": 1,
-        "updated_at": "2021-06-22T18:29:49Z",
-        "created_at": "2019-11-22T18:01:23Z",
-        "tags": [
-            "awesome-list"
-        ]
-    },
-    {
-        "name": "css-practice-labs",
-        "description": "[Archived] CSS Practice Labs | This repo collects 92 of programming scenarios (labs and challenges) for CSS Practice Labs. This course contains lots of labs for CSS, each lab is a small CSS project with detailed guidance and solutions. You can practice your CSS skills by completing these labs, im...",
-        "url": "https://github.com/labex-labs/css-practice-labs",
-        "author": "labex-labs",
-        "stars": 1,
-        "updated_at": "2025-05-22T06:26:50Z",
-        "created_at": "2024-05-24T09:04:30Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "challenges",
-            "course",
-            "css",
-            "education",
-            "hands-on",
-            "labex",
-            "labs",
-            "programming"
-        ]
-    },
-    {
-        "name": "awesome-continuous-testing-actions",
-        "description": "A curated list of awesome Continuous testing actions",
-        "url": "https://github.com/designer2k2/awesome-continuous-testing-actions",
-        "author": "designer2k2",
-        "stars": 1,
-        "updated_at": "2025-05-20T07:12:27Z",
-        "created_at": "2023-02-01T19:39:35Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "list",
-            "testing-practices",
-            "testing-tools"
-        ]
-    },
-    {
-        "name": "practice-docker-programming-courses",
-        "description": "Master Docker programming with 3 beginner-to-advanced courses. Interactive labs and guided projects perfect for new programmers.",
-        "url": "https://github.com/labex-labs/practice-docker-programming-courses",
-        "author": "labex-labs",
-        "stars": 1,
-        "updated_at": "2025-05-23T03:16:26Z",
-        "created_at": "2024-06-06T07:21:25Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "courses",
-            "docker",
-            "exercises",
-            "hands-on",
-            "labex",
-            "programming"
-        ]
-    },
-    {
-        "name": "awesome-lists-badges",
-        "description": null,
-        "url": "https://github.com/awesomelistsio/awesome-lists-badges",
-        "author": "awesomelistsio",
-        "stars": 1,
-        "updated_at": "2025-06-21T21:40:39Z",
-        "created_at": "2023-06-24T19:31:08Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "awesome-list-badges",
-            "awesome-lists",
-            "awesome-lists-badges",
-            "badges"
-        ]
-    },
-    {
-        "name": "animal-puns",
-        "description": "jokes with animals",
-        "url": "https://github.com/Ipuch/animal-puns",
-        "author": "Ipuch",
-        "stars": 1,
-        "updated_at": "2025-07-08T11:49:54Z",
-        "created_at": "2023-06-21T21:38:36Z",
-        "tags": [
-            "awesome-list",
-            "awesome-readme",
-            "first-contributions",
-            "jokes",
-            "pull-requests"
         ]
     },
     {
@@ -12826,6 +12826,372 @@
         ]
     },
     {
+        "name": "awesome-restify",
+        "description": "📖A curated list of awesome Restify resources",
+        "url": "https://github.com/rajikaimal/awesome-restify",
+        "author": "rajikaimal",
+        "stars": 1,
+        "updated_at": "2020-09-11T14:50:15Z",
+        "created_at": "2018-11-01T05:20:19Z",
+        "tags": [
+            "awesome-list",
+            "javascript",
+            "nodejs",
+            "restify"
+        ]
+    },
+    {
+        "name": "awesome-ot",
+        "description": "About the operational transformation core tech.",
+        "url": "https://github.com/turkyden/awesome-ot",
+        "author": "turkyden",
+        "stars": 1,
+        "updated_at": "2021-08-14T16:56:52Z",
+        "created_at": "2021-01-13T08:40:25Z",
+        "tags": [
+            "awesome-list",
+            "operational-transformations"
+        ]
+    },
+    {
+        "name": "awesome-community-weaving",
+        "description": "A curated list of amazing resources for community weaving!",
+        "url": "https://github.com/IgnacioPalma/awesome-community-weaving",
+        "author": "IgnacioPalma",
+        "stars": 1,
+        "updated_at": "2023-04-24T16:29:40Z",
+        "created_at": "2023-02-21T15:48:54Z",
+        "tags": [
+            "awesome-list",
+            "community",
+            "community-building"
+        ]
+    },
+    {
+        "name": "i-like-android-privacy",
+        "description": "Your go-to resource for privacy tools specifically designed for Android devices. Explore the tools below and safeguard your privacy on Android!",
+        "url": "https://github.com/MoistCatawumpus/i-like-android-privacy",
+        "author": "MoistCatawumpus",
+        "stars": 1,
+        "updated_at": "2024-07-23T21:50:11Z",
+        "created_at": "2024-02-11T05:56:17Z",
+        "tags": [
+            "android",
+            "android-privacy-tools",
+            "awesome-list",
+            "css",
+            "css3",
+            "curated-list",
+            "html",
+            "html-css",
+            "html-css-javascript",
+            "html5",
+            "i-like-android-privacy",
+            "javascript",
+            "js",
+            "privacy"
+        ]
+    },
+    {
+        "name": "awesome-remote-kids",
+        "description": "😎A curated list of awesome remote resources for Kids.",
+        "url": "https://github.com/cschuman/awesome-remote-kids",
+        "author": "cschuman",
+        "stars": 1,
+        "updated_at": "2024-12-20T16:54:25Z",
+        "created_at": "2020-03-17T13:56:32Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "kids",
+            "resources",
+            "unicorns"
+        ]
+    },
+    {
+        "name": "awesome-react",
+        "description": "有关 React 生态系统的精彩内容的集合",
+        "url": "https://github.com/0end1/awesome-react",
+        "author": "0end1",
+        "stars": 1,
+        "updated_at": "2024-12-20T16:42:51Z",
+        "created_at": "2023-09-03T14:23:00Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "javascript",
+            "react",
+            "react-apps",
+            "react-native",
+            "react-redux",
+            "react-router",
+            "react-tutorial",
+            "sample",
+            "tutorial",
+            "typescript"
+        ]
+    },
+    {
+        "name": "Awesome-Adobe-Plugins",
+        "description": "A collection of the most useful plugins for software in the Adobe Creative Cloud suite",
+        "url": "https://github.com/ilanfriedman/Awesome-Adobe-Plugins",
+        "author": "ilanfriedman",
+        "stars": 1,
+        "updated_at": "2024-12-20T16:46:34Z",
+        "created_at": "2022-06-07T22:31:35Z",
+        "tags": [
+            "adobe",
+            "adobe-suite",
+            "awesome",
+            "awesome-list"
+        ]
+    },
+    {
+        "name": "awesome-mac-apps",
+        "description": "Awesome macOS apps for developers, programmers or anyone looking for useful tools!",
+        "url": "https://github.com/viraat/awesome-mac-apps",
+        "author": "viraat",
+        "stars": 1,
+        "updated_at": "2024-12-20T16:50:18Z",
+        "created_at": "2018-01-20T08:51:08Z",
+        "tags": [
+            "apps",
+            "awesome",
+            "awesome-list",
+            "macos",
+            "macos-apps",
+            "macosx",
+            "software"
+        ]
+    },
+    {
+        "name": "awesome-biological-computing",
+        "description": "A curated list of awesome Biological Computing (Biocomputing) resources.",
+        "url": "https://github.com/heitorbaldo/awesome-biological-computing",
+        "author": "heitorbaldo",
+        "stars": 1,
+        "updated_at": "2024-12-20T16:35:32Z",
+        "created_at": "2024-07-17T18:45:23Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "biocomputing",
+            "biological-computing"
+        ]
+    },
+    {
+        "name": "practice-jquery-programming-courses",
+        "description": "jQuery Programming Courses | This repo collects 1 of programming courses for jQuery. jQuery simplifies HTML document traversing and manipulation. This Skill Tree presents a systematic approach to learning this popular JavaScript library. Perfect for web development beginners, it offers a clear ro...",
+        "url": "https://github.com/labex-labs/practice-jquery-programming-courses",
+        "author": "labex-labs",
+        "stars": 1,
+        "updated_at": "2024-12-20T16:36:43Z",
+        "created_at": "2024-06-06T07:23:51Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "courses",
+            "exercises",
+            "hands-on",
+            "jquery",
+            "labex",
+            "programming"
+        ]
+    },
+    {
+        "name": "awesome-metaid",
+        "description": "⚡️ A curated list of awesome things related to MetaID",
+        "url": "https://github.com/metaid-developers/awesome-metaid",
+        "author": "metaid-developers",
+        "stars": 1,
+        "updated_at": "2024-12-20T16:38:42Z",
+        "created_at": "2024-05-23T04:07:54Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "dapp",
+            "metaid"
+        ]
+    },
+    {
+        "name": "awesome-toit",
+        "description": "A curated list of awesome Toit frameworks, libraries, software and resources.",
+        "url": "https://github.com/serjan-nasredin/awesome-toit",
+        "author": "serjan-nasredin",
+        "stars": 1,
+        "updated_at": "2024-12-20T16:41:09Z",
+        "created_at": "2024-02-20T18:57:33Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "toit"
+        ]
+    },
+    {
+        "name": "steamdeck-br",
+        "description": "Guia do Steam Deck em Português",
+        "url": "https://github.com/valdecircarvalho/steamdeck-br",
+        "author": "valdecircarvalho",
+        "stars": 1,
+        "updated_at": "2024-12-20T16:44:28Z",
+        "created_at": "2023-01-21T11:19:07Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "games",
+            "guia-do-steam-deck",
+            "steam",
+            "steam-deck",
+            "steam-deck-br",
+            "steam-deck-brasil",
+            "steam-deck-guide",
+            "steam-deck-tweaks",
+            "steamdeck",
+            "steamdeck-brasil",
+            "steamdeck-emulation",
+            "steamdeck-windows",
+            "steamdeckdrivers",
+            "steamdeckwindows"
+        ]
+    },
+    {
+        "name": "awesome-websites",
+        "description": "a list of awesome websites",
+        "url": "https://github.com/abdus/awesome-websites",
+        "author": "abdus",
+        "stars": 1,
+        "updated_at": "2024-12-20T16:47:56Z",
+        "created_at": "2022-01-17T01:41:31Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "links",
+            "nextjs",
+            "websites"
+        ]
+    },
+    {
+        "name": "java-practice-plus",
+        "description": "[Archived] [Java Practice Plus]-In this course, You will practice more labs of Java. This will help you to master the skills more deeply.",
+        "url": "https://github.com/labex-labs/java-practice-plus",
+        "author": "labex-labs",
+        "stars": 1,
+        "updated_at": "2025-05-22T06:27:44Z",
+        "created_at": "2024-05-22T07:25:42Z",
+        "tags": [
+            "algorithm",
+            "awesome",
+            "awesome-list",
+            "challenges",
+            "course",
+            "education",
+            "hands-on",
+            "java",
+            "javascript",
+            "labex",
+            "labs",
+            "programming"
+        ]
+    },
+    {
+        "name": "dreadful-clean-code",
+        "description": "DCC is an awesome list of rebuttals to a dreadful idea.",
+        "url": "https://github.com/rodmoioliveira/dreadful-clean-code",
+        "author": "rodmoioliveira",
+        "stars": 1,
+        "updated_at": "2025-06-16T16:33:26Z",
+        "created_at": "2023-11-17T18:26:42Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "clean-code",
+            "cleancode",
+            "solid-principles"
+        ]
+    },
+    {
+        "name": "awesome-google",
+        "description": "A curated list of Google tools & products.",
+        "url": "https://github.com/patricklarose/awesome-google",
+        "author": "patricklarose",
+        "stars": 1,
+        "updated_at": "2025-06-13T19:45:05Z",
+        "created_at": "2025-06-08T11:09:02Z",
+        "tags": [
+            "ai",
+            "artificial-intelligence",
+            "awesome",
+            "awesome-list",
+            "awesome-lists",
+            "directory",
+            "google",
+            "google-cloud",
+            "index",
+            "links",
+            "list",
+            "lists"
+        ]
+    },
+    {
+        "name": "awesome-mlops",
+        "description": "A curated list of tools, frameworks, platforms, and resources for Machine Learning Operations (MLOps).",
+        "url": "https://github.com/awesomelistsio/awesome-mlops",
+        "author": "awesomelistsio",
+        "stars": 1,
+        "updated_at": "2025-06-28T23:03:30Z",
+        "created_at": "2025-06-28T22:59:32Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "awesome-lists",
+            "machine-learning",
+            "ml",
+            "mlops"
+        ]
+    },
+    {
+        "name": "awesome-rootkit-malware-analysis-scientific-research",
+        "description": "Awesome Rootkits Malware Scientific Research",
+        "url": "https://github.com/cybersecurity-dev/awesome-rootkit-malware-analysis-scientific-research",
+        "author": "cybersecurity-dev",
+        "stars": 1,
+        "updated_at": "2025-06-30T09:20:22Z",
+        "created_at": "2025-06-28T22:11:57Z",
+        "tags": [
+            "academic-paper",
+            "academic-research",
+            "awesome",
+            "awesome-list",
+            "awesome-lists",
+            "rootkit",
+            "rootkits"
+        ]
+    },
+    {
+        "name": "eco-tech-knowledge",
+        "description": "A central place to collect and organize studies on digital sustainability.",
+        "url": "https://github.com/les-enovateurs/eco-tech-knowledge",
+        "author": "les-enovateurs",
+        "stars": 1,
+        "updated_at": "2025-06-27T16:49:39Z",
+        "created_at": "2025-02-21T15:42:35Z",
+        "tags": [
+            "awesome-list",
+            "carbon-footprint",
+            "climate",
+            "energy-monitor",
+            "ethics",
+            "green-ai",
+            "green-computing",
+            "green-software",
+            "greenit",
+            "inclusive",
+            "resources",
+            "sustainability",
+            "sustainable-ai"
+        ]
+    },
+    {
         "name": "awesome-venados",
         "description": "Una colección de recursos curados por y para la casa de los venados.",
         "url": "https://github.com/enriquebrgn/awesome-venados",
@@ -13422,372 +13788,6 @@
             "awesome-lists",
             "polymorphic",
             "polymorphism"
-        ]
-    },
-    {
-        "name": "awesome-restify",
-        "description": "📖A curated list of awesome Restify resources",
-        "url": "https://github.com/rajikaimal/awesome-restify",
-        "author": "rajikaimal",
-        "stars": 1,
-        "updated_at": "2020-09-11T14:50:15Z",
-        "created_at": "2018-11-01T05:20:19Z",
-        "tags": [
-            "awesome-list",
-            "javascript",
-            "nodejs",
-            "restify"
-        ]
-    },
-    {
-        "name": "awesome-ot",
-        "description": "About the operational transformation core tech.",
-        "url": "https://github.com/turkyden/awesome-ot",
-        "author": "turkyden",
-        "stars": 1,
-        "updated_at": "2021-08-14T16:56:52Z",
-        "created_at": "2021-01-13T08:40:25Z",
-        "tags": [
-            "awesome-list",
-            "operational-transformations"
-        ]
-    },
-    {
-        "name": "awesome-community-weaving",
-        "description": "A curated list of amazing resources for community weaving!",
-        "url": "https://github.com/IgnacioPalma/awesome-community-weaving",
-        "author": "IgnacioPalma",
-        "stars": 1,
-        "updated_at": "2023-04-24T16:29:40Z",
-        "created_at": "2023-02-21T15:48:54Z",
-        "tags": [
-            "awesome-list",
-            "community",
-            "community-building"
-        ]
-    },
-    {
-        "name": "i-like-android-privacy",
-        "description": "Your go-to resource for privacy tools specifically designed for Android devices. Explore the tools below and safeguard your privacy on Android!",
-        "url": "https://github.com/MoistCatawumpus/i-like-android-privacy",
-        "author": "MoistCatawumpus",
-        "stars": 1,
-        "updated_at": "2024-07-23T21:50:11Z",
-        "created_at": "2024-02-11T05:56:17Z",
-        "tags": [
-            "android",
-            "android-privacy-tools",
-            "awesome-list",
-            "css",
-            "css3",
-            "curated-list",
-            "html",
-            "html-css",
-            "html-css-javascript",
-            "html5",
-            "i-like-android-privacy",
-            "javascript",
-            "js",
-            "privacy"
-        ]
-    },
-    {
-        "name": "awesome-remote-kids",
-        "description": "😎A curated list of awesome remote resources for Kids.",
-        "url": "https://github.com/cschuman/awesome-remote-kids",
-        "author": "cschuman",
-        "stars": 1,
-        "updated_at": "2024-12-20T16:54:25Z",
-        "created_at": "2020-03-17T13:56:32Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "kids",
-            "resources",
-            "unicorns"
-        ]
-    },
-    {
-        "name": "awesome-react",
-        "description": "有关 React 生态系统的精彩内容的集合",
-        "url": "https://github.com/0end1/awesome-react",
-        "author": "0end1",
-        "stars": 1,
-        "updated_at": "2024-12-20T16:42:51Z",
-        "created_at": "2023-09-03T14:23:00Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "javascript",
-            "react",
-            "react-apps",
-            "react-native",
-            "react-redux",
-            "react-router",
-            "react-tutorial",
-            "sample",
-            "tutorial",
-            "typescript"
-        ]
-    },
-    {
-        "name": "Awesome-Adobe-Plugins",
-        "description": "A collection of the most useful plugins for software in the Adobe Creative Cloud suite",
-        "url": "https://github.com/ilanfriedman/Awesome-Adobe-Plugins",
-        "author": "ilanfriedman",
-        "stars": 1,
-        "updated_at": "2024-12-20T16:46:34Z",
-        "created_at": "2022-06-07T22:31:35Z",
-        "tags": [
-            "adobe",
-            "adobe-suite",
-            "awesome",
-            "awesome-list"
-        ]
-    },
-    {
-        "name": "awesome-mac-apps",
-        "description": "Awesome macOS apps for developers, programmers or anyone looking for useful tools!",
-        "url": "https://github.com/viraat/awesome-mac-apps",
-        "author": "viraat",
-        "stars": 1,
-        "updated_at": "2024-12-20T16:50:18Z",
-        "created_at": "2018-01-20T08:51:08Z",
-        "tags": [
-            "apps",
-            "awesome",
-            "awesome-list",
-            "macos",
-            "macos-apps",
-            "macosx",
-            "software"
-        ]
-    },
-    {
-        "name": "awesome-biological-computing",
-        "description": "A curated list of awesome Biological Computing (Biocomputing) resources.",
-        "url": "https://github.com/heitorbaldo/awesome-biological-computing",
-        "author": "heitorbaldo",
-        "stars": 1,
-        "updated_at": "2024-12-20T16:35:32Z",
-        "created_at": "2024-07-17T18:45:23Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "biocomputing",
-            "biological-computing"
-        ]
-    },
-    {
-        "name": "practice-jquery-programming-courses",
-        "description": "jQuery Programming Courses | This repo collects 1 of programming courses for jQuery. jQuery simplifies HTML document traversing and manipulation. This Skill Tree presents a systematic approach to learning this popular JavaScript library. Perfect for web development beginners, it offers a clear ro...",
-        "url": "https://github.com/labex-labs/practice-jquery-programming-courses",
-        "author": "labex-labs",
-        "stars": 1,
-        "updated_at": "2024-12-20T16:36:43Z",
-        "created_at": "2024-06-06T07:23:51Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "courses",
-            "exercises",
-            "hands-on",
-            "jquery",
-            "labex",
-            "programming"
-        ]
-    },
-    {
-        "name": "awesome-metaid",
-        "description": "⚡️ A curated list of awesome things related to MetaID",
-        "url": "https://github.com/metaid-developers/awesome-metaid",
-        "author": "metaid-developers",
-        "stars": 1,
-        "updated_at": "2024-12-20T16:38:42Z",
-        "created_at": "2024-05-23T04:07:54Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "dapp",
-            "metaid"
-        ]
-    },
-    {
-        "name": "awesome-toit",
-        "description": "A curated list of awesome Toit frameworks, libraries, software and resources.",
-        "url": "https://github.com/serjan-nasredin/awesome-toit",
-        "author": "serjan-nasredin",
-        "stars": 1,
-        "updated_at": "2024-12-20T16:41:09Z",
-        "created_at": "2024-02-20T18:57:33Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "toit"
-        ]
-    },
-    {
-        "name": "steamdeck-br",
-        "description": "Guia do Steam Deck em Português",
-        "url": "https://github.com/valdecircarvalho/steamdeck-br",
-        "author": "valdecircarvalho",
-        "stars": 1,
-        "updated_at": "2024-12-20T16:44:28Z",
-        "created_at": "2023-01-21T11:19:07Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "games",
-            "guia-do-steam-deck",
-            "steam",
-            "steam-deck",
-            "steam-deck-br",
-            "steam-deck-brasil",
-            "steam-deck-guide",
-            "steam-deck-tweaks",
-            "steamdeck",
-            "steamdeck-brasil",
-            "steamdeck-emulation",
-            "steamdeck-windows",
-            "steamdeckdrivers",
-            "steamdeckwindows"
-        ]
-    },
-    {
-        "name": "awesome-websites",
-        "description": "a list of awesome websites",
-        "url": "https://github.com/abdus/awesome-websites",
-        "author": "abdus",
-        "stars": 1,
-        "updated_at": "2024-12-20T16:47:56Z",
-        "created_at": "2022-01-17T01:41:31Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "links",
-            "nextjs",
-            "websites"
-        ]
-    },
-    {
-        "name": "java-practice-plus",
-        "description": "[Archived] [Java Practice Plus]-In this course, You will practice more labs of Java. This will help you to master the skills more deeply.",
-        "url": "https://github.com/labex-labs/java-practice-plus",
-        "author": "labex-labs",
-        "stars": 1,
-        "updated_at": "2025-05-22T06:27:44Z",
-        "created_at": "2024-05-22T07:25:42Z",
-        "tags": [
-            "algorithm",
-            "awesome",
-            "awesome-list",
-            "challenges",
-            "course",
-            "education",
-            "hands-on",
-            "java",
-            "javascript",
-            "labex",
-            "labs",
-            "programming"
-        ]
-    },
-    {
-        "name": "dreadful-clean-code",
-        "description": "DCC is an awesome list of rebuttals to a dreadful idea.",
-        "url": "https://github.com/rodmoioliveira/dreadful-clean-code",
-        "author": "rodmoioliveira",
-        "stars": 1,
-        "updated_at": "2025-06-16T16:33:26Z",
-        "created_at": "2023-11-17T18:26:42Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "clean-code",
-            "cleancode",
-            "solid-principles"
-        ]
-    },
-    {
-        "name": "awesome-google",
-        "description": "A curated list of Google tools & products.",
-        "url": "https://github.com/patricklarose/awesome-google",
-        "author": "patricklarose",
-        "stars": 1,
-        "updated_at": "2025-06-13T19:45:05Z",
-        "created_at": "2025-06-08T11:09:02Z",
-        "tags": [
-            "ai",
-            "artificial-intelligence",
-            "awesome",
-            "awesome-list",
-            "awesome-lists",
-            "directory",
-            "google",
-            "google-cloud",
-            "index",
-            "links",
-            "list",
-            "lists"
-        ]
-    },
-    {
-        "name": "awesome-mlops",
-        "description": "A curated list of tools, frameworks, platforms, and resources for Machine Learning Operations (MLOps).",
-        "url": "https://github.com/awesomelistsio/awesome-mlops",
-        "author": "awesomelistsio",
-        "stars": 1,
-        "updated_at": "2025-06-28T23:03:30Z",
-        "created_at": "2025-06-28T22:59:32Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "awesome-lists",
-            "machine-learning",
-            "ml",
-            "mlops"
-        ]
-    },
-    {
-        "name": "awesome-rootkit-malware-analysis-scientific-research",
-        "description": "Awesome Rootkits Malware Scientific Research",
-        "url": "https://github.com/cybersecurity-dev/awesome-rootkit-malware-analysis-scientific-research",
-        "author": "cybersecurity-dev",
-        "stars": 1,
-        "updated_at": "2025-06-30T09:20:22Z",
-        "created_at": "2025-06-28T22:11:57Z",
-        "tags": [
-            "academic-paper",
-            "academic-research",
-            "awesome",
-            "awesome-list",
-            "awesome-lists",
-            "rootkit",
-            "rootkits"
-        ]
-    },
-    {
-        "name": "eco-tech-knowledge",
-        "description": "A central place to collect and organize studies on digital sustainability.",
-        "url": "https://github.com/les-enovateurs/eco-tech-knowledge",
-        "author": "les-enovateurs",
-        "stars": 1,
-        "updated_at": "2025-06-27T16:49:39Z",
-        "created_at": "2025-02-21T15:42:35Z",
-        "tags": [
-            "awesome-list",
-            "carbon-footprint",
-            "climate",
-            "energy-monitor",
-            "ethics",
-            "green-ai",
-            "green-computing",
-            "green-software",
-            "greenit",
-            "inclusive",
-            "resources",
-            "sustainability",
-            "sustainable-ai"
         ]
     },
     {
@@ -15223,6 +15223,372 @@
         ]
     },
     {
+        "name": "Awesome-by-nebzter",
+        "description": null,
+        "url": "https://github.com/nebzter/Awesome-by-nebzter",
+        "author": "nebzter",
+        "stars": 1,
+        "updated_at": "2023-03-28T06:31:29Z",
+        "created_at": "2022-09-07T03:45:07Z",
+        "tags": [
+            "awesome-list",
+            "awesome-lists"
+        ]
+    },
+    {
+        "name": "awesome-free-cloud-computing",
+        "description": "Awesome list of FREE Cloud Computing Services",
+        "url": "https://github.com/Nick088Official/awesome-free-cloud-computing",
+        "author": "Nick088Official",
+        "stars": 1,
+        "updated_at": "2024-12-20T16:33:22Z",
+        "created_at": "2024-12-11T19:38:25Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "awesome-lists",
+            "cloud",
+            "cloud-computing",
+            "computing",
+            "free",
+            "notebook-jupyter"
+        ]
+    },
+    {
+        "name": "awesomeYouTube",
+        "description": "A curated list of carefully retrieved awesome videos to learn absolutely anything you need to know in coding and maths.",
+        "url": "https://github.com/ThePyProgrammer/awesomeYouTube",
+        "author": "ThePyProgrammer",
+        "stars": 1,
+        "updated_at": "2024-12-20T16:56:42Z",
+        "created_at": "2021-05-21T09:30:25Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "awesome-lists"
+        ]
+    },
+    {
+        "name": "energycontrolapp",
+        "description": "https://github.com/energycontrolapp/",
+        "url": "https://github.com/energycontrolapp/energycontrolapp",
+        "author": "energycontrolapp",
+        "stars": 1,
+        "updated_at": "2024-12-20T16:55:54Z",
+        "created_at": "2020-11-28T03:53:55Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "awesome-lists",
+            "awesomeness"
+        ]
+    },
+    {
+        "name": "awesome",
+        "description": "Gathered from all over the internet, A non-exhaustive opinionated Awesome list by me; for me.",
+        "url": "https://github.com/ra101/awesome",
+        "author": "ra101",
+        "stars": 1,
+        "updated_at": "2024-12-28T06:35:07Z",
+        "created_at": "2024-12-17T19:57:25Z",
+        "tags": [
+            "awesome",
+            "awesome-javascript",
+            "awesome-list",
+            "awesome-lists",
+            "awesome-python",
+            "awesome-readme",
+            "javascript",
+            "linux",
+            "python"
+        ]
+    },
+    {
+        "name": "practice-hadoop-programming-projects",
+        "description": "[Practice Hadoop Programming Projects] This repository collects 2 of programming projects for Hadoop. Unlock the power of Hadoop and learn to handle big data across clusters efficiently. Our Skill Tree guides you from Hadoop basics like HDFS and MapReduce to advanced topics such as YARN and Apach...",
+        "url": "https://github.com/labex-labs/practice-hadoop-programming-projects",
+        "author": "labex-labs",
+        "stars": 1,
+        "updated_at": "2024-12-20T16:36:16Z",
+        "created_at": "2024-06-06T07:25:28Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "education",
+            "hadoop",
+            "hands-on",
+            "labex",
+            "programming",
+            "projects"
+        ]
+    },
+    {
+        "name": "awesome-buildbot",
+        "description": "All things BuildBot!",
+        "url": "https://github.com/aliceinwire/awesome-buildbot",
+        "author": "aliceinwire",
+        "stars": 1,
+        "updated_at": "2024-12-20T16:45:49Z",
+        "created_at": "2022-08-17T05:08:30Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "awesome-lists",
+            "buildbot",
+            "buildbot-configuration",
+            "buildbot-plugin",
+            "buildbot-plugins"
+        ]
+    },
+    {
+        "name": "awesome-property-testing",
+        "description": "Curated set of property-based tests for common data structures and algorithms, promoting better test coverage and robustness",
+        "url": "https://github.com/Forward-Lang/awesome-property-testing",
+        "author": "Forward-Lang",
+        "stars": 1,
+        "updated_at": "2024-12-20T16:33:51Z",
+        "created_at": "2024-11-15T10:02:45Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "data-structures-and-algorithms",
+            "fuzz-testing",
+            "property-based-testing",
+            "property-testing",
+            "testing",
+            "testing-automation"
+        ]
+    },
+    {
+        "name": "awesome-undergrad-hackathons",
+        "description": "A list of Hackathons for Undergraduate students along with implementation.",
+        "url": "https://github.com/ekagra-ranjan/awesome-undergrad-hackathons",
+        "author": "ekagra-ranjan",
+        "stars": 1,
+        "updated_at": "2024-12-20T16:54:55Z",
+        "created_at": "2020-05-20T13:30:48Z",
+        "tags": [
+            "american-express",
+            "analyze-this",
+            "awesome",
+            "awesome-list",
+            "code-fun-do",
+            "competitions",
+            "data-science",
+            "data-science-competition",
+            "data-science-competitions",
+            "goldman-sachs",
+            "gs-quantify",
+            "hackathon",
+            "hackathon-application",
+            "hackathons",
+            "imagine-cup",
+            "interiit",
+            "microsoft",
+            "undergraduate"
+        ]
+    },
+    {
+        "name": "awesome-ark-iot",
+        "description": "An Awesome List for ARK IoT",
+        "url": "https://github.com/ARK-IoT/awesome-ark-iot",
+        "author": "ARK-IoT",
+        "stars": 1,
+        "updated_at": "2024-12-20T16:53:18Z",
+        "created_at": "2019-08-05T23:39:20Z",
+        "tags": [
+            "adafruit",
+            "arduino",
+            "ark",
+            "arkecosystem",
+            "awesome",
+            "awesome-list",
+            "blockchain",
+            "cryptocurrency",
+            "hardware",
+            "iot"
+        ]
+    },
+    {
+        "name": "30seconds-of-Java-8",
+        "description": "Curated list of Java 8 snippets for all development needs.",
+        "url": "https://github.com/ashishpawar517/30seconds-of-Java-8",
+        "author": "ashishpawar517",
+        "stars": 1,
+        "updated_at": "2023-09-08T18:06:00Z",
+        "created_at": "2020-04-15T14:11:46Z",
+        "tags": [
+            "awesome-list",
+            "java",
+            "java8",
+            "java8-stream",
+            "programming",
+            "snippets",
+            "snippets-collection"
+        ]
+    },
+    {
+        "name": "awesome",
+        "description": "Awesome list, or my public bookmark",
+        "url": "https://github.com/adamatti/awesome",
+        "author": "adamatti",
+        "stars": 1,
+        "updated_at": "2025-04-09T15:38:57Z",
+        "created_at": "2016-11-01T17:20:49Z",
+        "tags": [
+            "awesome-list"
+        ]
+    },
+    {
+        "name": "awesome-apparmor",
+        "description": "A curated list of awesome things related to AppArmor",
+        "url": "https://github.com/moisesmsf/awesome-apparmor",
+        "author": "moisesmsf",
+        "stars": 1,
+        "updated_at": "2025-05-01T20:51:02Z",
+        "created_at": "2025-04-16T19:17:21Z",
+        "tags": [
+            "apparmor",
+            "application-control",
+            "awesome",
+            "awesome-list",
+            "cibersecurity",
+            "l",
+            "linux"
+        ]
+    },
+    {
+        "name": "jquery-practice-challenges",
+        "description": "[Archived] jQuery Practice Challenges | This repo collects 8 of programming scenarios (labs and challenges) for jQuery Practice Challenges. This course contains lots of challenges for jQuery, each challenge is a small jQuery project with detailed instructions and solutions. You can practice your ...",
+        "url": "https://github.com/labex-labs/jquery-practice-challenges",
+        "author": "labex-labs",
+        "stars": 1,
+        "updated_at": "2025-05-22T06:26:33Z",
+        "created_at": "2024-06-01T00:53:30Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "challenges",
+            "course",
+            "education",
+            "hands-on",
+            "jquery",
+            "labex",
+            "labs",
+            "programming"
+        ]
+    },
+    {
+        "name": "awesome-ai-glossary",
+        "description": "The AI Glossary for Humans",
+        "url": "https://github.com/Cool-Runningz/awesome-ai-glossary",
+        "author": "Cool-Runningz",
+        "stars": 1,
+        "updated_at": "2025-06-05T02:33:20Z",
+        "created_at": "2025-04-21T02:58:54Z",
+        "tags": [
+            "ai",
+            "artificial-intelligence",
+            "awesome",
+            "awesome-list"
+        ]
+    },
+    {
+        "name": "awesome-zero-knowledge-proofs",
+        "description": "A curated list of awesome libraries, tools, frameworks, and resources for Zero-Knowledge Proofs (ZKPs) including zk-SNARKs, zk-STARKs, and other privacy-preserving cryptographic protocols.",
+        "url": "https://github.com/awesomelistsio/awesome-zero-knowledge-proofs",
+        "author": "awesomelistsio",
+        "stars": 1,
+        "updated_at": "2025-06-26T21:37:39Z",
+        "created_at": "2025-06-25T17:10:09Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "awesome-lists",
+            "decentralized-finance",
+            "zero-knowledge",
+            "zero-knowledge-proof",
+            "zero-knowledge-proofs"
+        ]
+    },
+    {
+        "name": "awesome-open-data",
+        "description": "A curated list of high-quality open data resources, tools, platforms, and projects across domains.",
+        "url": "https://github.com/awesomelistsio/awesome-open-data",
+        "author": "awesomelistsio",
+        "stars": 1,
+        "updated_at": "2025-06-28T19:18:59Z",
+        "created_at": "2025-06-28T19:09:36Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "awesome-lists",
+            "data",
+            "open",
+            "open-data"
+        ]
+    },
+    {
+        "name": "awesome-langchain",
+        "description": "A curated list of resources, tools, examples, and projects using LangChain.",
+        "url": "https://github.com/awesomelistsio/awesome-langchain",
+        "author": "awesomelistsio",
+        "stars": 1,
+        "updated_at": "2025-06-28T22:14:44Z",
+        "created_at": "2025-06-28T22:11:44Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "awesome-lists",
+            "langchain",
+            "llm",
+            "llms"
+        ]
+    },
+    {
+        "name": "awesome-smartcontract-feature-extractor",
+        "description": "Awesome Smartcontract Feature Extractor",
+        "url": "https://github.com/cybersecurity-dev/awesome-smartcontract-feature-extractor",
+        "author": "cybersecurity-dev",
+        "stars": 1,
+        "updated_at": "2025-06-30T14:17:19Z",
+        "created_at": "2025-06-11T22:14:09Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "awesome-lists",
+            "smart-contract",
+            "smart-contracts",
+            "smartcontract",
+            "smartcontracts"
+        ]
+    },
+    {
+        "name": "Awesome-HTTP-Status-Images",
+        "description": "A collection of http error code images",
+        "url": "https://github.com/jkusa-jr/Awesome-HTTP-Status-Images",
+        "author": "jkusa-jr",
+        "stars": 1,
+        "updated_at": "2025-06-30T19:39:58Z",
+        "created_at": "2025-04-08T21:49:09Z",
+        "tags": [
+            "awesome-list",
+            "cat",
+            "cats",
+            "dog",
+            "dogs",
+            "duck",
+            "ducks",
+            "fish",
+            "funny",
+            "garden",
+            "goats",
+            "http",
+            "httpcodes",
+            "meme"
+        ]
+    },
+    {
         "name": "my-dev-stack",
         "description": "programming and developing skills and knowledge list of me, including bigdata, backend and frontend",
         "url": "https://github.com/TangJiong/my-dev-stack",
@@ -15699,372 +16065,6 @@
             "libraries",
             "packages",
             "tools"
-        ]
-    },
-    {
-        "name": "Awesome-by-nebzter",
-        "description": null,
-        "url": "https://github.com/nebzter/Awesome-by-nebzter",
-        "author": "nebzter",
-        "stars": 1,
-        "updated_at": "2023-03-28T06:31:29Z",
-        "created_at": "2022-09-07T03:45:07Z",
-        "tags": [
-            "awesome-list",
-            "awesome-lists"
-        ]
-    },
-    {
-        "name": "awesome-free-cloud-computing",
-        "description": "Awesome list of FREE Cloud Computing Services",
-        "url": "https://github.com/Nick088Official/awesome-free-cloud-computing",
-        "author": "Nick088Official",
-        "stars": 1,
-        "updated_at": "2024-12-20T16:33:22Z",
-        "created_at": "2024-12-11T19:38:25Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "awesome-lists",
-            "cloud",
-            "cloud-computing",
-            "computing",
-            "free",
-            "notebook-jupyter"
-        ]
-    },
-    {
-        "name": "awesomeYouTube",
-        "description": "A curated list of carefully retrieved awesome videos to learn absolutely anything you need to know in coding and maths.",
-        "url": "https://github.com/ThePyProgrammer/awesomeYouTube",
-        "author": "ThePyProgrammer",
-        "stars": 1,
-        "updated_at": "2024-12-20T16:56:42Z",
-        "created_at": "2021-05-21T09:30:25Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "awesome-lists"
-        ]
-    },
-    {
-        "name": "energycontrolapp",
-        "description": "https://github.com/energycontrolapp/",
-        "url": "https://github.com/energycontrolapp/energycontrolapp",
-        "author": "energycontrolapp",
-        "stars": 1,
-        "updated_at": "2024-12-20T16:55:54Z",
-        "created_at": "2020-11-28T03:53:55Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "awesome-lists",
-            "awesomeness"
-        ]
-    },
-    {
-        "name": "awesome",
-        "description": "Gathered from all over the internet, A non-exhaustive opinionated Awesome list by me; for me.",
-        "url": "https://github.com/ra101/awesome",
-        "author": "ra101",
-        "stars": 1,
-        "updated_at": "2024-12-28T06:35:07Z",
-        "created_at": "2024-12-17T19:57:25Z",
-        "tags": [
-            "awesome",
-            "awesome-javascript",
-            "awesome-list",
-            "awesome-lists",
-            "awesome-python",
-            "awesome-readme",
-            "javascript",
-            "linux",
-            "python"
-        ]
-    },
-    {
-        "name": "practice-hadoop-programming-projects",
-        "description": "[Practice Hadoop Programming Projects] This repository collects 2 of programming projects for Hadoop. Unlock the power of Hadoop and learn to handle big data across clusters efficiently. Our Skill Tree guides you from Hadoop basics like HDFS and MapReduce to advanced topics such as YARN and Apach...",
-        "url": "https://github.com/labex-labs/practice-hadoop-programming-projects",
-        "author": "labex-labs",
-        "stars": 1,
-        "updated_at": "2024-12-20T16:36:16Z",
-        "created_at": "2024-06-06T07:25:28Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "education",
-            "hadoop",
-            "hands-on",
-            "labex",
-            "programming",
-            "projects"
-        ]
-    },
-    {
-        "name": "awesome-buildbot",
-        "description": "All things BuildBot!",
-        "url": "https://github.com/aliceinwire/awesome-buildbot",
-        "author": "aliceinwire",
-        "stars": 1,
-        "updated_at": "2024-12-20T16:45:49Z",
-        "created_at": "2022-08-17T05:08:30Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "awesome-lists",
-            "buildbot",
-            "buildbot-configuration",
-            "buildbot-plugin",
-            "buildbot-plugins"
-        ]
-    },
-    {
-        "name": "awesome-property-testing",
-        "description": "Curated set of property-based tests for common data structures and algorithms, promoting better test coverage and robustness",
-        "url": "https://github.com/Forward-Lang/awesome-property-testing",
-        "author": "Forward-Lang",
-        "stars": 1,
-        "updated_at": "2024-12-20T16:33:51Z",
-        "created_at": "2024-11-15T10:02:45Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "data-structures-and-algorithms",
-            "fuzz-testing",
-            "property-based-testing",
-            "property-testing",
-            "testing",
-            "testing-automation"
-        ]
-    },
-    {
-        "name": "awesome-undergrad-hackathons",
-        "description": "A list of Hackathons for Undergraduate students along with implementation.",
-        "url": "https://github.com/ekagra-ranjan/awesome-undergrad-hackathons",
-        "author": "ekagra-ranjan",
-        "stars": 1,
-        "updated_at": "2024-12-20T16:54:55Z",
-        "created_at": "2020-05-20T13:30:48Z",
-        "tags": [
-            "american-express",
-            "analyze-this",
-            "awesome",
-            "awesome-list",
-            "code-fun-do",
-            "competitions",
-            "data-science",
-            "data-science-competition",
-            "data-science-competitions",
-            "goldman-sachs",
-            "gs-quantify",
-            "hackathon",
-            "hackathon-application",
-            "hackathons",
-            "imagine-cup",
-            "interiit",
-            "microsoft",
-            "undergraduate"
-        ]
-    },
-    {
-        "name": "awesome-ark-iot",
-        "description": "An Awesome List for ARK IoT",
-        "url": "https://github.com/ARK-IoT/awesome-ark-iot",
-        "author": "ARK-IoT",
-        "stars": 1,
-        "updated_at": "2024-12-20T16:53:18Z",
-        "created_at": "2019-08-05T23:39:20Z",
-        "tags": [
-            "adafruit",
-            "arduino",
-            "ark",
-            "arkecosystem",
-            "awesome",
-            "awesome-list",
-            "blockchain",
-            "cryptocurrency",
-            "hardware",
-            "iot"
-        ]
-    },
-    {
-        "name": "30seconds-of-Java-8",
-        "description": "Curated list of Java 8 snippets for all development needs.",
-        "url": "https://github.com/ashishpawar517/30seconds-of-Java-8",
-        "author": "ashishpawar517",
-        "stars": 1,
-        "updated_at": "2023-09-08T18:06:00Z",
-        "created_at": "2020-04-15T14:11:46Z",
-        "tags": [
-            "awesome-list",
-            "java",
-            "java8",
-            "java8-stream",
-            "programming",
-            "snippets",
-            "snippets-collection"
-        ]
-    },
-    {
-        "name": "awesome",
-        "description": "Awesome list, or my public bookmark",
-        "url": "https://github.com/adamatti/awesome",
-        "author": "adamatti",
-        "stars": 1,
-        "updated_at": "2025-04-09T15:38:57Z",
-        "created_at": "2016-11-01T17:20:49Z",
-        "tags": [
-            "awesome-list"
-        ]
-    },
-    {
-        "name": "awesome-apparmor",
-        "description": "A curated list of awesome things related to AppArmor",
-        "url": "https://github.com/moisesmsf/awesome-apparmor",
-        "author": "moisesmsf",
-        "stars": 1,
-        "updated_at": "2025-05-01T20:51:02Z",
-        "created_at": "2025-04-16T19:17:21Z",
-        "tags": [
-            "apparmor",
-            "application-control",
-            "awesome",
-            "awesome-list",
-            "cibersecurity",
-            "l",
-            "linux"
-        ]
-    },
-    {
-        "name": "jquery-practice-challenges",
-        "description": "[Archived] jQuery Practice Challenges | This repo collects 8 of programming scenarios (labs and challenges) for jQuery Practice Challenges. This course contains lots of challenges for jQuery, each challenge is a small jQuery project with detailed instructions and solutions. You can practice your ...",
-        "url": "https://github.com/labex-labs/jquery-practice-challenges",
-        "author": "labex-labs",
-        "stars": 1,
-        "updated_at": "2025-05-22T06:26:33Z",
-        "created_at": "2024-06-01T00:53:30Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "challenges",
-            "course",
-            "education",
-            "hands-on",
-            "jquery",
-            "labex",
-            "labs",
-            "programming"
-        ]
-    },
-    {
-        "name": "awesome-ai-glossary",
-        "description": "The AI Glossary for Humans",
-        "url": "https://github.com/Cool-Runningz/awesome-ai-glossary",
-        "author": "Cool-Runningz",
-        "stars": 1,
-        "updated_at": "2025-06-05T02:33:20Z",
-        "created_at": "2025-04-21T02:58:54Z",
-        "tags": [
-            "ai",
-            "artificial-intelligence",
-            "awesome",
-            "awesome-list"
-        ]
-    },
-    {
-        "name": "awesome-zero-knowledge-proofs",
-        "description": "A curated list of awesome libraries, tools, frameworks, and resources for Zero-Knowledge Proofs (ZKPs) including zk-SNARKs, zk-STARKs, and other privacy-preserving cryptographic protocols.",
-        "url": "https://github.com/awesomelistsio/awesome-zero-knowledge-proofs",
-        "author": "awesomelistsio",
-        "stars": 1,
-        "updated_at": "2025-06-26T21:37:39Z",
-        "created_at": "2025-06-25T17:10:09Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "awesome-lists",
-            "decentralized-finance",
-            "zero-knowledge",
-            "zero-knowledge-proof",
-            "zero-knowledge-proofs"
-        ]
-    },
-    {
-        "name": "awesome-open-data",
-        "description": "A curated list of high-quality open data resources, tools, platforms, and projects across domains.",
-        "url": "https://github.com/awesomelistsio/awesome-open-data",
-        "author": "awesomelistsio",
-        "stars": 1,
-        "updated_at": "2025-06-28T19:18:59Z",
-        "created_at": "2025-06-28T19:09:36Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "awesome-lists",
-            "data",
-            "open",
-            "open-data"
-        ]
-    },
-    {
-        "name": "awesome-langchain",
-        "description": "A curated list of resources, tools, examples, and projects using LangChain.",
-        "url": "https://github.com/awesomelistsio/awesome-langchain",
-        "author": "awesomelistsio",
-        "stars": 1,
-        "updated_at": "2025-06-28T22:14:44Z",
-        "created_at": "2025-06-28T22:11:44Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "awesome-lists",
-            "langchain",
-            "llm",
-            "llms"
-        ]
-    },
-    {
-        "name": "awesome-smartcontract-feature-extractor",
-        "description": "Awesome Smartcontract Feature Extractor",
-        "url": "https://github.com/cybersecurity-dev/awesome-smartcontract-feature-extractor",
-        "author": "cybersecurity-dev",
-        "stars": 1,
-        "updated_at": "2025-06-30T14:17:19Z",
-        "created_at": "2025-06-11T22:14:09Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "awesome-lists",
-            "smart-contract",
-            "smart-contracts",
-            "smartcontract",
-            "smartcontracts"
-        ]
-    },
-    {
-        "name": "Awesome-HTTP-Status-Images",
-        "description": "A collection of http error code images",
-        "url": "https://github.com/jkusa-jr/Awesome-HTTP-Status-Images",
-        "author": "jkusa-jr",
-        "stars": 1,
-        "updated_at": "2025-06-30T19:39:58Z",
-        "created_at": "2025-04-08T21:49:09Z",
-        "tags": [
-            "awesome-list",
-            "cat",
-            "cats",
-            "dog",
-            "dogs",
-            "duck",
-            "ducks",
-            "fish",
-            "funny",
-            "garden",
-            "goats",
-            "http",
-            "httpcodes",
-            "meme"
         ]
     },
     {
