@@ -93,6 +93,3 @@ def save_to_file(data, sort_by):
     
     logging.info(f"repositories_{sort_by}.json created.")
 
-if __name__ == "__main__":
-    token = "" 
-    build_database_from_tag(token)

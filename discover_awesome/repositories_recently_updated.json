@@ -1,93 +1,19 @@
 [
     {
-        "name": "awesome-for-beginners",
-        "description": "A list of awesome beginners-friendly projects.",
-        "url": "https://github.com/MunGell/awesome-for-beginners",
-        "author": "MunGell",
-        "stars": 75325,
-        "updated_at": "2025-07-11T12:18:25Z",
-        "created_at": "2015-10-24T19:53:36Z",
+        "name": "awesome-go",
+        "description": "A curated list of awesome Go frameworks, libraries and software",
+        "url": "https://github.com/avelino/awesome-go",
+        "author": "avelino",
+        "stars": 147111,
+        "updated_at": "2025-07-11T13:11:40Z",
+        "created_at": "2014-07-06T13:42:15Z",
         "tags": [
             "awesome",
             "awesome-list",
-            "beginner-project",
-            "beginners-friendly",
-            "list"
-        ]
-    },
-    {
-        "name": "awesome-detection-engineer",
-        "description": " Online resources related to Detection Engineering. Detection rules, detection logic, attack samples, detection tests and emulation tools, logging configuration and best practices, event log references, resources, labs, data manipulation online tools, blogs, newsletters, good reads, books, trainings, podcasts, videos and twitter/x accounts.",
-        "url": "https://github.com/st0pp3r/awesome-detection-engineer",
-        "author": "st0pp3r",
-        "stars": 103,
-        "updated_at": "2025-07-11T12:18:07Z",
-        "created_at": "2025-01-26T16:11:35Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "cybesecurity",
-            "detection",
-            "detection-engineering",
-            "security",
-            "soc",
-            "threat-detection"
-        ]
-    },
-    {
-        "name": "awesome-cursorrules",
-        "description": "📄  Configuration files that enhance Cursor AI editor experience with custom rules and behaviors",
-        "url": "https://github.com/PatrickJS/awesome-cursorrules",
-        "author": "PatrickJS",
-        "stars": 30541,
-        "updated_at": "2025-07-11T12:17:12Z",
-        "created_at": "2024-09-16T15:38:38Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "cursor",
-            "cursor-ai-editor",
-            "cursorrules"
-        ]
-    },
-    {
-        "name": "personal-security-checklist",
-        "description": "🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2024",
-        "url": "https://github.com/Lissy93/personal-security-checklist",
-        "author": "Lissy93",
-        "stars": 19075,
-        "updated_at": "2025-07-11T12:17:06Z",
-        "created_at": "2018-03-02T21:12:37Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "censorship",
-            "checklist",
-            "cybersecurity",
-            "defense",
-            "hacktoberfest",
-            "open-source",
-            "privacy",
-            "protection",
-            "security",
-            "security-tools",
-            "surveillance"
-        ]
-    },
-    {
-        "name": "awesome",
-        "description": "😎 Awesome lists about all kinds of interesting topics",
-        "url": "https://github.com/sindresorhus/awesome",
-        "author": "sindresorhus",
-        "stars": 381048,
-        "updated_at": "2025-07-11T12:14:38Z",
-        "created_at": "2014-07-11T13:42:37Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "lists",
-            "resources",
-            "unicorns"
+            "go",
+            "golang",
+            "golang-library",
+            "hacktoberfest"
         ]
     },
     {
@@ -96,7 +22,7 @@
         "url": "https://github.com/mthcht/awesome-lists",
         "author": "mthcht",
         "stars": 1021,
-        "updated_at": "2025-07-11T12:13:55Z",
+        "updated_at": "2025-07-11T13:10:54Z",
         "created_at": "2022-12-11T10:45:11Z",
         "tags": [
             "awesome-list",
@@ -119,6 +45,720 @@
             "soc",
             "threat-hunting",
             "threat-intelligence"
+        ]
+    },
+    {
+        "name": "build-your-own-x",
+        "description": "Master programming by recreating your favorite technologies from scratch.",
+        "url": "https://github.com/codecrafters-io/build-your-own-x",
+        "author": "codecrafters-io",
+        "stars": 398950,
+        "updated_at": "2025-07-11T13:10:14Z",
+        "created_at": "2018-05-09T12:03:18Z",
+        "tags": [
+            "awesome-list",
+            "free",
+            "programming",
+            "tutorial-code",
+            "tutorial-exercises",
+            "tutorials"
+        ]
+    },
+    {
+        "name": "awesome-cursorrules",
+        "description": "📄  Configuration files that enhance Cursor AI editor experience with custom rules and behaviors",
+        "url": "https://github.com/PatrickJS/awesome-cursorrules",
+        "author": "PatrickJS",
+        "stars": 30545,
+        "updated_at": "2025-07-11T13:09:20Z",
+        "created_at": "2024-09-16T15:38:38Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "cursor",
+            "cursor-ai-editor",
+            "cursorrules"
+        ]
+    },
+    {
+        "name": "Awesome-Dataset-Distillation",
+        "description": "A curated list of awesome papers on dataset distillation and related applications.",
+        "url": "https://github.com/Guang000/Awesome-Dataset-Distillation",
+        "author": "Guang000",
+        "stars": 1717,
+        "updated_at": "2025-07-11T13:07:46Z",
+        "created_at": "2022-06-09T00:32:32Z",
+        "tags": [
+            "awesome-list",
+            "deep-learning"
+        ]
+    },
+    {
+        "name": "personal-security-checklist",
+        "description": "🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2024",
+        "url": "https://github.com/Lissy93/personal-security-checklist",
+        "author": "Lissy93",
+        "stars": 19080,
+        "updated_at": "2025-07-11T13:07:08Z",
+        "created_at": "2018-03-02T21:12:37Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "censorship",
+            "checklist",
+            "cybersecurity",
+            "defense",
+            "hacktoberfest",
+            "open-source",
+            "privacy",
+            "protection",
+            "security",
+            "security-tools",
+            "surveillance"
+        ]
+    },
+    {
+        "name": "awesome",
+        "description": "😎 Awesome lists about all kinds of interesting topics",
+        "url": "https://github.com/sindresorhus/awesome",
+        "author": "sindresorhus",
+        "stars": 381055,
+        "updated_at": "2025-07-11T13:06:43Z",
+        "created_at": "2014-07-11T13:42:37Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "lists",
+            "resources",
+            "unicorns"
+        ]
+    },
+    {
+        "name": "awesome-claude-code",
+        "description": "A curated list of awesome commands, files, and workflows for Claude Code",
+        "url": "https://github.com/hesreallyhim/awesome-claude-code",
+        "author": "hesreallyhim",
+        "stars": 3588,
+        "updated_at": "2025-07-11T13:06:38Z",
+        "created_at": "2025-04-19T20:55:59Z",
+        "tags": [
+            "agentic-code",
+            "agentic-coding",
+            "ai-workflow-optimization",
+            "ai-workflows",
+            "anthropic",
+            "anthropic-claude",
+            "awesome",
+            "awesome-list",
+            "awesome-lists",
+            "awesome-resources",
+            "claude",
+            "claude-code",
+            "coding-agent",
+            "coding-agents",
+            "coding-assistant"
+        ]
+    },
+    {
+        "name": "awesome-generative-ai",
+        "description": "A curated list of modern Generative Artificial Intelligence projects and services",
+        "url": "https://github.com/steven2358/awesome-generative-ai",
+        "author": "steven2358",
+        "stars": 8831,
+        "updated_at": "2025-07-11T13:05:59Z",
+        "created_at": "2022-10-20T11:18:17Z",
+        "tags": [
+            "ai",
+            "artificial-intelligence",
+            "awesome",
+            "awesome-list",
+            "generative-ai",
+            "generative-art",
+            "large-language-models",
+            "llm"
+        ]
+    },
+    {
+        "name": "awesome-selfhosted",
+        "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+        "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+        "author": "awesome-selfhosted",
+        "stars": 235888,
+        "updated_at": "2025-07-11T13:04:41Z",
+        "created_at": "2015-06-01T02:33:17Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "cloud",
+            "free-software",
+            "hosting",
+            "privacy",
+            "self-hosted",
+            "selfhosted"
+        ]
+    },
+    {
+        "name": "awesome-for-beginners",
+        "description": "A list of awesome beginners-friendly projects.",
+        "url": "https://github.com/MunGell/awesome-for-beginners",
+        "author": "MunGell",
+        "stars": 75326,
+        "updated_at": "2025-07-11T13:04:41Z",
+        "created_at": "2015-10-24T19:53:36Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "beginner-project",
+            "beginners-friendly",
+            "list"
+        ]
+    },
+    {
+        "name": "free-for-dev",
+        "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+        "url": "https://github.com/ripienaar/free-for-dev",
+        "author": "ripienaar",
+        "stars": 102867,
+        "updated_at": "2025-07-11T13:04:40Z",
+        "created_at": "2015-03-18T21:06:26Z",
+        "tags": [
+            "awesome-list",
+            "free-for-developers"
+        ]
+    },
+    {
+        "name": "h4cker",
+        "description": "This repository is primarily maintained by Omar Santos (@santosomar) and includes thousands of resources related to ethical hacking, bug bounties, digital forensics and incident response (DFIR), artificial intelligence security, vulnerability research, exploit development, reverse engineering, and more.",
+        "url": "https://github.com/The-Art-of-Hacking/h4cker",
+        "author": "The-Art-of-Hacking",
+        "stars": 21868,
+        "updated_at": "2025-07-11T13:04:40Z",
+        "created_at": "2017-06-19T17:11:19Z",
+        "tags": [
+            "ai",
+            "ai-security",
+            "artificial-intelligence",
+            "awesome-list",
+            "awesome-lists",
+            "cybersecurity",
+            "ethical-hacking",
+            "exploit",
+            "exploit-development",
+            "exploits",
+            "hacker",
+            "hackers",
+            "hacking",
+            "hacking-series",
+            "penetration-testing",
+            "training",
+            "vulnerability",
+            "vulnerability-assessment",
+            "vulnerability-identification",
+            "vulnerability-management"
+        ]
+    },
+    {
+        "name": "awesome-sysadmin",
+        "description": "A curated list of amazingly awesome open-source sysadmin resources.",
+        "url": "https://github.com/awesome-foss/awesome-sysadmin",
+        "author": "awesome-foss",
+        "stars": 29760,
+        "updated_at": "2025-07-11T13:04:40Z",
+        "created_at": "2014-12-23T08:41:22Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "devops",
+            "list",
+            "ops",
+            "self-hosted",
+            "software",
+            "sre",
+            "sysadmin"
+        ]
+    },
+    {
+        "name": "awesome-prompts",
+        "description": "Curated list of chatgpt prompts from the top-rated GPTs in the GPTs Store. Prompt Engineering, prompt attack & prompt protect. Advanced Prompt Engineering papers.",
+        "url": "https://github.com/ai-boost/awesome-prompts",
+        "author": "ai-boost",
+        "stars": 6435,
+        "updated_at": "2025-07-11T13:02:22Z",
+        "created_at": "2024-01-19T15:15:10Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "chatgpt",
+            "gpt4",
+            "gpts",
+            "gptstore",
+            "papers",
+            "prompt",
+            "prompt-engineering"
+        ]
+    },
+    {
+        "name": "awesome-dotfiles",
+        "description": "A curated list of dotfiles resources.",
+        "url": "https://github.com/webpro/awesome-dotfiles",
+        "author": "webpro",
+        "stars": 9848,
+        "updated_at": "2025-07-11T13:01:27Z",
+        "created_at": "2014-07-16T13:10:14Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "bash",
+            "dotfiles",
+            "dotfiles-resources",
+            "fish",
+            "list",
+            "shell",
+            "tools",
+            "zsh"
+        ]
+    },
+    {
+        "name": "awesome-privacy",
+        "description": "Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS.",
+        "url": "https://github.com/pluja/awesome-privacy",
+        "author": "pluja",
+        "stars": 15368,
+        "updated_at": "2025-07-11T13:00:40Z",
+        "created_at": "2020-12-07T09:02:48Z",
+        "tags": [
+            "alternatives",
+            "apps",
+            "awesome",
+            "awesome-list",
+            "degoogle",
+            "gafam",
+            "list",
+            "privacy",
+            "services"
+        ]
+    },
+    {
+        "name": "awesome-zsh-plugins",
+        "description": "A collection of ZSH frameworks, plugins, themes and tutorials.",
+        "url": "https://github.com/unixorn/awesome-zsh-plugins",
+        "author": "unixorn",
+        "stars": 16543,
+        "updated_at": "2025-07-11T12:57:55Z",
+        "created_at": "2014-10-07T06:11:17Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "collection",
+            "hacktoberfest",
+            "list",
+            "oh-my-zsh",
+            "zgenom",
+            "zsh-completions",
+            "zsh-configuration",
+            "zsh-framework",
+            "zsh-plugin",
+            "zsh-prompt",
+            "zsh-theme"
+        ]
+    },
+    {
+        "name": "awesome-mac",
+        "description": " Now we have become very big, Different from the original idea. Collect premium software in various categories.",
+        "url": "https://github.com/jaywcjlove/awesome-mac",
+        "author": "jaywcjlove",
+        "stars": 84761,
+        "updated_at": "2025-07-11T12:56:36Z",
+        "created_at": "2016-07-17T15:33:47Z",
+        "tags": [
+            "app",
+            "apple",
+            "application",
+            "apps",
+            "awesome",
+            "awesome-list",
+            "awesome-lists",
+            "awesome-mac",
+            "desktop-app",
+            "desktop-application",
+            "desktop-apps",
+            "list",
+            "mac",
+            "mac-osx",
+            "macos",
+            "macos-app",
+            "macos-apps",
+            "macosx",
+            "software"
+        ]
+    },
+    {
+        "name": "computer-science",
+        "description": "🎓 Path to a free self-taught education in Computer Science!",
+        "url": "https://github.com/ossu/computer-science",
+        "author": "ossu",
+        "stars": 187964,
+        "updated_at": "2025-07-11T12:56:26Z",
+        "created_at": "2014-05-04T00:18:39Z",
+        "tags": [
+            "awesome-list",
+            "computer-science",
+            "courses",
+            "curriculum"
+        ]
+    },
+    {
+        "name": "awesome-italia-remote",
+        "description": "A list of remote-friendly or full-remote companies that targets Italian talents.",
+        "url": "https://github.com/italiaremote/awesome-italia-remote",
+        "author": "italiaremote",
+        "stars": 2505,
+        "updated_at": "2025-07-11T12:54:36Z",
+        "created_at": "2022-01-24T09:50:30Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "italy",
+            "jobs",
+            "list",
+            "remote",
+            "remote-jobs"
+        ]
+    },
+    {
+        "name": "awesome-opensource-email",
+        "description": "Awesome Opensource Email Resources",
+        "url": "https://github.com/Mindbaz/awesome-opensource-email",
+        "author": "Mindbaz",
+        "stars": 910,
+        "updated_at": "2025-07-11T12:47:50Z",
+        "created_at": "2022-01-21T14:43:44Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "dkim",
+            "dmarc",
+            "email",
+            "email-marketing",
+            "email-parsing",
+            "email-sender",
+            "email-template",
+            "email-testing",
+            "imap",
+            "mail",
+            "mailer",
+            "mta",
+            "smtp"
+        ]
+    },
+    {
+        "name": "awesome-scalability",
+        "description": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
+        "url": "https://github.com/binhnguyennus/awesome-scalability",
+        "author": "binhnguyennus",
+        "stars": 63252,
+        "updated_at": "2025-07-11T12:45:49Z",
+        "created_at": "2017-12-27T03:46:40Z",
+        "tags": [
+            "architecture",
+            "awesome",
+            "awesome-list",
+            "backend",
+            "big-data",
+            "computer-science",
+            "design-patterns",
+            "devops",
+            "distributed-systems",
+            "interview",
+            "interview-practice",
+            "interview-questions",
+            "lists",
+            "machine-learning",
+            "programming",
+            "resources",
+            "scalability",
+            "system",
+            "system-design",
+            "web-development"
+        ]
+    },
+    {
+        "name": "awesome-conformal-prediction",
+        "description": "A professionally curated list of awesome Conformal Prediction videos, tutorials, books, papers, PhD and MSc theses, articles and open-source libraries.",
+        "url": "https://github.com/valeman/awesome-conformal-prediction",
+        "author": "valeman",
+        "stars": 823,
+        "updated_at": "2025-07-11T12:45:12Z",
+        "created_at": "2021-12-10T13:31:44Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "conformal-prediction",
+            "datascience",
+            "deeplearning",
+            "machine-learning",
+            "machinelearning",
+            "probability",
+            "probability-distribution",
+            "probability-distributions",
+            "python",
+            "r",
+            "uncertainty",
+            "uncertainty-estimation",
+            "uncertainty-quantification"
+        ]
+    },
+    {
+        "name": "awesome-static-generators",
+        "description": "A curated list of static web site generators.",
+        "url": "https://github.com/myles/awesome-static-generators",
+        "author": "myles",
+        "stars": 3388,
+        "updated_at": "2025-07-11T12:44:48Z",
+        "created_at": "2014-09-14T17:05:13Z",
+        "tags": [
+            "awesome-list",
+            "website"
+        ]
+    },
+    {
+        "name": "agentUniverse",
+        "description": "agentUniverse is a LLM multi-agent framework that allows developers to easily build multi-agent applications. ",
+        "url": "https://github.com/agentuniverse-ai/agentUniverse",
+        "author": "agentuniverse-ai",
+        "stars": 1531,
+        "updated_at": "2025-07-11T12:44:27Z",
+        "created_at": "2024-04-23T11:28:18Z",
+        "tags": [
+            "agent",
+            "ai",
+            "ai-agents",
+            "autonomous",
+            "awesome",
+            "awesome-list",
+            "llm",
+            "multi-agent",
+            "python"
+        ]
+    },
+    {
+        "name": "awesome-tauri",
+        "description": "🚀 Awesome Tauri Apps, Plugins and Resources",
+        "url": "https://github.com/tauri-apps/awesome-tauri",
+        "author": "tauri-apps",
+        "stars": 6124,
+        "updated_at": "2025-07-11T12:41:54Z",
+        "created_at": "2022-01-22T16:25:58Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "tauri"
+        ]
+    },
+    {
+        "name": "DotNetGuide",
+        "description": "🌈【C#/.NET/.NET Core学习、工作、面试指南】记录、收集和总结C#/.NET/.NET Core基础知识、学习路线、开发实战、编程技巧练习、学习视频、文章、书籍、项目框架、社区组织、开发必备工具、技术前沿周刊、常见面试题、面试须知、简历模板、人才招聘、以及自己在学习和工作中的一些微薄见解。希望能和大家一起学习，共同进步。如果本知识库能为您提供帮助，别忘了给予支持哦(关注、点赞、分享)💖。",
+        "url": "https://github.com/YSGStudyHards/DotNetGuide",
+        "author": "YSGStudyHards",
+        "stars": 8774,
+        "updated_at": "2025-07-11T12:37:36Z",
+        "created_at": "2020-10-08T14:54:22Z",
+        "tags": [
+            "asp-net",
+            "aspnet-core",
+            "aspnetcore",
+            "avalonia",
+            "awasome",
+            "awesome-list",
+            "azure",
+            "blazor",
+            "chsarp",
+            "dotnet",
+            "git",
+            "github",
+            "guide",
+            "interview",
+            "maui",
+            "microsoft",
+            "practice",
+            "unity3d",
+            "winforms",
+            "wpf"
+        ]
+    },
+    {
+        "name": "awesome-duckdb",
+        "description": "🦆 A curated list of awesome DuckDB resources",
+        "url": "https://github.com/davidgasquez/awesome-duckdb",
+        "author": "davidgasquez",
+        "stars": 1925,
+        "updated_at": "2025-07-11T12:35:22Z",
+        "created_at": "2023-01-14T19:30:12Z",
+        "tags": [
+            "awesome",
+            "awesome-list"
+        ]
+    },
+    {
+        "name": "Mac-Menubar-Megalist",
+        "description": "Sorted list of 1800+ macOS menubar apps",
+        "url": "https://github.com/SKaplanOfficial/Mac-Menubar-Megalist",
+        "author": "SKaplanOfficial",
+        "stars": 58,
+        "updated_at": "2025-07-11T12:34:25Z",
+        "created_at": "2024-01-01T07:20:23Z",
+        "tags": [
+            "apps",
+            "awesome-list",
+            "list",
+            "macos",
+            "menubar"
+        ]
+    },
+    {
+        "name": "30-seconds-of-code",
+        "description": "Coding articles to level up your development skills",
+        "url": "https://github.com/Chalarangelo/30-seconds-of-code",
+        "author": "Chalarangelo",
+        "stars": 124485,
+        "updated_at": "2025-07-11T12:33:31Z",
+        "created_at": "2017-11-29T17:35:03Z",
+        "tags": [
+            "astro",
+            "awesome-list",
+            "css",
+            "education",
+            "es6-javascript",
+            "git",
+            "html",
+            "javascript",
+            "learn-to-code",
+            "learning-resources",
+            "nodejs",
+            "programming",
+            "snippets"
+        ]
+    },
+    {
+        "name": "anything_about_game",
+        "description": "A wonderful list of Game Development resources.",
+        "url": "https://github.com/killop/anything_about_game",
+        "author": "killop",
+        "stars": 3476,
+        "updated_at": "2025-07-11T12:31:37Z",
+        "created_at": "2020-02-26T07:52:04Z",
+        "tags": [
+            "2d-game-framework",
+            "awesome-list",
+            "csharp",
+            "ecs",
+            "ecs-libraries",
+            "game",
+            "game-asset",
+            "game-development",
+            "game-engine",
+            "game-math",
+            "gamedev",
+            "physics-framework",
+            "shader",
+            "unity",
+            "unity-ecs"
+        ]
+    },
+    {
+        "name": "awesome-osint",
+        "description": ":scream: A curated list of amazingly awesome OSINT",
+        "url": "https://github.com/jivoi/awesome-osint",
+        "author": "jivoi",
+        "stars": 21918,
+        "updated_at": "2025-07-11T12:29:02Z",
+        "created_at": "2016-11-30T13:26:11Z",
+        "tags": [
+            "awesome-list",
+            "osint",
+            "website"
+        ]
+    },
+    {
+        "name": "awesome-privacy",
+        "description": "🦄  A curated list of privacy & security-focused software and services",
+        "url": "https://github.com/Lissy93/awesome-privacy",
+        "author": "Lissy93",
+        "stars": 8033,
+        "updated_at": "2025-07-11T12:27:05Z",
+        "created_at": "2022-07-09T19:32:38Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "hacktoberfest",
+            "privacy",
+            "security",
+            "self-hosted",
+            "software"
+        ]
+    },
+    {
+        "name": "A-to-Z-Resources-for-Students",
+        "description": "✅  Curated list of resources for college students ",
+        "url": "https://github.com/dipakkr/A-to-Z-Resources-for-Students",
+        "author": "dipakkr",
+        "stars": 18543,
+        "updated_at": "2025-07-11T12:22:40Z",
+        "created_at": "2018-09-17T11:15:29Z",
+        "tags": [
+            "android",
+            "awesome",
+            "awesome-list",
+            "conferences",
+            "hackathon",
+            "react",
+            "students",
+            "udacity"
+        ]
+    },
+    {
+        "name": "AITreasureBox",
+        "description": "🤖 Collect practical AI repos, tools, websites, papers and tutorials on AI. 实用的AI百宝箱 💎 ",
+        "url": "https://github.com/superiorlu/AITreasureBox",
+        "author": "superiorlu",
+        "stars": 632,
+        "updated_at": "2025-07-11T12:20:32Z",
+        "created_at": "2023-03-16T14:55:55Z",
+        "tags": [
+            "agi",
+            "ai",
+            "ai-gents",
+            "ai-prompts",
+            "ai-tools",
+            "alpaca",
+            "awesome-list",
+            "deep-learning",
+            "deepseek",
+            "gpt",
+            "llama",
+            "llm",
+            "machine-learning",
+            "mcp",
+            "openai"
+        ]
+    },
+    {
+        "name": "awesome-detection-engineer",
+        "description": " Online resources related to Detection Engineering. Detection rules, detection logic, attack samples, detection tests and emulation tools, logging configuration and best practices, event log references, resources, labs, data manipulation online tools, blogs, newsletters, good reads, books, trainings, podcasts, videos and twitter/x accounts.",
+        "url": "https://github.com/st0pp3r/awesome-detection-engineer",
+        "author": "st0pp3r",
+        "stars": 103,
+        "updated_at": "2025-07-11T12:18:07Z",
+        "created_at": "2025-01-26T16:11:35Z",
+        "tags": [
+            "awesome",
+            "awesome-list",
+            "cybesecurity",
+            "detection",
+            "detection-engineering",
+            "security",
+            "soc",
+            "threat-detection"
         ]
     },
     {
@@ -190,42 +830,6 @@
         ]
     },
     {
-        "name": "awesome-selfhosted",
-        "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
-        "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-        "author": "awesome-selfhosted",
-        "stars": 235885,
-        "updated_at": "2025-07-11T12:09:54Z",
-        "created_at": "2015-06-01T02:33:17Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "cloud",
-            "free-software",
-            "hosting",
-            "privacy",
-            "self-hosted",
-            "selfhosted"
-        ]
-    },
-    {
-        "name": "build-your-own-x",
-        "description": "Master programming by recreating your favorite technologies from scratch.",
-        "url": "https://github.com/codecrafters-io/build-your-own-x",
-        "author": "codecrafters-io",
-        "stars": 398931,
-        "updated_at": "2025-07-11T12:09:26Z",
-        "created_at": "2018-05-09T12:03:18Z",
-        "tags": [
-            "awesome-list",
-            "free",
-            "programming",
-            "tutorial-code",
-            "tutorial-exercises",
-            "tutorials"
-        ]
-    },
-    {
         "name": "awesome-rainmana",
         "description": "This is a curated list of my GitHub stars but converted into an Awesome List! Updated automagically ever 12 hours! :D",
         "url": "https://github.com/rainmana/awesome-rainmana",
@@ -237,19 +841,6 @@
             "awesome",
             "awesome-list",
             "stars"
-        ]
-    },
-    {
-        "name": "free-for-dev",
-        "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
-        "url": "https://github.com/ripienaar/free-for-dev",
-        "author": "ripienaar",
-        "stars": 102866,
-        "updated_at": "2025-07-11T12:07:36Z",
-        "created_at": "2015-03-18T21:06:26Z",
-        "tags": [
-            "awesome-list",
-            "free-for-developers"
         ]
     },
     {
@@ -300,102 +891,6 @@
         ]
     },
     {
-        "name": "awesome-go",
-        "description": "A curated list of awesome Go frameworks, libraries and software",
-        "url": "https://github.com/avelino/awesome-go",
-        "author": "avelino",
-        "stars": 147110,
-        "updated_at": "2025-07-11T12:05:14Z",
-        "created_at": "2014-07-06T13:42:15Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "go",
-            "golang",
-            "golang-library",
-            "hacktoberfest"
-        ]
-    },
-    {
-        "name": "awesome-scalability",
-        "description": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
-        "url": "https://github.com/binhnguyennus/awesome-scalability",
-        "author": "binhnguyennus",
-        "stars": 63251,
-        "updated_at": "2025-07-11T12:03:19Z",
-        "created_at": "2017-12-27T03:46:40Z",
-        "tags": [
-            "architecture",
-            "awesome",
-            "awesome-list",
-            "backend",
-            "big-data",
-            "computer-science",
-            "design-patterns",
-            "devops",
-            "distributed-systems",
-            "interview",
-            "interview-practice",
-            "interview-questions",
-            "lists",
-            "machine-learning",
-            "programming",
-            "resources",
-            "scalability",
-            "system",
-            "system-design",
-            "web-development"
-        ]
-    },
-    {
-        "name": "30-seconds-of-code",
-        "description": "Coding articles to level up your development skills",
-        "url": "https://github.com/Chalarangelo/30-seconds-of-code",
-        "author": "Chalarangelo",
-        "stars": 124484,
-        "updated_at": "2025-07-11T12:02:00Z",
-        "created_at": "2017-11-29T17:35:03Z",
-        "tags": [
-            "astro",
-            "awesome-list",
-            "css",
-            "education",
-            "es6-javascript",
-            "git",
-            "html",
-            "javascript",
-            "learn-to-code",
-            "learning-resources",
-            "nodejs",
-            "programming",
-            "snippets"
-        ]
-    },
-    {
-        "name": "awesome-zsh-plugins",
-        "description": "A collection of ZSH frameworks, plugins, themes and tutorials.",
-        "url": "https://github.com/unixorn/awesome-zsh-plugins",
-        "author": "unixorn",
-        "stars": 16543,
-        "updated_at": "2025-07-11T12:01:19Z",
-        "created_at": "2014-10-07T06:11:17Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "collection",
-            "hacktoberfest",
-            "list",
-            "oh-my-zsh",
-            "zgenom",
-            "zsh-completions",
-            "zsh-configuration",
-            "zsh-framework",
-            "zsh-plugin",
-            "zsh-prompt",
-            "zsh-theme"
-        ]
-    },
-    {
         "name": "awesome-shadcn-ui",
         "description": "A curated list of awesome things related to shadcn/ui.",
         "url": "https://github.com/birobirobiro/awesome-shadcn-ui",
@@ -438,21 +933,6 @@
         ]
     },
     {
-        "name": "computer-science",
-        "description": "🎓 Path to a free self-taught education in Computer Science!",
-        "url": "https://github.com/ossu/computer-science",
-        "author": "ossu",
-        "stars": 187958,
-        "updated_at": "2025-07-11T11:58:57Z",
-        "created_at": "2014-05-04T00:18:39Z",
-        "tags": [
-            "awesome-list",
-            "computer-science",
-            "courses",
-            "curriculum"
-        ]
-    },
-    {
         "name": "awesome-stacks",
         "description": "Deploy 150+ open-source web apps with one Docker command",
         "url": "https://github.com/ethibox/awesome-stacks",
@@ -490,32 +970,6 @@
             "zig-library",
             "zig-package",
             "ziglang"
-        ]
-    },
-    {
-        "name": "awesome-claude-code",
-        "description": "A curated list of awesome commands, files, and workflows for Claude Code",
-        "url": "https://github.com/hesreallyhim/awesome-claude-code",
-        "author": "hesreallyhim",
-        "stars": 3580,
-        "updated_at": "2025-07-11T11:54:16Z",
-        "created_at": "2025-04-19T20:55:59Z",
-        "tags": [
-            "agentic-code",
-            "agentic-coding",
-            "ai-workflow-optimization",
-            "ai-workflows",
-            "anthropic",
-            "anthropic-claude",
-            "awesome",
-            "awesome-list",
-            "awesome-lists",
-            "awesome-resources",
-            "claude",
-            "claude-code",
-            "coding-agent",
-            "coding-agents",
-            "coding-assistant"
         ]
     },
     {
@@ -666,36 +1120,6 @@
         ]
     },
     {
-        "name": "awesome-mac",
-        "description": " Now we have become very big, Different from the original idea. Collect premium software in various categories.",
-        "url": "https://github.com/jaywcjlove/awesome-mac",
-        "author": "jaywcjlove",
-        "stars": 84760,
-        "updated_at": "2025-07-11T11:43:16Z",
-        "created_at": "2016-07-17T15:33:47Z",
-        "tags": [
-            "app",
-            "apple",
-            "application",
-            "apps",
-            "awesome",
-            "awesome-list",
-            "awesome-lists",
-            "awesome-mac",
-            "desktop-app",
-            "desktop-application",
-            "desktop-apps",
-            "list",
-            "mac",
-            "mac-osx",
-            "macos",
-            "macos-app",
-            "macos-apps",
-            "macosx",
-            "software"
-        ]
-    },
-    {
         "name": "Self-Hosting-Guide",
         "description": "Self-Hosting Guide. Learn all about  locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking.",
         "url": "https://github.com/mikeroyal/Self-Hosting-Guide",
@@ -825,37 +1249,6 @@
             "productivity",
             "security",
             "self-hosted"
-        ]
-    },
-    {
-        "name": "h4cker",
-        "description": "This repository is primarily maintained by Omar Santos (@santosomar) and includes thousands of resources related to ethical hacking, bug bounties, digital forensics and incident response (DFIR), artificial intelligence security, vulnerability research, exploit development, reverse engineering, and more.",
-        "url": "https://github.com/The-Art-of-Hacking/h4cker",
-        "author": "The-Art-of-Hacking",
-        "stars": 21866,
-        "updated_at": "2025-07-11T11:31:07Z",
-        "created_at": "2017-06-19T17:11:19Z",
-        "tags": [
-            "ai",
-            "ai-security",
-            "artificial-intelligence",
-            "awesome-list",
-            "awesome-lists",
-            "cybersecurity",
-            "ethical-hacking",
-            "exploit",
-            "exploit-development",
-            "exploits",
-            "hacker",
-            "hackers",
-            "hacking",
-            "hacking-series",
-            "penetration-testing",
-            "training",
-            "vulnerability",
-            "vulnerability-assessment",
-            "vulnerability-identification",
-            "vulnerability-management"
         ]
     },
     {
@@ -1234,32 +1627,6 @@
         ]
     },
     {
-        "name": "AITreasureBox",
-        "description": "🤖 Collect practical AI repos, tools, websites, papers and tutorials on AI. 实用的AI百宝箱 💎 ",
-        "url": "https://github.com/superiorlu/AITreasureBox",
-        "author": "superiorlu",
-        "stars": 632,
-        "updated_at": "2025-07-11T10:13:55Z",
-        "created_at": "2023-03-16T14:55:55Z",
-        "tags": [
-            "agi",
-            "ai",
-            "ai-gents",
-            "ai-prompts",
-            "ai-tools",
-            "alpaca",
-            "awesome-list",
-            "deep-learning",
-            "deepseek",
-            "gpt",
-            "llama",
-            "llm",
-            "machine-learning",
-            "mcp",
-            "openai"
-        ]
-    },
-    {
         "name": "Awesome-Human-Agent-Collaboration-Interaction-Systems",
         "description": "LLM-Based Human-Agent Collaboration and Interaction Systems: A Survey | Awesome Human-Agent Collaboration | Human-AI Collaboration ",
         "url": "https://github.com/HenryPengZou/Awesome-Human-Agent-Collaboration-Interaction-Systems",
@@ -1497,19 +1864,6 @@
         ]
     },
     {
-        "name": "awesome-static-generators",
-        "description": "A curated list of static web site generators.",
-        "url": "https://github.com/myles/awesome-static-generators",
-        "author": "myles",
-        "stars": 3389,
-        "updated_at": "2025-07-11T09:38:11Z",
-        "created_at": "2014-09-14T17:05:13Z",
-        "tags": [
-            "awesome-list",
-            "website"
-        ]
-    },
-    {
         "name": "awesome-deterministic-simulation-testing",
         "description": "A curated list of awesome deterministic simulation testing resources 😎",
         "url": "https://github.com/ivanyu/awesome-deterministic-simulation-testing",
@@ -1547,25 +1901,6 @@
             "resources",
             "sites",
             "website"
-        ]
-    },
-    {
-        "name": "awesome-generative-ai",
-        "description": "A curated list of modern Generative Artificial Intelligence projects and services",
-        "url": "https://github.com/steven2358/awesome-generative-ai",
-        "author": "steven2358",
-        "stars": 8829,
-        "updated_at": "2025-07-11T09:30:20Z",
-        "created_at": "2022-10-20T11:18:17Z",
-        "tags": [
-            "ai",
-            "artificial-intelligence",
-            "awesome",
-            "awesome-list",
-            "generative-ai",
-            "generative-art",
-            "large-language-models",
-            "llm"
         ]
     },
     {
@@ -1642,25 +1977,6 @@
         ]
     },
     {
-        "name": "A-to-Z-Resources-for-Students",
-        "description": "✅  Curated list of resources for college students ",
-        "url": "https://github.com/dipakkr/A-to-Z-Resources-for-Students",
-        "author": "dipakkr",
-        "stars": 18542,
-        "updated_at": "2025-07-11T09:21:25Z",
-        "created_at": "2018-09-17T11:15:29Z",
-        "tags": [
-            "android",
-            "awesome",
-            "awesome-list",
-            "conferences",
-            "hackathon",
-            "react",
-            "students",
-            "udacity"
-        ]
-    },
-    {
         "name": "awesome-production-machine-learning",
         "description": "A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning",
         "url": "https://github.com/EthicalML/awesome-production-machine-learning",
@@ -1703,26 +2019,6 @@
             "awesome-list",
             "list",
             "readme"
-        ]
-    },
-    {
-        "name": "awesome-prompts",
-        "description": "Curated list of chatgpt prompts from the top-rated GPTs in the GPTs Store. Prompt Engineering, prompt attack & prompt protect. Advanced Prompt Engineering papers.",
-        "url": "https://github.com/ai-boost/awesome-prompts",
-        "author": "ai-boost",
-        "stars": 6434,
-        "updated_at": "2025-07-11T09:20:33Z",
-        "created_at": "2024-01-19T15:15:10Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "chatgpt",
-            "gpt4",
-            "gpts",
-            "gptstore",
-            "papers",
-            "prompt",
-            "prompt-engineering"
         ]
     },
     {
@@ -2093,26 +2389,6 @@
         ]
     },
     {
-        "name": "awesome-sysadmin",
-        "description": "A curated list of amazingly awesome open-source sysadmin resources.",
-        "url": "https://github.com/awesome-foss/awesome-sysadmin",
-        "author": "awesome-foss",
-        "stars": 29760,
-        "updated_at": "2025-07-11T08:43:15Z",
-        "created_at": "2014-12-23T08:41:22Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "devops",
-            "list",
-            "ops",
-            "self-hosted",
-            "software",
-            "sre",
-            "sysadmin"
-        ]
-    },
-    {
         "name": "vim-keybindings-everywhere-the-ultimate-list",
         "description": "The ultimate list of which programs support Vim-like keybindings natively, or how they can be added with extensions. A collaborative project.",
         "url": "https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list",
@@ -2273,20 +2549,6 @@
             "job-search",
             "remote",
             "startup-jobs"
-        ]
-    },
-    {
-        "name": "awesome-osint",
-        "description": ":scream: A curated list of amazingly awesome OSINT",
-        "url": "https://github.com/jivoi/awesome-osint",
-        "author": "jivoi",
-        "stars": 21917,
-        "updated_at": "2025-07-11T08:23:13Z",
-        "created_at": "2016-11-30T13:26:11Z",
-        "tags": [
-            "awesome-list",
-            "osint",
-            "website"
         ]
     },
     {
@@ -2489,27 +2751,6 @@
         ]
     },
     {
-        "name": "awesome-dotfiles",
-        "description": "A curated list of dotfiles resources.",
-        "url": "https://github.com/webpro/awesome-dotfiles",
-        "author": "webpro",
-        "stars": 9847,
-        "updated_at": "2025-07-11T08:02:35Z",
-        "created_at": "2014-07-16T13:10:14Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "bash",
-            "dotfiles",
-            "dotfiles-resources",
-            "fish",
-            "list",
-            "shell",
-            "tools",
-            "zsh"
-        ]
-    },
-    {
         "name": "awesome-high-performance-computing",
         "description": "A curated list of awesome high performance computing resources",
         "url": "https://github.com/trevor-vincent/awesome-high-performance-computing",
@@ -2692,25 +2933,6 @@
         "tags": [
             "awesome",
             "awesome-list"
-        ]
-    },
-    {
-        "name": "agentUniverse",
-        "description": "agentUniverse is a LLM multi-agent framework that allows developers to easily build multi-agent applications. ",
-        "url": "https://github.com/agentuniverse-ai/agentUniverse",
-        "author": "agentuniverse-ai",
-        "stars": 1530,
-        "updated_at": "2025-07-11T07:51:19Z",
-        "created_at": "2024-04-23T11:28:18Z",
-        "tags": [
-            "agent",
-            "ai",
-            "ai-agents",
-            "autonomous",
-            "awesome",
-            "awesome-list",
-            "multi-agent",
-            "python"
         ]
     },
     {
@@ -3021,24 +3243,6 @@
         ]
     },
     {
-        "name": "awesome-privacy",
-        "description": "🦄  A curated list of privacy & security-focused software and services",
-        "url": "https://github.com/Lissy93/awesome-privacy",
-        "author": "Lissy93",
-        "stars": 8032,
-        "updated_at": "2025-07-11T07:36:41Z",
-        "created_at": "2022-07-09T19:32:38Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "hacktoberfest",
-            "privacy",
-            "security",
-            "self-hosted",
-            "software"
-        ]
-    },
-    {
         "name": "ai-collection",
         "description": "The Generative AI Landscape - A Collection of Awesome Generative AI Applications",
         "url": "https://github.com/ai-collection/ai-collection",
@@ -3077,26 +3281,6 @@
             "go",
             "lambda",
             "stars"
-        ]
-    },
-    {
-        "name": "awesome-privacy",
-        "description": "Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS.",
-        "url": "https://github.com/pluja/awesome-privacy",
-        "author": "pluja",
-        "stars": 15367,
-        "updated_at": "2025-07-11T07:34:00Z",
-        "created_at": "2020-12-07T09:02:48Z",
-        "tags": [
-            "alternatives",
-            "apps",
-            "awesome",
-            "awesome-list",
-            "degoogle",
-            "gafam",
-            "list",
-            "privacy",
-            "services"
         ]
     },
     {
@@ -3169,37 +3353,6 @@
             "cybersecurity",
             "opensource",
             "tools"
-        ]
-    },
-    {
-        "name": "DotNetGuide",
-        "description": "🌈【C#/.NET/.NET Core学习、工作、面试指南】记录、收集和总结C#/.NET/.NET Core基础知识、学习路线、开发实战、编程技巧练习、学习视频、文章、书籍、项目框架、社区组织、开发必备工具、技术前沿周刊、常见面试题、面试须知、简历模板、人才招聘、以及自己在学习和工作中的一些微薄见解。希望能和大家一起学习，共同进步。如果本知识库能为您提供帮助，别忘了给予支持哦(关注、点赞、分享)💖。",
-        "url": "https://github.com/YSGStudyHards/DotNetGuide",
-        "author": "YSGStudyHards",
-        "stars": 8773,
-        "updated_at": "2025-07-11T07:12:15Z",
-        "created_at": "2020-10-08T14:54:22Z",
-        "tags": [
-            "asp-net",
-            "aspnet-core",
-            "aspnetcore",
-            "avalonia",
-            "awasome",
-            "awesome-list",
-            "azure",
-            "blazor",
-            "chsarp",
-            "dotnet",
-            "git",
-            "github",
-            "guide",
-            "interview",
-            "maui",
-            "microsoft",
-            "practice",
-            "unity3d",
-            "winforms",
-            "wpf"
         ]
     },
     {
@@ -3367,19 +3520,6 @@
         ]
     },
     {
-        "name": "Awesome-Dataset-Distillation",
-        "description": "A curated list of awesome papers on dataset distillation and related applications.",
-        "url": "https://github.com/Guang000/Awesome-Dataset-Distillation",
-        "author": "Guang000",
-        "stars": 1716,
-        "updated_at": "2025-07-11T06:28:04Z",
-        "created_at": "2022-06-09T00:32:32Z",
-        "tags": [
-            "awesome-list",
-            "deep-learning"
-        ]
-    },
-    {
         "name": "awesome-stars",
         "description": "🌟 Denis's starred repos, updated daily!",
         "url": "https://github.com/juev/awesome-stars",
@@ -3469,19 +3609,6 @@
             "gamedev",
             "production",
             "project-management"
-        ]
-    },
-    {
-        "name": "awesome-duckdb",
-        "description": "🦆 A curated list of awesome DuckDB resources",
-        "url": "https://github.com/davidgasquez/awesome-duckdb",
-        "author": "davidgasquez",
-        "stars": 1924,
-        "updated_at": "2025-07-11T06:18:41Z",
-        "created_at": "2023-01-14T19:30:12Z",
-        "tags": [
-            "awesome",
-            "awesome-list"
         ]
     },
     {
@@ -3780,20 +3907,6 @@
         ]
     },
     {
-        "name": "awesome-tauri",
-        "description": "🚀 Awesome Tauri Apps, Plugins and Resources",
-        "url": "https://github.com/tauri-apps/awesome-tauri",
-        "author": "tauri-apps",
-        "stars": 6123,
-        "updated_at": "2025-07-11T04:21:59Z",
-        "created_at": "2022-01-22T16:25:58Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "tauri"
-        ]
-    },
-    {
         "name": "awesome-angular",
         "description": ":page_facing_up: A curated list of awesome Angular resources",
         "url": "https://github.com/PatrickJS/awesome-angular",
@@ -3811,32 +3924,6 @@
             "angular9",
             "awesome",
             "awesome-list"
-        ]
-    },
-    {
-        "name": "awesome-conformal-prediction",
-        "description": "A professionally curated list of awesome Conformal Prediction videos, tutorials, books, papers, PhD and MSc theses, articles and open-source libraries.",
-        "url": "https://github.com/valeman/awesome-conformal-prediction",
-        "author": "valeman",
-        "stars": 822,
-        "updated_at": "2025-07-11T04:09:17Z",
-        "created_at": "2021-12-10T13:31:44Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "conformal-prediction",
-            "datascience",
-            "deeplearning",
-            "machine-learning",
-            "machinelearning",
-            "probability",
-            "probability-distribution",
-            "probability-distributions",
-            "python",
-            "r",
-            "uncertainty",
-            "uncertainty-estimation",
-            "uncertainty-quantification"
         ]
     },
     {
@@ -4007,7 +4094,10 @@
         "stars": 98,
         "updated_at": "2025-07-11T03:00:47Z",
         "created_at": "2024-06-22T13:12:52Z",
-        "tags": []
+        "tags": [
+            "awesome-java",
+            "awesome-list"
+        ]
     },
     {
         "name": "awesome-esolangs",
@@ -5500,32 +5590,6 @@
         ]
     },
     {
-        "name": "awesome-opensource-email",
-        "description": "Awesome Opensource Email Resources",
-        "url": "https://github.com/Mindbaz/awesome-opensource-email",
-        "author": "Mindbaz",
-        "stars": 909,
-        "updated_at": "2025-07-10T21:35:36Z",
-        "created_at": "2022-01-21T14:43:44Z",
-        "tags": [
-            "awesome",
-            "awesome-list",
-            "dkim",
-            "dmarc",
-            "email",
-            "email-marketing",
-            "email-parsing",
-            "email-sender",
-            "email-template",
-            "email-testing",
-            "imap",
-            "mail",
-            "mailer",
-            "mta",
-            "smtp"
-        ]
-    },
-    {
         "name": "android-security-awesome",
         "description": "A collection of android security related resources",
         "url": "https://github.com/ashishb/android-security-awesome",
@@ -5656,7 +5720,6 @@
         "updated_at": "2025-07-10T20:48:27Z",
         "created_at": "2024-10-18T16:06:39Z",
         "tags": [
-            "ai-alignment",
             "awesome-list",
             "civic-tech",
             "civictech",
@@ -5664,10 +5727,7 @@
             "democracy",
             "kmeans-clustering",
             "participation",
-            "participatory-democracy",
-            "pca",
-            "polis",
-            "wikisurvey"
+            "pca"
         ]
     },
     {
@@ -6526,7 +6586,11 @@
         "stars": 12,
         "updated_at": "2025-07-10T14:50:01Z",
         "created_at": "2024-09-09T16:21:12Z",
-        "tags": []
+        "tags": [
+            "awesome-list",
+            "datasets",
+            "table-understanding"
+        ]
     },
     {
         "name": "awesome-reMarkable",
@@ -9794,32 +9858,6 @@
         "tags": [
             "awesome-ios",
             "awesome-list"
-        ]
-    },
-    {
-        "name": "anything_about_game",
-        "description": "A wonderful list of Game Development resources.",
-        "url": "https://github.com/killop/anything_about_game",
-        "author": "killop",
-        "stars": 3477,
-        "updated_at": "2025-07-10T00:51:26Z",
-        "created_at": "2020-02-26T07:52:04Z",
-        "tags": [
-            "2d-game-framework",
-            "awesome-list",
-            "csharp",
-            "ecs",
-            "ecs-libraries",
-            "game",
-            "game-asset",
-            "game-development",
-            "game-engine",
-            "game-math",
-            "gamedev",
-            "physics-framework",
-            "shader",
-            "unity",
-            "unity-ecs"
         ]
     },
     {
@@ -13881,22 +13919,6 @@
             "ai-engineering",
             "awesome",
             "awesome-list"
-        ]
-    },
-    {
-        "name": "Mac-Menubar-Megalist",
-        "description": "Sorted list of 1800+ macOS menubar apps",
-        "url": "https://github.com/SKaplanOfficial/Mac-Menubar-Megalist",
-        "author": "SKaplanOfficial",
-        "stars": 57,
-        "updated_at": "2025-07-04T09:07:31Z",
-        "created_at": "2024-01-01T07:20:23Z",
-        "tags": [
-            "apps",
-            "awesome-list",
-            "list",
-            "macos",
-            "menubar"
         ]
     },
     {
@@ -18524,37 +18546,6 @@
             "documentation-resourses",
             "documentation-template",
             "documentation-tool"
-        ]
-    },
-    {
-        "name": "cloudcredits.io",
-        "description": "Massive community list of free credits and discounts for clouds, SaaS, tools, etc - with zero affiliations or ads.",
-        "url": "https://github.com/t3-sh/cloudcredits.io",
-        "author": "t3-sh",
-        "stars": 7,
-        "updated_at": "2025-06-21T04:51:53Z",
-        "created_at": "2025-01-18T18:24:48Z",
-        "tags": [
-            "astro",
-            "awesome",
-            "awesome-list",
-            "cloud",
-            "cool-stuff",
-            "credits",
-            "cto",
-            "developer-tools",
-            "directory",
-            "free",
-            "free-resources",
-            "free-tier",
-            "list",
-            "open-source",
-            "saas",
-            "startup",
-            "startup-credits",
-            "startup-funding",
-            "startup-resources",
-            "startups"
         ]
     },
     {
