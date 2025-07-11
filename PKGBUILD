@@ -1,8 +1,8 @@
-# Maintainer: Your Name <your.email@example.com>
-pkgname=my_project
+# Maintainer: Ashistry ashistry@proton.me
+pkgname=discover_awesome
 pkgver=0.1
 pkgrel=1
-pkgdesc="A brief description of your project"
+pkgdesc="A CLI tool to explore all (read: a lot, but not actually all) lists in the awesome-list Github topic."
 arch=('any')
 url="https://github.com/Ashistry/discover-awesome"  # Replace with your project's URL
 license=('MIT')  # Adjust according to your license
@@ -12,7 +12,5 @@ sha256sums=('SKIP')  # You can generate this with `makepkg -g` after the first b
 
 package() {
     cd "$srcdir/$pkgname-$pkgver"
-    
-    # Install the package using pip
     python setup.py install --root="$pkgdir" --optimize=1
 }

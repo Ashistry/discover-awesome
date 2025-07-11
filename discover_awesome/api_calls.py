@@ -2,6 +2,7 @@ import requests
 import json
 import os
 import logging
+from appdirs import user_data_dir
 
 logging.basicConfig(level=logging.INFO)
 
@@ -69,9 +70,9 @@ def save_to_file(data, sort_by):
         sorted_data = sorted(data, key=lambda x: x['stars'], reverse=True)
     elif sort_by == "least_stars":
         sorted_data = sorted(data, key=lambda x: x['stars'])
-    elif sort_by == "newest":
+    elif sort_by == "newest_created":
         sorted_data = sorted(data, key=lambda x: x['created_at'], reverse=True)
-    elif sort_by == "oldest":
+    elif sort_by == "oldest_created":
         sorted_data = sorted(data, key=lambda x: x['created_at'])
     elif sort_by == "recently_updated":
         sorted_data = sorted(data, key=lambda x: x['updated_at'], reverse=True)
@@ -80,16 +81,19 @@ def save_to_file(data, sort_by):
     else:
         sorted_data = data  
 
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    
+    app_name = 'discover-awesome' 
+    target_dir = user_data_dir(app_name)
+
+    os.makedirs(target_dir, exist_ok=True)
+
     filename = f'repositories_{sort_by}.json'
-    file_path = os.path.join(script_dir, filename)
-    
-    if os.path.exists(file_path):
-        os.remove(file_path)
+    file_path = os.path.join(target_dir, filename)
     
     with open(file_path, 'w', encoding='utf-8') as f:
         json.dump(sorted_data, f, ensure_ascii=False, indent=4)
     
-    logging.info(f"repositories_{sort_by}.json created.")
-
+    logging.info(f"{filename} created in {target_dir}.")
+    
+    
+def fetch_database:
+    url = 
