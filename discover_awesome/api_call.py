@@ -19,7 +19,6 @@ def build_database_from_tag(token):
     }
 
     for sort_by, params in sort_options.items():
-        # Set up headers for authentication if a token is provided
         headers = {}
         if token:
             headers['Authorization'] = f'token {token}'

@@ -16,7 +16,8 @@ def main():
 
     def buildDatabase(args):
         logging.info("Building database of repos using Github API! This might take a minute!")
-        repositories = search_repositories_by_tag(args.token)
+        repositories = build_database_from_tag(args.token)
+
 
 
     
