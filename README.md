@@ -151,3 +151,5 @@ discover-awesome -b GITHUB_PERSONAL_ACCESS_TOKEN
 
 - Q: Is FreeBSD, Windows or MacOS supported?
   A: Not explicitly because I don't use these platforms, but it should still work totally fine. Please mention it in your bug reports if using one of these platforms.
+- Q: Can I get more than 1000 repos per database?
+  A: No. This is a hard limit in the Github API unfortunately.
