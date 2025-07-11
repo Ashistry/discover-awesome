@@ -16,9 +16,13 @@ def main():
     def buildDatabase(args):
         repositories = build_database_from_tag(args.buildDatabase)
         
+    def fetchDatabase():
+        url = 
+        
     if args.buildDatabase:
         buildDatabase(args)
 
-    
+    if args.fetchDatabase:
+        fetchDatabase()
 if __name__ == "__main__":
     main()
