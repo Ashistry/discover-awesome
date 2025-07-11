@@ -95,5 +95,5 @@ def save_to_file(data, sort_by):
     logging.info(f"{filename} created in {target_dir}.")
     
     
-def fetch_database:
-    url = 
+def fetch_database():
+    url = 'test'
