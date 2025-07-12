@@ -3,6 +3,7 @@ import json
 import os
 import logging
 from appdirs import user_data_dir
+import base64
 
 logging.basicConfig(level=logging.INFO)
 
@@ -96,4 +97,22 @@ def save_to_file(data, sort_by):
     
     
 def fetch_database():
-    url = 'test'
+    url = 'https://github.com/Ashistry/discover-awesome/tree/main/database'
+    
+    headers = {}
+
+    response = requests.get(url, headers=headers)
+
+    if response.status_code == 200:
+        file_content = response.json()
+        # decode it
+        content = file_content['content']
+        try:
+            decoded_content = base64.b64decode(content).decode('utf-8')
+            return decoded_content
+        except Exception as e:
+            print(f"Decoding error: {e}")
+            return None
+    else:
+        print(f"Error: {response.status_code} - {response.json().get('message')}<")
+        return None
