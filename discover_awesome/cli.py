@@ -35,15 +35,13 @@ class DiscoverAwesome:
 		
 	def check_config_field(self, field, value):
 		if os.path.exists(self.config_file):
-
 			with open(self.config_file, "r") as f:
 				config = yaml.safe_load(f)
-
 			return config.get(field, False) == value
 		return False
 
 	def check_first_run(self):
-		if self.check_config_field("run", True):  # If 'run' is True, it's not the first run
+		if os.path.exists(self.config_file):
 			return True
 		else:
 			self.create_first_run_files()
@@ -56,7 +54,7 @@ class DiscoverAwesome:
 			with open(self.config_file, "r") as f:
 				config = yaml.safe_load(f) or {} 
 		else:
-			config = {}  # If the file doesn't exist, start with an empty config
+			config = {}  
 
 		with open(self.config_file, "w") as f:
 			yaml.dump(config, f) 
