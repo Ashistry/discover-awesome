@@ -7,13 +7,18 @@ To avoid making you scrape a bunch of webpages (and to avoid bullying the Github
 
 - Databases of repository names/links/descriptions with relevant stats are provided by me, right here in the repository, and updated once at least once a week.
 
-- When you use the command, an interactive paged list will be presented to you.
+- On first run, you will be sent to GitHub to install discover-awesome-bot on your account to make authenticated API requests with.
 
-- Select one, and only then the contents of the readme are scraped and processed a little bit for reading in your terminal with clickable links.
+- Then, when you use the tool, an interactive paged list will be presented to you.
 
-- If you want to refresh the databases, pass the `--refresh` argument, which will fetch them from this repository.
+- Select one, and only then the contents of the readme are requested and processed a little bit for reading in your terminal with clickable links.
 
-P.S. Want to build the database yourself? Please see [this section](#build-the-database-yourself).
+- If you want to refresh the databases, pass the `--refresh` argument, which will fetch them from this repository. (P.S.: Want to build the database yourself? Please see [this section](#build-the-database-yourself).)
+
+- Want an offline mode or don't want to authenticate with GitHub? Willing to reserve about 150MB for discover-awesome? Check out [discover-awesome-offline](TODO)
+
+
+
 
 Includes a **random mode**. When you use random, a random link (with frontmatter excluded) from a random repository's readme in the topic is selected and printed to standard output for manual clicking.
  
