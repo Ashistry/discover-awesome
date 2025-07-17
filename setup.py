@@ -16,7 +16,7 @@ setup(
     install_requires= requirements,
     entry_points={
         'console_scripts': [
-            'discover-awesome=discover-awesome.cli:main',  
+            'discover-awesome=discover-awesome.main:main',  
         ],
     },
     author='ashistry',
