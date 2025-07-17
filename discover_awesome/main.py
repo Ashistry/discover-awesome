@@ -6,9 +6,9 @@ import yaml
 from api_calls import build_database_from_tag, fetch_database
 from appdirs import user_data_dir
 import json
-from cursesmenu import CursesMenu
-from cursesmenu.items import FunctionItem, SubmenuItem, CommandItem
-import curses
+from rich.console import Console
+from rich.prompt import Prompt
+from rich.table import Table
 
 class DiscoverAwesome:
     def __init__(self):
@@ -19,6 +19,7 @@ class DiscoverAwesome:
         self.project_root = os.path.dirname(self.current_file_path)  
         self.database_subfolder  = os.path.join(self.project_root, "database")
         self.args = self.parse_args() 
+        self.current_page = 0
 
         logging.basicConfig(level=logging.INFO) 
 
@@ -103,40 +104,74 @@ class DiscoverAwesome:
 
         if self.args.database in database_paths:
             self.path = database_paths[self.args.database]
-            self.showResults(self.path)
+            self.showResults(self.path,0)
         else:
             raise ValueError('Somehow, an invalid database arg got through!')
-   
-    def showResults(self, path, limit=10):
+    
+           
+    def showResults(self, path, page=0):
         with open(path, 'r') as file:
             data = json.load(file)
-        
+
         limit = 10
-        
-        menu = CursesMenu(path)
-        terminalsize = shutil.get_terminal_size()
-        terminalwidth = terminalsize.columns - 7
-        
-        for entry in data[:limit]:
-            name = entry.get('name', 'Unknown')
-            description = entry.get('description', 'No description')
-            url = entry.get('url', 'No URL')
-        
-            item_text = f"{name} - {description}"
-        
-            # Truncate item_text to fit within the terminal width
-            if len(item_text) > terminalwidth:
-                item_text = item_text[:terminalwidth - 10] 
-        
-            command_item = CommandItem(
-                item_text,
-                f"echo {name} selected",
-            )
-            menu.items.append(command_item)
-        
-        menu.show()
+        console = Console()
+        total_entries = len(data)
+        self.current_page = page
 
+        while True:
+            # Calculate start and end indices for the current page
+            start_index = self.current_page * limit
+            end_index = start_index + limit
 
+            # Get the entries to display for the current page
+            entries_to_display = data[start_index:end_index]
+
+            # Create a table to display the entries
+            table = Table(title="Discover Awesome")
+
+            # Add columns to the table (customize as needed)
+            table.add_column("Index", justify="right", style="cyan")
+            table.add_column("Entry", style="magenta")
+
+            for index, entry in enumerate(entries_to_display, start=start_index):
+                # Assuming entry is a dictionary, extract relevant fields
+                # Adjust the keys based on your actual data structure
+                entry_display = entry.get('name', 'Unknown')  # Replace 'name' with the appropriate key
+                table.add_row(str(index + 1), entry_display)
+
+            console.clear()
+            console.print(table)
+
+            # Display navigation options
+            console.print("\nNavigation: [q] Quit | [n] Next | [p] Previous")
+            choice = Prompt.ask("Choose an option")
+
+            if choice.lower() == 'q':
+                break
+            elif choice.lower() == 'n':
+                if end_index < total_entries:
+                    self.current_page += 1
+                else:
+                    console.print("You are already on the last page.")
+            elif choice.lower() == 'p':
+                if self.current_page > 0:
+                    self.current_page -= 1
+                else:
+                    console.print("You are already on the first page.")
+            else:
+                console.print("Invalid option. Please try again.")
+          
+
+                  
+
+    def next_page(self):
+        self.current_page += 1
+        self.showResults(self.path,self.current_page)   
+
+    def previous_page(self):
+        self.current_page -= 1
+        self.showResults(self.path,self.current_page)   
+        
     def run(self):
         if self.args.buildDatabase:
             build_database_from_tag(self.args.buildDatabase)
