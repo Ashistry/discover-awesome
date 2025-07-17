@@ -116,3 +116,28 @@ def fetch_database():
     else:
         print(f"Error: {response.status_code} - {response.json().get('message')}<")
         return None
+
+
+def get_readme(url,token):
+    headers = {}
+    
+    if token:
+         headers['Authorization'] = f'token {token}'
+
+    request_params = {
+         'q': query,
+    }
+    
+    if response.status_code == 200:
+        file_content = response.json()
+        # decode it
+        content = file_content['content']
+        try:
+            decoded_content = base64.b64decode(content).decode('utf-8')
+            return decoded_content
+        except Exception as e:
+            print(f"Decoding error: {e}")
+            return None
+    else:
+        print(f"Error: {response.status_code} - {response.json().get('message')}<")
+        return None

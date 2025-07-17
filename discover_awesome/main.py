@@ -1,11 +1,12 @@
 import argparse
+import json
 import logging
 import os
 import shutil
-import yaml 
-from api_calls import build_database_from_tag, fetch_database
+import yaml
+
 from appdirs import user_data_dir
-import json
+from api_calls import build_database_from_tag, fetch_database, get_readme
 from rich.console import Console
 from rich.prompt import Prompt
 from rich.table import Table
@@ -15,7 +16,7 @@ class DiscoverAwesome:
         self.app_name = "discover-awesome" 
         self.user_dir = user_data_dir(self.app_name)
         self.config_file = os.path.join(self.user_dir, "config.yaml")  
-        self.current_file_path = os.path.abspath(__file__)  # Get the absolute path of cli.py
+        self.current_file_path = os.path.abspath(__file__) 
         self.project_root = os.path.dirname(self.current_file_path)  
         self.database_subfolder  = os.path.join(self.project_root, "database")
         self.args = self.parse_args() 
@@ -35,12 +36,27 @@ class DiscoverAwesome:
         return define_parser.parse_args() 
 
         
-    def check_config_field(self, field, value):
+    def check_token(self):
         if os.path.exists(self.config_file):
             with open(self.config_file, "r") as f:
                 config = yaml.safe_load(f)
-            return config.get(field, False) == value
-        return False
+
+            # Check if config is None
+            if config is None:
+                logging.info("Config file is empty or invalid. Creating default configuration files.")
+                self.create_first_run_files()  # Call the method to create default files
+                return False  # Return False or handle as needed
+
+            # Check if the token field exists and return its value
+            if "token" in config:
+                return config["token"]
+            else:
+                return False
+        else:
+            logging.error(f"Config file not found: {self.config_file}")
+            self.create_first_run_files()  # Call the method to create default files
+            return False
+
 
     def check_first_run(self):
         if os.path.exists(self.config_file):
@@ -54,43 +70,47 @@ class DiscoverAwesome:
 
         if os.path.exists(self.config_file):
             with open(self.config_file, "r") as f:
-                config = yaml.safe_load(f) or {} 
+                config = yaml.safe_load(f) or {}  # Use an empty dict if None
         else:
-            config = {}  
+            config = {"run": True}  
+
+        if not isinstance(config, dict):
+            logging.error("Config file is invalid. Resetting to default configuration.")
+            config = {"run": True}  
 
         with open(self.config_file, "w") as f:
-            yaml.dump(config, f) 
+            yaml.dump(config, f)  # Dump the dictionary 
 
         for filename in os.listdir(self.database_subfolder):
             source_file = os.path.join(self.database_subfolder, filename)
             destination_file = os.path.join(self.user_dir, filename)
             shutil.copy(source_file, destination_file)
 
-        logging.info(f"First run detected. Copied the repo's pre-made database files to {self.user_dir}.")
+        logging.info(f"First run detected. Copied the pre-made database files to {self.user_dir}.")
 
-    def check_token(self):
-        with open(self.config_file, "r") as f:
-            config = yaml.safe_load(f)
-        if config.get("token", False):  # 2nd argument is else
-            return True
-        else:
-            logging.error("No token found in config. Please provide it with --token")      
-            exit()
-        
     def supply_token(self):
-
         if os.path.exists(self.config_file):
             with open(self.config_file, "r") as f:
-                config = yaml.safe_load(f) or {} 
+                config = yaml.safe_load(f) or {}  # Load config or use an empty dict if None
         else:
-            config = {} 
+            self.create_first_run_files()
+            with open(self.config_file, "r") as f:
+                config = yaml.safe_load(f) or {}  # Load config after creating files
 
+        # Ensure config is a dictionary
+        if not isinstance(config, dict):
+            logging.error("Config file is invalid. Resetting to default configuration.")
+            config = {}  # Reset to an empty dictionary if invalid
 
-        config["token"] = self.args.token
+        # Only set the token if it does not already exist
+        if "token" not in config:
+            config["token"] = self.args.token
 
-    
-        with open(self.config_file, "w") as f:  
-            yaml.dump(config, f) 
+        with open(self.config_file, "w") as f:
+            yaml.dump(config, f)
+
+        logging.info(f"Token written to {self.config_file}")
+
   
     def choose_database(self):
         database_paths = {
@@ -108,7 +128,8 @@ class DiscoverAwesome:
         else:
             raise ValueError('Somehow, an invalid database arg got through!')
     
-           
+
+
     def showResults(self, path, page=0):
         with open(path, 'r') as file:
             data = json.load(file)
@@ -117,39 +138,39 @@ class DiscoverAwesome:
         console = Console()
         total_entries = len(data)
         self.current_page = page
+        total_pages = (total_entries + limit - 1) // limit  
 
         while True:
-            # Calculate start and end indices for the current page
             start_index = self.current_page * limit
             end_index = start_index + limit
 
-            # Get the entries to display for the current page
+            # don't go out of bounds
             entries_to_display = data[start_index:end_index]
 
-            # Create a table to display the entries
-            table = Table(title="Discover Awesome")
+            table = Table(title="Discover Awesome", show_lines=True)
+            table.add_column("Index", justify="right", style="bold cyan")
+            table.add_column("Name", style="bold magenta")
+            table.add_column("Description", style="green")  
+            table.add_column("URL", style="cyan")
 
-            # Add columns to the table (customize as needed)
-            table.add_column("Index", justify="right", style="cyan")
-            table.add_column("Entry", style="magenta")
 
             for index, entry in enumerate(entries_to_display, start=start_index):
-                # Assuming entry is a dictionary, extract relevant fields
-                # Adjust the keys based on your actual data structure
-                entry_display = entry.get('name', 'Unknown')  # Replace 'name' with the appropriate key
-                table.add_row(str(index + 1), entry_display)
+                name_display = entry.get('name', 'Unknown') 
+                description_display = entry.get('description', 'No description') or 'No description'  # Handle None
+                url_display = entry.get("url","no url")
+
+                table.add_row(str(index + 1), name_display, description_display, url_display)
 
             console.clear()
             console.print(table)
 
-            # Display navigation options
-            console.print("\nNavigation: [q] Quit | [n] Next | [p] Previous")
-            choice = Prompt.ask("Choose an option")
+            console.print(f"\nNavigation:  (q)uit | (n)ext | (p)revious")
+            choice = Prompt.ask("Choose an option or index")
 
             if choice.lower() == 'q':
                 break
             elif choice.lower() == 'n':
-                if end_index < total_entries:
+                if self.current_page < total_pages - 1:
                     self.current_page += 1
                 else:
                     console.print("You are already on the last page.")
@@ -159,31 +180,50 @@ class DiscoverAwesome:
                 else:
                     console.print("You are already on the first page.")
             else:
-                console.print("Invalid option. Please try again.")
-          
+                try:
+                    selection = int(choice) - 1  # adjust for zero-based index
+                    if 0 <= selection < total_entries:
+                        selected_entry = data[selection]
+                        entry_url = selected_entry.get("url", "no url")  # avoid KeyError
+                        self.repository_picked(entry_url) 
+                        break
+                    else:
+                        console.print("Invalid index. Please try again.")
+                except ValueError:
+                    console.print("Invalid input. Please enter a valid index or option.")
 
-                  
-
-    def next_page(self):
-        self.current_page += 1
-        self.showResults(self.path,self.current_page)   
-
-    def previous_page(self):
-        self.current_page -= 1
-        self.showResults(self.path,self.current_page)   
+    def repository_picked(self,entryurl):
+        self.token
+        self.readme = get_readme(entryurl)
+        modify_markdown(self.readme)
+        
+    def modify_markdown(self,markdown_file):
+        print("hi")
+        
+    def display_markdown(modified_markdown):
+        print('hello')
         
     def run(self):
-        if self.args.buildDatabase:
-            build_database_from_tag(self.args.buildDatabase)
-        if self.args.token:
-            self.supply_token()
-        if self.args.fetchDatabase:
-            self.fetch_database()
-        if self.args.database:
-            self.choose_database()
-        else:
-            self.choose_database()
+       if self.check_token():
+           if self.args.buildDatabase:
+               build_database_from_tag(self.args.buildDatabase)
+           
+           if self.args.token:
+               self.supply_token()
+               return  
+           
+           if self.args.fetchDatabase:
+               self.fetch_database()
+           
+           self.choose_database()  
+       else:
+           if self.args.token:
+               self.supply_token()
+               return  
+           else:
+               logging.error("No token found in config. Please provide it with --token")
 
+                    
 
 if __name__ == "__main__":
     app = DiscoverAwesome()
