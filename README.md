@@ -109,8 +109,8 @@ The options are:
 - Least stars (least)
 - Most recently created (newest)
 - Least recently created (oldest)
-- Recently updated (recently_updated)
-- Least recently updated (least_recently_updated)
+- Recently updated (recently-updated)
+- Least recently updated (least-recently-updated)
 
 ### Build the database yourself
 
