@@ -56,7 +56,7 @@ def build_database_from_tag(token):
         for repo in all_repos[:1000]:
             # Directly access the default branch from the repository data
             default_branch = repo.get('default_branch', 'main')  # Fallback to 'main' if not found
-            raw_url = f"https://raw.githubusercontent.com/{repo['owner']['login']}/{repo['name']}/{default_branch}/README.md"
+            raw_url = f"https://raw.githubusercontent.com/{repo['owner']['login']}/{repo['name']}/{default_branch}"
             filtered_repos.append({
                 'name': repo['name'],
                 'description': repo.get('description'),
@@ -124,42 +124,37 @@ def fetch_database():
         return None
 
 
-
-def get_readme(repo_url, token):
-    # List of possible README file names
+def get_readme(url, token):
+    readme_options = [
+        os.path.join(url, "README"),
+        os.path.join(url, "readme"),
+        os.path.join(url, "README.MD"),
+        os.path.join(url, "README.md"),
+        os.path.join(url, "readme.md"),
+    ]
 
     headers = {'Authorization': f'token {token}'}
-    print(repo_url)
-    
-    # Create a set to track URLs that have already been checked
-    checked_urls = set()
-    
-    for readme_file in readme_options:
-        # Construct the full URL for each README option
-        url = f"{repo_url}"
-        
-        # Skip if this URL has already been checked
-        if url in checked_urls:
-            continue
-        
-        # Add the URL to the checked set
-        checked_urls.add(url)
-        
-        response = requests.get(url, headers=headers)
+    print(url)
 
-        # Check the status code
+    for url in readme_options:
+        response = requests.get(url, headers=headers)  
+
+
         if response.status_code == 200:
             print(f"Successfully retrieved README from: {url}")
             target_dir = user_data_dir('discover-awesome')
             os.makedirs(target_dir, exist_ok=True)
             file_path = os.path.join(target_dir, 'cache.md')
-            
-            # Save the content to a file
+
             with open(file_path, 'w', encoding='utf-8') as f:
-                f.write(response.text)  # Write the README content to the file
-            return file_path  # Return the path to the saved file
+                f.write(response.text)  
+            return file_path  
             
         else:
             print(f"Failed to retrieve from {url}. Status code: {response.status_code}")
     
-    return None  # Return None if no README was found
+    return None  
+
+
+if __name__ == "__main__":
+    build_database_from_tag("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")
