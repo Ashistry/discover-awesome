@@ -187,7 +187,7 @@ class DiscoverAwesome:
                     selection = int(choice) - 1  # adjust for zero-based index
                     if 0 <= selection < total_entries:
                         selected_entry = data[selection]
-                        entry_url = selected_entry.get("url", "no url")  # avoid KeyError
+                        entry_url = selected_entry.get("raw_url", "no raw url")  # avoid KeyError
                         self.repository_picked(entry_url) 
                         break
                     else:
@@ -195,9 +195,9 @@ class DiscoverAwesome:
                 except RuntimeError:
                     console.print("Invalid input. Please enter a valid index or option.")
 
-    def repository_picked(self,entryurl):
+    def repository_picked(self,entry_url):
 
-        url = entryurl
+        url = entry_url
         get_readme(url,self.token)
 
         

@@ -7,6 +7,7 @@ import base64
 
 logging.basicConfig(level=logging.INFO)
 
+
 def build_database_from_tag(token):
     url = "https://api.github.com/search/repositories"
     query = "topic:awesome-list"
@@ -50,20 +51,25 @@ def build_database_from_tag(token):
                 print(f"Error: {response.status_code} - {response.json().get('message')}")
                 return []
 
-        filtered_repos = [
-            {
+        filtered_repos = []
+        
+        for repo in all_repos[:1000]:
+            # Directly access the default branch from the repository data
+            default_branch = repo.get('default_branch', 'main')  # Fallback to 'main' if not found
+            raw_url = f"https://raw.githubusercontent.com/{repo['owner']['login']}/{repo['name']}/{default_branch}/README.md"
+            filtered_repos.append({
                 'name': repo['name'],
                 'description': repo.get('description'),
                 'url': repo['html_url'],
+                'raw_url': raw_url,  # Add the raw URL
                 'author': repo['owner']['login'],
                 'stars': repo['stargazers_count'],
                 'updated_at': repo['updated_at'], 
                 'created_at': repo['created_at'],
-                'tags': repo.get('topics', []) 
-            }
-            for repo in all_repos[:1000] 
-        ]
-        
+                'tags': repo.get('topics', []),
+                'default_branch': default_branch  # Add the default branch name
+            })
+
         save_to_file(filtered_repos, sort_by)
 
 def save_to_file(data, sort_by):
@@ -118,22 +124,42 @@ def fetch_database():
         return None
 
 
+
 def get_readme(repo_url, token):
-    readme_options = [
-        os.path.join(repo_url, "README"),
-        os.path.join(repo_url, "readme"),
-        os.path.join(repo_url, "README.MD"),
-        os.path.join(repo_url, "README.md"),
-        os.path.join(repo_url, "readme.md"),
-    ]
-    
-    headers = {}
-    
-    if token:
-        headers['Authorization'] = f'token {token}'
-    else:
-        raise RuntimeError(f"Token was not supplied! Value of token is {token} and value of repo_url is {repo_url}")
+    # List of possible README file names
 
-    print(token)
+    headers = {'Authorization': f'token {token}'}
+    print(repo_url)
+    
+    # Create a set to track URLs that have already been checked
+    checked_urls = set()
+    
+    for readme_file in readme_options:
+        # Construct the full URL for each README option
+        url = f"{repo_url}"
+        
+        # Skip if this URL has already been checked
+        if url in checked_urls:
+            continue
+        
+        # Add the URL to the checked set
+        checked_urls.add(url)
+        
+        response = requests.get(url, headers=headers)
 
+        # Check the status code
+        if response.status_code == 200:
+            print(f"Successfully retrieved README from: {url}")
+            target_dir = user_data_dir('discover-awesome')
+            os.makedirs(target_dir, exist_ok=True)
+            file_path = os.path.join(target_dir, 'cache.md')
+            
+            # Save the content to a file
+            with open(file_path, 'w', encoding='utf-8') as f:
+                f.write(response.text)  # Write the README content to the file
+            return file_path  # Return the path to the saved file
+            
+        else:
+            print(f"Failed to retrieve from {url}. Status code: {response.status_code}")
+    
     return None  # Return None if no README was found
