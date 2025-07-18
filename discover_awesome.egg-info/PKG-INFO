@@ -23,8 +23,10 @@ Requires-Dist: Jinja2==3.1.6
 Requires-Dist: markdown-it-py==3.0.0
 Requires-Dist: MarkupSafe==3.0.2
 Requires-Dist: mdurl==0.1.2
+Requires-Dist: packaging==25.0
 Requires-Dist: pipreqs==0.4.13
 Requires-Dist: Pygments==2.19.2
+Requires-Dist: pyproject_hooks==1.2.0
 Requires-Dist: PyYAML==6.0.2
 Requires-Dist: regex==2024.11.6
 Requires-Dist: requests==2.32.4

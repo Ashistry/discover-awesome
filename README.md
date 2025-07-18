@@ -22,10 +22,11 @@ Want to build the database yourself? Please see [this section](#build-the-databa
 
 
 
-# IMPORTANT
- When I or you build the databases, we request the data from Github by a stat, such as most stars or oldest created. I have chosen this because of the API hard limiting you up to 1000 repositories for a tag/topic, but you can get different data if you request by stat in the first place. 
 
- This means there are multiple databases which were requested by stat. Choose the one you want with the --database argument.
+# IMPORTANT
+ - When I or you build the databases, we request the data from Github by a stat, such as most stars or oldest created. I have chosen this because of the API hard limiting you up to 1000 repositories for a tag/topic, but you can get different data if you request by stat in the first place. 
+This means there are multiple databases which were requested by stat. Choose the one you want with the --database argument.
+- The menu and readme output is made using the rich library. As far as I can tell, you do not ctrl+click the links in the outputs/menus rich creates as you normally would in a terminal. You must click them as you would a link on the web!
 
 ## Install (Every method requires pip)
 
@@ -113,7 +114,7 @@ This will take a minute.
 
 ## Bugs to fix:
   I want to clear the terminal when you request a readme so the table doesnt stay there. But when I do, you egt both your current readme AND previous readme?? I cannot for the life of me figure it out so the table stays beacause that's by far the better option readability wise.
-  
+
 ## Planned features
 
 - Random mode
