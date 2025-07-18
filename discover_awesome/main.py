@@ -21,6 +21,7 @@ class DiscoverAwesome:
         self.database_subfolder  = os.path.join(self.project_root, "database")
         self.args = self.parse_args() 
         self.current_page = 0
+        self.token = self.check_token()
 
         logging.basicConfig(level=logging.INFO) 
 
@@ -99,11 +100,13 @@ class DiscoverAwesome:
 
         # Ensure config is a dictionary
         if not isinstance(config, dict):
-            logging.error("Config file is invalid. Resetting to default configuration.")
+            logging.error("Config file is invalid. Resetting to empty dictionary.")
             config = {}  # Reset to an empty dictionary if invalid
-
-        # Only set the token if it does not already exist
+            
+            
         if "token" not in config:
+            config["token"] = self.args.token
+        if "token" in config:
             config["token"] = self.args.token
 
         with open(self.config_file, "w") as f:
@@ -189,13 +192,14 @@ class DiscoverAwesome:
                         break
                     else:
                         console.print("Invalid index. Please try again.")
-                except ValueError:
+                except RuntimeError:
                     console.print("Invalid input. Please enter a valid index or option.")
 
     def repository_picked(self,entryurl):
-        self.token
-        self.readme = get_readme(entryurl)
-        modify_markdown(self.readme)
+
+        url = entryurl
+        get_readme(url,self.token)
+
         
     def modify_markdown(self,markdown_file):
         print("hi")

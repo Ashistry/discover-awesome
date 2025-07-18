@@ -118,26 +118,22 @@ def fetch_database():
         return None
 
 
-def get_readme(url,token):
+def get_readme(repo_url, token):
+    readme_options = [
+        os.path.join(repo_url, "README"),
+        os.path.join(repo_url, "readme"),
+        os.path.join(repo_url, "README.MD"),
+        os.path.join(repo_url, "README.md"),
+        os.path.join(repo_url, "readme.md"),
+    ]
+    
     headers = {}
     
     if token:
-         headers['Authorization'] = f'token {token}'
-
-    request_params = {
-         'q': query,
-    }
-    
-    if response.status_code == 200:
-        file_content = response.json()
-        # decode it
-        content = file_content['content']
-        try:
-            decoded_content = base64.b64decode(content).decode('utf-8')
-            return decoded_content
-        except Exception as e:
-            print(f"Decoding error: {e}")
-            return None
+        headers['Authorization'] = f'token {token}'
     else:
-        print(f"Error: {response.status_code} - {response.json().get('message')}<")
-        return None
+        raise RuntimeError(f"Token was not supplied! Value of token is {token} and value of repo_url is {repo_url}")
+
+    print(token)
+
+    return None  # Return None if no README was found
