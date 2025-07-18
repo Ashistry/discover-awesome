@@ -21,7 +21,7 @@ setup(
     },
     author='ashistry',
     author_email='ashistry@proton.me',
-    description='A CLI tool to explore all (a lot, not actually all) lists in the awesome-list Github topic.',
+    description='A CLI tool to explore all (a lot of, not actually all) lists in the awesome-list Github topic.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/Ashistry/discover_awesome',
