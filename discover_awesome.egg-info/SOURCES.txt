@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+discover_awesome/__init__.py
+discover_awesome/api_calls.py
+discover_awesome/main.py
+discover_awesome.egg-info/PKG-INFO
+discover_awesome.egg-info/SOURCES.txt
+discover_awesome.egg-info/dependency_links.txt
+discover_awesome.egg-info/entry_points.txt
+discover_awesome.egg-info/requires.txt
+discover_awesome.egg-info/top_level.txt

@@ -1,3 +1,50 @@
+Metadata-Version: 2.4
+Name: discover_awesome
+Version: 0.1.0
+Summary: A CLI tool to explore all (a lot, not actually all) lists in the awesome-list Github topic.
+Home-page: https://github.com/Ashistry/discover_awesome
+Author: ashistry
+Author-email: ashistry@proton.me
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: appdirs==1.4.4
+Requires-Dist: blinker==1.9.0
+Requires-Dist: certifi==2025.7.9
+Requires-Dist: charset-normalizer==3.4.2
+Requires-Dist: click==8.2.1
+Requires-Dist: docopt==0.6.2
+Requires-Dist: idna==3.10
+Requires-Dist: itsdangerous==2.2.0
+Requires-Dist: Jinja2==3.1.6
+Requires-Dist: markdown-it-py==3.0.0
+Requires-Dist: MarkupSafe==3.0.2
+Requires-Dist: mdurl==0.1.2
+Requires-Dist: pipreqs==0.4.13
+Requires-Dist: Pygments==2.19.2
+Requires-Dist: PyYAML==6.0.2
+Requires-Dist: regex==2024.11.6
+Requires-Dist: requests==2.32.4
+Requires-Dist: rich==14.0.0
+Requires-Dist: setuptools==80.9.0
+Requires-Dist: six==1.17.0
+Requires-Dist: urllib3==2.5.0
+Requires-Dist: wcwidth==0.2.13
+Requires-Dist: yarg==0.1.10
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
 # Go through a bunch of awesome lists in the awesome-list Github topic, from the comfort of your terminal!
 
 Inspired by the very nice [awesome-cli by umutphp](https://github.com/umutphp/awesome-cli).

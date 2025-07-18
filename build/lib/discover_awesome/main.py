@@ -206,6 +206,7 @@ class DiscoverAwesome:
         with open(file_path, 'r') as f:
             markdown_text = f.read()
             markdown = Markdown(markdown_text)
+            console.clear()
             console.print(markdown)
 
     

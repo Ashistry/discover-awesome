@@ -12,11 +12,11 @@ requirements = read_requirements('requirements.txt')
 setup(
     name='discover_awesome',
     version='0.1.0',
-    packages=find_packages(),
+    packages=find_packages(), 
     install_requires= requirements,
     entry_points={
         'console_scripts': [
-            'discover-awesome=discover-awesome.main:main',  
+            'discover-awesome=discover_awesome.main:main',  
         ],
     },
     author='ashistry',
