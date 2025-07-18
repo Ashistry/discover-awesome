@@ -6,7 +6,7 @@ discover-awesome allows you to explore almost every (up to 1000 retrieved by sta
 
 To avoid making you scrape a bunch of webpages (and to avoid bullying the Github API), the approach is the following:
 
-- Databases of repository names/links/descriptions with relevant stats are provided by me, right here in the repository, and updated once at least once a week.
+- Databases of repository names/links/descriptions with relevant stats are provided by me, right here in the repository, and updated at least once a week.
 
 - Before your first run, you must provide a personal access token with --token. The token will be saved in your local config in your user dir. It doesn't need any special permissions, it's simply your ticket for the Github API.
 
