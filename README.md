@@ -2,7 +2,7 @@
 
 Inspired by the very nice [awesome-cli by umutphp](https://github.com/umutphp/awesome-cli).
 
-discover-awesome allows you to explore almost every (up to 10000 retrieved by stat such as stars or creation time) repository in the "awesome-list" Github topic.
+discover-awesome allows you to explore almost every (up to 1000 retrieved by stat such as stars or creation time) repository in the "awesome-list" Github topic.
 
 To avoid making you scrape a bunch of webpages (and to avoid bullying the Github API), the approach is the following:
 
