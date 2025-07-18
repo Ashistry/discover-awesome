@@ -27,8 +27,7 @@ Want to build the database yourself? Please see [this section](#build-the-databa
  - When I or you build the databases, we request the data from Github by a stat, such as most stars or oldest created. I have chosen this because of the API hard limiting you up to 1000 repositories for a tag/topic, but you can get different data if you request by stat in the first place. 
 This means there are multiple databases which were requested by stat. Choose the one you want with the --database argument.
 - The menu and readme output is made using the rich library. As far as I can tell, you do not ctrl+click the links in the outputs/menus rich creates as you normally would in a terminal. You must click them as you would a link on the web!
-
-  - There is currently an issue where the newest created database shows newest created since 2025-04-19 instead of current date. Hence, I've disabled that option   and oldest created for now. Please use recently-updated instead.
+ - There is currently an issue where the newest created database shows newest created since 2025-04-19 instead of current date. Hence, I've disabled that option   and oldest created for now. Please use recently-updated instead.
 
 ## Install 
 
