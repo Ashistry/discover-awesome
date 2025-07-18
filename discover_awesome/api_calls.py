@@ -43,7 +43,7 @@ def build_database_from_tag(token):
                 repositories = response.json().get('items', [])
                 all_repos.extend(repositories) 
                 
-                # Check if we have reached the maximum number of repositories or if there are no more pages
+                # check if we have reached the maximum number of repositories or if there are no more pages
                 if len(repositories) < request_params['per_page'] or len(all_repos) >= 1000:
                     break
                 request_params['page'] += 1
@@ -54,20 +54,19 @@ def build_database_from_tag(token):
         filtered_repos = []
         
         for repo in all_repos[:1000]:
-            # Directly access the default branch from the repository data
-            default_branch = repo.get('default_branch', 'main')  # Fallback to 'main' if not found
+            default_branch = repo.get('default_branch', 'main')  # fallback to 'main' if not found
             raw_url = f"https://raw.githubusercontent.com/{repo['owner']['login']}/{repo['name']}/{default_branch}"
             filtered_repos.append({
                 'name': repo['name'],
                 'description': repo.get('description'),
                 'url': repo['html_url'],
-                'raw_url': raw_url,  # Add the raw URL
+                'raw_url': raw_url,  
                 'author': repo['owner']['login'],
                 'stars': repo['stargazers_count'],
                 'updated_at': repo['updated_at'], 
                 'created_at': repo['created_at'],
                 'tags': repo.get('topics', []),
-                'default_branch': default_branch  # Add the default branch name
+                'default_branch': default_branch 
             })
 
         save_to_file(filtered_repos, sort_by)
@@ -115,14 +114,14 @@ def fetch_database(folder_path, token):
         "repositories_recently_updated.json"
     ]
 
-    # Create a dictionary of raw URLs for the files
+
     url_dict = {
         file_name: f'https://raw.githubusercontent.com/Ashistry/discover-awesome/main/discover_awesome/database/{file_name}'
         for file_name in file_names
     }
 
     headers = {
-        'Authorization': f'token {token}'  # Use the token passed to the function
+        'Authorization': f'token {token}' 
     }
     
     # Loop through the dictionary and download each file
@@ -130,7 +129,7 @@ def fetch_database(folder_path, token):
         file_path = os.path.join(folder_path, file_name)
 
         # Download the file with headers
-        response = requests.get(file_url, headers=headers)  # Include headers here
+        response = requests.get(file_url, headers=headers)
         print(file_ur)
         if response.status_code == 200:
             with open(file_path, 'wb') as f:
@@ -175,6 +174,3 @@ def get_readme(url, token):
     
     return None  
 
-
-if __name__ == "__main__":
-    build_database_from_tag("")

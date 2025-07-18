@@ -30,7 +30,7 @@ class DiscoverAwesome:
 
     def parse_args(self):
         define_parser = argparse.ArgumentParser(description="Go through a bunch of repos in the awesome-list GitHub topic from your terminal!")
-        define_parser.add_argument("--token", "-t", type=str, help="Save a RESTRICTIVELY SCOPED GitHub personal access token to your local config. Required so you can make API requests for specific repos.")     
+        define_parser.add_argument("--token", "-t", type=str, help="Save a GitHub personal access token to your local config. No special permissions required. Required so you can make API requests for specific repos.")     
         define_parser.add_argument("--database", "-d", type=str, default="most", choices=["most", "least", "newest", "oldest", "recently-updated", "least-recently-updated"], help="Which local database to use. Due to the GitHub API's limit of 1,000 results per request, multiple databases are retrieved by making separate requests based on different statistics (e.g., stars, forks) to ensure accurately sorted results across various categories.")
         define_parser.add_argument("--fetchDatabase", "-f", action="store_true", help="Downloads databases from the discover-awesome repository.")
         define_parser.add_argument("--buildDatabase", "-b", action="store_true", help="Build databases directly from the GitHub API.")
@@ -43,20 +43,18 @@ class DiscoverAwesome:
             with open(self.config_file, "r") as f:
                 config = yaml.safe_load(f)
 
-            # Check if config is None
             if config is None:
                 logging.info("Config file is empty or invalid. Creating default configuration files.")
-                self.create_first_run_files()  # Call the method to create default files
-                return False  # Return False or handle as needed
+                self.create_first_run_files() 
+                return False 
 
-            # Check if the token field exists and return its value
             if "token" in config:
                 return config["token"]
             else:
                 return False
         else:
             logging.error(f"Config file not found: {self.config_file}")
-            self.create_first_run_files()  # Call the method to create default files
+            self.create_first_run_files() 
             return False
 
 
@@ -72,7 +70,7 @@ class DiscoverAwesome:
 
         if os.path.exists(self.config_file):
             with open(self.config_file, "r") as f:
-                config = yaml.safe_load(f) or {}  # Use an empty dict if None
+                config = yaml.safe_load(f) or {} 
         else:
             config = {"run": True}  
 
@@ -81,7 +79,7 @@ class DiscoverAwesome:
             config = {"run": True}  
 
         with open(self.config_file, "w") as f:
-            yaml.dump(config, f)  # Dump the dictionary 
+            yaml.dump(config, f) 
 
         for filename in os.listdir(self.database_subfolder):
             source_file = os.path.join(self.database_subfolder, filename)
@@ -93,16 +91,15 @@ class DiscoverAwesome:
     def supply_token(self):
         if os.path.exists(self.config_file):
             with open(self.config_file, "r") as f:
-                config = yaml.safe_load(f) or {}  # Load config or use an empty dict if None
+                config = yaml.safe_load(f) or {} 
         else:
             self.create_first_run_files()
             with open(self.config_file, "r") as f:
-                config = yaml.safe_load(f) or {}  # Load config after creating files
+                config = yaml.safe_load(f) or {}  
 
-        # Ensure config is a dictionary
         if not isinstance(config, dict):
             logging.error("Config file is invalid. Resetting to empty dictionary.")
-            config = {}  # Reset to an empty dictionary if invalid
+            config = {}  # reset to an empty dictionary if invalid
             
             
         if "token" not in config:
@@ -160,7 +157,7 @@ class DiscoverAwesome:
 
             for index, entry in enumerate(entries_to_display, start=start_index):
                 name_display = entry.get('name', 'Unknown') 
-                description_display = entry.get('description', 'No description') or 'No description'  # Handle None
+                description_display = entry.get('description', 'No description') or 'No description'  # handle None
                 url_display = entry.get("url","no url")
 
                 table.add_row(str(index + 1), name_display, description_display, url_display)
@@ -219,7 +216,7 @@ class DiscoverAwesome:
         
        if self.check_token():
            if self.args.buildDatabase:
-               build_database_from_tag(self.args.buildDatabase)
+               build_database_from_tag(self.token)
                return
            if self.args.token:
                self.supply_token()
