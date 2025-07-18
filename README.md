@@ -28,6 +28,8 @@ Want to build the database yourself? Please see [this section](#build-the-databa
 This means there are multiple databases which were requested by stat. Choose the one you want with the --database argument.
 - The menu and readme output is made using the rich library. As far as I can tell, you do not ctrl+click the links in the outputs/menus rich creates as you normally would in a terminal. You must click them as you would a link on the web!
 
+  - There is currently an issue where the newest created database shows newest created since 2025-04-19 instead of current date. Hence, I've disabled that option   and oldest created for now. Please use recently-updated instead.
+
 ## Install 
 
 *(Every method requires pip, which often comes with python depending on your platform.)*
