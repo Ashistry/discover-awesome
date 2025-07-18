@@ -115,23 +115,23 @@ def fetch_database(folder_path, token):
         "repositories_recently_updated.json"
     ]
 
-
+    # Create a dictionary of raw URLs for the files
     url_dict = {
         file_name: f'https://raw.githubusercontent.com/Ashistry/discover-awesome/main/discover_awesome/database/{file_name}'
         for file_name in file_names
     }
 
     headers = {
-        'Authorization': f'token {token}'
+        'Authorization': f'token {token}'  # Use the token passed to the function
     }
     
-
+    # Loop through the dictionary and download each file
     for file_name, file_url in url_dict.items():
         file_path = os.path.join(folder_path, file_name)
 
-
-        response = requests.get(file_url, headers=headers)  
-        print(file_url)
+        # Download the file with headers
+        response = requests.get(file_url, headers=headers)  # Include headers here
+        print(file_ur)
         if response.status_code == 200:
             with open(file_path, 'wb') as f:
                 f.write(response.content)
@@ -157,8 +157,6 @@ def get_readme(url, token):
     print(url)
 
     for url in readme_options:
-        print(f"Fetching README from URL: {url}")
-
         response = requests.get(url, headers=headers)  
 
 
