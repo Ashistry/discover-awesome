@@ -157,6 +157,8 @@ def get_readme(url, token):
     print(url)
 
     for url in readme_options:
+        print(f"Fetching README from URL: {url}")
+
         response = requests.get(url, headers=headers)  
 
 
@@ -177,4 +179,4 @@ def get_readme(url, token):
 
 
 if __name__ == "__main__":
-    build_database_from_tag("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")
+    build_database_from_tag("")
