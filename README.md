@@ -71,8 +71,7 @@ pipx uninstall discover-awesome
 
 And then delete your downloaded source files.
 
-
-Please note this method is being deprecated soon by Python. I will replace it in the near future with a non-deprecated one.
+Please note the **install** part of this method used in the makefile is being deprecated soon by Python. I will replace it in the near future with a non-deprecated one. The uninstall is not being deprecated.
 ## Usage
 
 ### Default
