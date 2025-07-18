@@ -102,8 +102,8 @@ def save_to_file(data, sort_by):
     logging.info(f"{filename} created in {target_dir}.")
     
     
-def fetch_database():
-    url = 'https://github.com/Ashistry/discover-awesome/tree/main/database'
+def fetch_database(folder_path):
+    url = 'https://api.github.com/repos/Ashistry/discover-awesome/discover-awesome/database'
     
     headers = {}
 
@@ -111,20 +111,30 @@ def fetch_database():
 
     if response.status_code == 200:
         file_content = response.json()
-        # decode it
-        content = file_content['content']
-        try:
-            decoded_content = base64.b64decode(content).decode('utf-8')
-            return decoded_content
-        except Exception as e:
-            print(f"Decoding error: {e}")
-            return None
+
+        for file in file_content:
+            if file['type'] == 'file':  
+                file_name = file['name']
+                file_url = file['download_url'] 
+                
+                file_response = requests.get(file_url)
+                
+                if file_response.status_code == 200:
+                    os.makedirs(folder_path, exist_ok=True)
+                    
+                    # write
+                    with open(os.path.join(folder_path, file_name), 'wb') as f:
+                        f.write(file_response.content)
+                    print(f"Saved: {file_name}")
+                else:
+                    print(f"Error fetching {file_name}: {file_response.status_code}")
     else:
-        print(f"Error: {response.status_code} - {response.json().get('message')}<")
-        return None
-
-
+        print(f"Error: {response.status_code} - {response.json().get('message')}")
+        
 def get_readme(url, token):
+    
+    #logging.basicConfig(level=logging.debug)
+
     readme_options = [
         os.path.join(url, "README"),
         os.path.join(url, "readme"),
@@ -141,7 +151,7 @@ def get_readme(url, token):
 
 
         if response.status_code == 200:
-            print(f"Successfully retrieved README from: {url}")
+            logging.debug(f"Successfully retrieved README from: {url}")
             target_dir = user_data_dir('discover-awesome')
             os.makedirs(target_dir, exist_ok=True)
             file_path = os.path.join(target_dir, 'cache.md')
@@ -151,7 +161,7 @@ def get_readme(url, token):
             return file_path  
             
         else:
-            print(f"Failed to retrieve from {url}. Status code: {response.status_code}")
+            logging.debug(f"Failed to retrieve from {url}. Status code: {response.status_code}")
     
     return None  
 

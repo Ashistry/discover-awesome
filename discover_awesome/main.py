@@ -10,6 +10,7 @@ from api_calls import build_database_from_tag, fetch_database, get_readme
 from rich.console import Console
 from rich.prompt import Prompt
 from rich.table import Table
+from rich.markdown import Markdown
 
 class DiscoverAwesome:
     def __init__(self):
@@ -198,27 +199,32 @@ class DiscoverAwesome:
     def repository_picked(self,entry_url):
 
         url = entry_url
-        get_readme(url,self.token)
+        file_path = get_readme(url,self.token)
+        self.display_markdown(file_path)
 
-        
-    def modify_markdown(self,markdown_file):
-        print("hi")
-        
-    def display_markdown(modified_markdown):
-        print('hello')
-        
+
+    def display_markdown(self,file_path):
+        console = Console()
+
+        with open(file_path, 'r') as f:
+            console.clear()
+            markdown_text = f.read()
+            markdown = Markdown(markdown_text)
+            console.print(markdown)
+    
+    def get_database_from_repo():
+        fetch_database(user_data_dir)
+            
     def run(self):
+        
        if self.check_token():
            if self.args.buildDatabase:
                build_database_from_tag(self.args.buildDatabase)
-           
            if self.args.token:
                self.supply_token()
                return  
-           
            if self.args.fetchDatabase:
                self.fetch_database()
-           
            self.choose_database()  
        else:
            if self.args.token:
