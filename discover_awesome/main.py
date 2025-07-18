@@ -212,19 +212,21 @@ class DiscoverAwesome:
             markdown = Markdown(markdown_text)
             console.print(markdown)
     
-    def get_database_from_repo():
-        fetch_database(user_data_dir)
+    def get_database_from_repo(self):
+        fetch_database(self.user_dir,self.token)
             
     def run(self):
         
        if self.check_token():
            if self.args.buildDatabase:
                build_database_from_tag(self.args.buildDatabase)
+               return
            if self.args.token:
                self.supply_token()
                return  
            if self.args.fetchDatabase:
-               self.fetch_database()
+               self.get_database_from_repo()
+               return
            self.choose_database()  
        else:
            if self.args.token:

@@ -102,34 +102,44 @@ def save_to_file(data, sort_by):
     logging.info(f"{filename} created in {target_dir}.")
     
     
-def fetch_database(folder_path):
-    url = 'https://api.github.com/repos/Ashistry/discover-awesome/discover-awesome/database'
+
+def fetch_database(folder_path, token):
+    os.makedirs(folder_path, exist_ok=True)
+
+    file_names = [
+        "repositories_least_recently_updated.json",
+        "repositories_least_stars.json",
+        "repositories_most_stars.json",
+        "repositories_newest_created.json",
+        "repositories_oldest_created.json",
+        "repositories_recently_updated.json"
+    ]
+
+
+    url_dict = {
+        file_name: f'https://raw.githubusercontent.com/Ashistry/discover-awesome/main/discover_awesome/database/{file_name}'
+        for file_name in file_names
+    }
+
+    headers = {
+        'Authorization': f'token {token}'
+    }
     
-    headers = {}
 
-    response = requests.get(url, headers=headers)
+    for file_name, file_url in url_dict.items():
+        file_path = os.path.join(folder_path, file_name)
 
-    if response.status_code == 200:
-        file_content = response.json()
 
-        for file in file_content:
-            if file['type'] == 'file':  
-                file_name = file['name']
-                file_url = file['download_url'] 
-                
-                file_response = requests.get(file_url)
-                
-                if file_response.status_code == 200:
-                    os.makedirs(folder_path, exist_ok=True)
-                    
-                    # write
-                    with open(os.path.join(folder_path, file_name), 'wb') as f:
-                        f.write(file_response.content)
-                    print(f"Saved: {file_name}")
-                else:
-                    print(f"Error fetching {file_name}: {file_response.status_code}")
-    else:
-        print(f"Error: {response.status_code} - {response.json().get('message')}")
+        response = requests.get(file_url, headers=headers)  
+        print(file_url)
+        if response.status_code == 200:
+            with open(file_path, 'wb') as f:
+                f.write(response.content)
+            print(f'Downloaded: {file_name} and moved it to: {folder_path}')
+        else:
+            print(f'Failed to download {file_name}: {response.status_code}')
+        
+
         
 def get_readme(url, token):
     
