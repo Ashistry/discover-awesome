@@ -1,10 +1,15 @@
-
+# Ignore egg files
+*.egg
+*.egg-info/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+
+# Distribution / packaging
+*.egg-info/
 
 
 # Python virtual environments
@@ -61,3 +66,5 @@ pylint-output.txt
 *.tmp
 *.bak
 *.orig
+
+

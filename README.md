@@ -28,11 +28,9 @@ Want to build the database yourself? Please see [this section](#build-the-databa
 This means there are multiple databases which were requested by stat. Choose the one you want with the --database argument.
 - The menu and readme output is made using the rich library. As far as I can tell, you do not ctrl+click the links in the outputs/menus rich creates as you normally would in a terminal. You must click them as you would a link on the web!
 
-## Install (Every method requires pip)
+## Install 
 
-### AUR
-
-TODO
+*(Every method requires pip, which often comes with python depending on your platform.)*
 
 ### Makefile for Most Unix-like (Linux, *BSD, MacOS, etc.) + Linux subsystem for Windows (See FAQ for non-Linux!)
 
@@ -45,6 +43,15 @@ TODO
 make install
 ```
 
+To uninstall move to the directory again and run:
+```bash
+make uninstall
+```
+
+And then delete your downloaded source files.
+
+Please note the **install** part of this method used in the makefile is being deprecated soon by Python. I will replace it in the near future with a non-deprecated one. The uninstall is not being deprecated.
+
 ### Manual for all platforms (See FAQ for non-Linux!)
 
 - Download tarball from releases
@@ -53,10 +60,19 @@ make install
 - Run:
 
 ```bash
-pipx install setup.py
+python setup.py sdist bdist_wheel
+pipx install dist/discover_awesome-0.1.0-py3-none-any.whl 
 ```
 
+To uninstall, simply run this anywhere:
+```bash
+pipx uninstall discover-awesome
+```
 
+And then delete your downloaded source files.
+
+
+Please note this method is being deprecated soon by Python. I will replace it in the near future with a non-deprecated one.
 ## Usage
 
 ### Default

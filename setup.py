@@ -11,7 +11,7 @@ requirements = read_requirements('requirements.txt')
 
 setup(
     name='discover_awesome',
-    version='0.1.0',
+    version='0.0.0',
     packages=find_packages(), 
     install_requires= requirements,
     entry_points={
