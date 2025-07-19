@@ -188,7 +188,7 @@ class DiscoverAwesome:
                         entry_url = selected_entry.get("raw_url", "no raw url")  # avoid KeyError
                         self.repository_picked(entry_url) 
                         break
-                    if ValueError:
+                    else:
                         console.print("Invalid index. Please try again.")
             
                 except ValueError:
