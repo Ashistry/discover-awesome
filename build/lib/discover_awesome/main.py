@@ -30,7 +30,7 @@ class DiscoverAwesome:
 
     def parse_args(self):
         define_parser = argparse.ArgumentParser(description="Go through a bunch of repos in the awesome-list GitHub topic from your terminal!")
-        define_parser.add_argument("--token", "-t", type=str, help="Save a GitHub personal access token to your local config. No special permissions required. Required so you can make API requests for specific repos.")     
+        define_parser.add_argument("--token", "-t", type=str, help="Save a GitHub personal access token to your local config. No special permissions required. Required so you can make Github API requests for specific repos.")     
         define_parser.add_argument("--database", "-d", type=str, default="most", choices=["most", "least", "recently-updated", "least-recently-updated"], help="Which local database to use. Due to the GitHub API's limit of 1,000 results per request, multiple databases are retrieved by making separate requests based on different statistics (e.g., stars, forks) to ensure accurately sorted results across various categories.")
         define_parser.add_argument("--fetchDatabase", "-f", action="store_true", help="Downloads databases from the discover-awesome repository.")
         define_parser.add_argument("--buildDatabase", "-b", action="store_true", help="Build databases directly from the GitHub API.")
@@ -188,9 +188,10 @@ class DiscoverAwesome:
                         entry_url = selected_entry.get("raw_url", "no raw url")  # avoid KeyError
                         self.repository_picked(entry_url) 
                         break
-                    else:
+                    if ValueError:
                         console.print("Invalid index. Please try again.")
-                except RuntimeError:
+            
+                except ValueError:
                     console.print("Invalid input. Please enter a valid index or option.")
 
     def repository_picked(self,entry_url):

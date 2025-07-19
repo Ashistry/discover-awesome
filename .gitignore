@@ -68,3 +68,4 @@ pylint-output.txt
 *.orig
 
 
+dist
