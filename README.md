@@ -1,5 +1,7 @@
 # Go through a bunch of awesome lists in the awesome-list Github topic, from the comfort of your terminal!
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
 Inspired by the very nice [awesome-cli by umutphp](https://github.com/umutphp/awesome-cli).
 
 discover-awesome allows you to explore almost every (up to 1000 retrieved by stat such as stars or creation time) repository in the "awesome-list" Github topic.
